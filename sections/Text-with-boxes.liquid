@@ -4,6 +4,16 @@
   "settings": [
     {
       "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
       "content": "Main Heading Settings"
     },
     {
@@ -424,7 +434,7 @@
 <style>
 .text-boxes-section {
   padding: 60px 0;
-  background: #000000;
+  background: {{ section.settings.section_bg_color | default: '#000000' }};
 }
 
 .text-boxes-container {

@@ -1,0 +1,365 @@
+{% schema %}
+{
+  "name": "Video with Text Boxes",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "#000913"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "label": "Section Top Padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "label": "Section Bottom Padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Video Settings"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Video"
+    },
+    {
+      "type": "image_picker",
+      "id": "video_cover",
+      "label": "Video Cover Image"
+    },
+    {
+      "type": "select",
+      "id": "video_ratio",
+      "label": "Video Aspect Ratio",
+      "options": [
+        {
+          "value": "16:9",
+          "label": "16:9"
+        },
+        {
+          "value": "4:3",
+          "label": "4:3"
+        }
+      ],
+      "default": "16:9"
+    },
+    {
+      "type": "header",
+      "content": "Text Settings"
+    },
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Heading",
+      "default": "Learn Creative Video Editing"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size",
+      "label": "Heading Font Size",
+      "min": 24,
+      "max": 72,
+      "step": 1,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_box",
+      "name": "Text Box",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "EssentialFX"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "One-click speedramps, shakes, transitions, and LUTs – all inside Adobe After Effects. Built to speed up your workflow and boost your creativity."
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Link Text",
+          "default": "Start Editing Course"
+        },
+        {
+          "type": "url",
+          "id": "link_url",
+          "label": "Link URL"
+        },
+        {
+          "type": "color",
+          "id": "link_color",
+          "label": "Link Color",
+          "default": "#0096FF"
+        },
+        {
+          "type": "range",
+          "id": "heading_size",
+          "label": "Heading Size",
+          "min": 16,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "default": 24
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "label": "Description Size",
+          "min": 14,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "default": 16
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video with Text Boxes",
+      "blocks": [
+        {
+          "type": "text_box",
+          "settings": {
+            "heading": "EssentialFX",
+            "description": "One-click speedramps, shakes, transitions, and LUTs – all inside Adobe After Effects. Built to speed up your workflow and boost your creativity."
+          }
+        },
+        {
+          "type": "text_box",
+          "settings": {
+            "heading": "EssentialSFX",
+            "description": "Over 1,000 sound effects with live audio preview. Organize, upload, and sync sound faster than ever before."
+          }
+        },
+        {
+          "type": "text_box",
+          "settings": {
+            "heading": "The Complete Course Bundle",
+            "description": "Learn editing and filming side by side. Step-by-step lessons, real project files, and lifetime updates – trusted by over 500 editors worldwide.",
+            "link_text": "Start Editing Course"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.video-text-section {
+  background-color: {{ section.settings.section_bg_color }};
+  padding: {{ section.settings.section_padding_top }}px 0 {{ section.settings.section_padding_bottom }}px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.video-text-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-main-heading {
+  color: {{ section.settings.heading_color }};
+  font-size: {{ section.settings.heading_font_size }}px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.section-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.video-container {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000000;
+}
+
+.video-container::before {
+  content: '';
+  display: block;
+  padding-top: {% if section.settings.video_ratio == '16:9' %}56.25%{% else %}75%{% endif %};
+}
+
+.video-container video,
+.video-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.text-box {
+  border-radius: 16px;
+  border: 2.667px solid rgba(0, 150, 255, 0.10);
+  padding: 32px;
+  position: relative;
+}
+
+.text-box::before,
+.text-box::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(94deg, #0b0b0b, #469bff 54%, #0b0b0b);
+  opacity: .5;
+  box-shadow: 0 0 10px #ede6ca;
+}
+
+.text-box::before {
+  top: 0;
+}
+
+.text-box::after {
+  bottom: 0;
+}
+
+.text-box .side-line-left,
+.text-box .side-line-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(180deg, #0b0b0b, #469bff 54%, #0b0b0b);
+  opacity: .5;
+  box-shadow: 0 0 10px #ede6ca;
+}
+
+.text-box .side-line-left {
+  left: 0;
+}
+
+.text-box .side-line-right {
+  right: 0;
+}
+
+.text-box-heading {
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+.text-box-description {
+  color: #A3A3A3;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.text-box-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.text-box-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .section-content {
+    grid-template-columns: 1fr;
+  }
+
+  .section-main-heading {
+    font-size: calc({{ section.settings.heading_font_size }}px * 0.8);
+  }
+
+  .text-boxes {
+    gap: 24px;
+  }
+
+  .text-box {
+    padding: 24px;
+  }
+}
+</style>
+
+<div class="video-text-section">
+  <div class="video-text-container">
+    <h2 class="section-main-heading">{{ section.settings.main_heading }}</h2>
+    
+    <div class="section-content">
+      <div class="video-container">
+        {% if section.settings.video != blank %}
+          {{ section.settings.video | video_tag: controls: true, class: 'video-player' }}
+        {% elsif section.settings.video_cover != blank %}
+          {{ section.settings.video_cover | image_url: width: 800 | image_tag: loading: 'lazy' }}
+        {% endif %}
+      </div>
+
+      <div class="text-boxes">
+        {% for block in section.blocks %}
+          {% if block.type == 'text_box' %}
+            <div class="text-box" {{ block.shopify_attributes }}>
+              <div class="side-line-left"></div>
+              <div class="side-line-right"></div>
+              
+              <h3 class="text-box-heading" style="font-size: {{ block.settings.heading_size }}px;">
+                {{ block.settings.heading }}
+              </h3>
+              
+              <div class="text-box-description" style="font-size: {{ block.settings.text_size }}px;">
+                {{ block.settings.description }}
+              </div>
+
+              {% if block.settings.link_url != blank %}
+                <a href="{{ block.settings.link_url }}" 
+                   class="text-box-link"
+                   style="color: {{ block.settings.link_color }}; font-size: {{ block.settings.text_size }}px;">
+                  {{ block.settings.link_text }}
+                </a>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
