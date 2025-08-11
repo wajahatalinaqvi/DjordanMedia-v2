@@ -72,6 +72,10 @@
       border-top: 0;
     }
   {%- endif -%}
+
+  .cstm-header-bg {
+    background: #1e2f54;
+  }
 </style>
 
 <div data-section-id="{{ section.id }}" data-section-type="header">
@@ -103,7 +107,7 @@
         class="site-header{% if settings.type_navigation_style == 'heading' %} site-header--heading-style{% endif %}"
         data-sticky="{{ sticky_header }}"
         data-overlay="{{ overlay_header }}">
-        <div class="page-width">
+        <div class="page-width cstm-header-bg">
           <div
             class="header-layout header-layout--{{ section.settings.main_menu_alignment }}"
             data-logo-align="{{ logo_alignment }}">
