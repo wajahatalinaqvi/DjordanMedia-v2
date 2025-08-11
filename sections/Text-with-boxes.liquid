@@ -4,6 +4,16 @@
   "settings": [
     {
       "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
       "content": "Main Heading Settings"
     },
     {
@@ -223,6 +233,26 @@
           "unit": "%"
         },
         {
+          "type": "select",
+          "id": "icon_alignment",
+          "label": "Icon Alignment",
+          "default": "center",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
           "type": "header",
           "content": "Text Settings"
         },
@@ -232,6 +262,26 @@
           "label": "Box Heading",
           "default": "Creators You Love!",
           "info": "Use [gradient]word[/gradient] to apply gradient to specific words"
+        },
+        {
+          "type": "select",
+          "id": "heading_alignment",
+          "label": "Heading Alignment",
+          "default": "center",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
         },
         {
           "type": "select",
@@ -262,6 +312,26 @@
           "id": "subheading",
           "label": "Box Subheading",
           "default": "Over 800 Creator Joined World Wide"
+        },
+        {
+          "type": "select",
+          "id": "subheading_alignment",
+          "label": "Subheading Alignment",
+          "default": "center",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
         },
         {
           "type": "color",
@@ -364,7 +434,7 @@
 <style>
 .text-boxes-section {
   padding: 60px 0;
-  background: #000000;
+  background: {{ section.settings.section_bg_color | default: '#000000' }};
 }
 
 .text-boxes-container {
@@ -491,6 +561,23 @@
   border-radius: 50%;
   overflow: visible;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box[data-icon-align="left"] .icon-container {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.box[data-icon-align="right"] .icon-container {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.box[data-icon-align="center"] .icon-container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .icon-container::before {
@@ -559,11 +646,37 @@
 .box-heading {
   margin: 0 0 3px 0;
   font-weight: 600;
+  text-align: center;
+}
+
+.box[data-heading-align="left"] .box-heading {
+  text-align: left;
+}
+
+.box[data-heading-align="right"] .box-heading {
+  text-align: right;
+}
+
+.box[data-heading-align="center"] .box-heading {
+  text-align: center;
 }
 
 .box-subheading {
   margin: 0;
   font-weight: 400;
+  text-align: center;
+}
+
+.box[data-subheading-align="left"] .box-subheading {
+  text-align: left;
+}
+
+.box[data-subheading-align="right"] .box-subheading {
+  text-align: right;
+}
+
+.box[data-subheading-align="center"] .box-subheading {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -630,7 +743,12 @@
       <div class="boxes-grid">
         {% for block in section.blocks %}
           {% if block.type == 'box' %}
-            <div class="box" data-block-id="{{ block.id }}" {{ block.shopify_attributes }} 
+            <div class="box" 
+              data-block-id="{{ block.id }}" 
+              data-icon-align="{{ block.settings.icon_alignment | default: 'center' }}"
+              data-heading-align="{{ block.settings.heading_alignment | default: 'center' }}"
+              data-subheading-align="{{ block.settings.subheading_alignment | default: 'center' }}"
+              {{ block.shopify_attributes }} 
               style="
                 background-color: {{ block.settings.box_bg_color | default: '#0000' }};
                 --border-start-color: {{ block.settings.border_glow_from | default: '#aaa490' }};

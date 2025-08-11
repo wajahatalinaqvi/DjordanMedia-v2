@@ -1,0 +1,558 @@
+{% schema %}
+{
+  "name": "Collection Box with Text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Heading Settings"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "DJ Media Top Collections"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "label": "Heading Size (Desktop)",
+      "default": 40,
+      "min": 24,
+      "max": 72,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Heading Size (Mobile)",
+      "default": 32,
+      "min": 20,
+      "max": 48,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Bottom Text Settings"
+    },
+    {
+      "type": "text",
+      "id": "left_text",
+      "label": "Left Side Text",
+      "default": "Discover What Fits Your Flow"
+    },
+    {
+      "type": "color",
+      "id": "left_text_color",
+      "label": "Left Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "left_link_text",
+      "label": "Left Link Text",
+      "default": "View All Luts"
+    },
+    {
+      "type": "url",
+      "id": "left_link_url",
+      "label": "Left Link URL"
+    },
+    {
+      "type": "color",
+      "id": "left_link_color",
+      "label": "Left Link Color",
+      "default": "#4A90E2"
+    },
+    {
+      "type": "range",
+      "id": "left_link_size_desktop",
+      "label": "Left Link Size (Desktop)",
+      "default": 18,
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "left_link_size_mobile",
+      "label": "Left Link Size (Mobile)",
+      "default": 16,
+      "min": 10,
+      "max": 28,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "left_text_size_desktop",
+      "label": "Left Text Size (Desktop)",
+      "default": 24,
+      "min": 16,
+      "max": 48,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "left_text_size_mobile",
+      "label": "Left Text Size (Mobile)",
+      "default": 20,
+      "min": 14,
+      "max": 32,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "text",
+      "id": "right_text",
+      "label": "Right Side Text",
+      "default": "Courses to learn, plugins to speed up, presets to style, and services to support you – no matter your level, there's something here for every editor."
+    },
+    {
+      "type": "color",
+      "id": "right_text_color",
+      "label": "Right Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "right_text_size_desktop",
+      "label": "Right Text Size (Desktop)",
+      "default": 16,
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "right_text_size_mobile",
+      "label": "Right Text Size (Mobile)",
+      "default": 14,
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Spacing Settings"
+    },
+    {
+      "type": "range",
+      "id": "heading_bottom_spacing",
+      "label": "Space Below Heading",
+      "default": 40,
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "info": "Space between heading and boxes"
+    },
+    {
+      "type": "range",
+      "id": "boxes_bottom_spacing",
+      "label": "Space Below Boxes",
+      "default": 60,
+      "min": 0,
+      "max": 120,
+      "step": 5,
+      "unit": "px",
+      "info": "Space between boxes and bottom text"
+    },
+    {
+      "type": "header",
+      "content": "Box Layout Settings"
+    },
+    {
+      "type": "range",
+      "id": "box_gap",
+      "label": "Space Between Boxes",
+      "default": 32,
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "box_padding",
+      "label": "Box Padding",
+      "default": 21,
+      "min": 10,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "info": "Padding inside each box"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection_box",
+      "name": "Collection Box",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Box Style"
+        },
+        {
+          "type": "color",
+          "id": "box_bg_from",
+          "label": "Box Background Gradient From",
+          "default": "#1A1A1A"
+        },
+        {
+          "type": "color",
+          "id": "box_bg_to",
+          "label": "Box Background Gradient To",
+          "default": "#000000"
+        },
+        {
+          "type": "select",
+          "id": "box_gradient_direction",
+          "label": "Box Gradient Direction",
+          "default": "to bottom",
+          "options": [
+            {
+              "value": "to right",
+              "label": "Left to Right"
+            },
+            {
+              "value": "to bottom",
+              "label": "Top to Bottom"
+            },
+            {
+              "value": "to bottom right",
+              "label": "Diagonal"
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "box_border_from",
+          "label": "Box Border Gradient From",
+          "default": "#4A90E2"
+        },
+        {
+          "type": "color",
+          "id": "box_border_to",
+          "label": "Box Border Gradient To",
+          "default": "#333333"
+        },
+        {
+          "type": "range",
+          "id": "box_border_width",
+          "label": "Box Border Width",
+          "default": 1,
+          "min": 0,
+          "max": 5,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "box_border_radius",
+          "label": "Box Border Radius",
+          "default": 8,
+          "min": 0,
+          "max": 20,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "text",
+          "id": "box_title",
+          "label": "Box Title",
+          "default": "Courses"
+        },
+        {
+          "type": "color",
+          "id": "title_color",
+          "label": "Title Color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "range",
+          "id": "title_size_desktop",
+          "label": "Title Size (Desktop)",
+          "default": 24,
+          "min": 16,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "title_size_mobile",
+          "label": "Title Size (Mobile)",
+          "default": 20,
+          "min": 14,
+          "max": 32,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Box Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection Box with Text",
+      "blocks": [
+        {
+          "type": "collection_box",
+          "settings": {
+            "box_title": "Courses"
+          }
+        },
+        {
+          "type": "collection_box",
+          "settings": {
+            "box_title": "LUTs"
+          }
+        },
+        {
+          "type": "collection_box",
+          "settings": {
+            "box_title": "Lightroom Presets"
+          }
+        },
+        {
+          "type": "collection_box",
+          "settings": {
+            "box_title": "Plugins"
+          }
+        },
+        {
+          "type": "collection_box",
+          "settings": {
+            "box_title": "Bundles"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.collection-boxes-section {
+  padding: 60px 0;
+  background-color: {{ section.settings.section_bg_color }};
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.collection-boxes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.collection-border-box{
+border-radius: 16px;
+    border: 2.667px solid rgba(0, 150, 255, 0.10);
+    padding: 32px;
+    align-items: flex-start;
+    gap: 42.667px;
+    align-self: stretch;
+}
+
+.section-heading {
+  color: {{ section.settings.heading_color }};
+  font-size: {{ section.settings.heading_size_desktop }}px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.collection-boxes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: {{ section.settings.box_gap }}px;
+  margin-bottom: {{ section.settings.boxes_bottom_spacing }}px;
+}
+
+.collection-box-wrapper {
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 2px;
+  background: radial-gradient(
+    circle at center,
+    rgba(3, 42, 68, 0.65) 0%,
+    rgba(0, 0, 0, 0) 77%
+  );
+  border-radius: {{ block.settings.box_border_radius }}px;
+}
+
+.collection-box {
+  padding: {{ section.settings.box_padding }}px;
+  text-align: center;
+  align-items: center;
+  min-width: 230px;
+  position: relative;
+  border-radius: {{ block.settings.box_border_radius }}px;
+  background: {{ section.settings.section_bg_color }};
+}
+
+.collection-box-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+{% for block in section.blocks %}
+  {% if block.type == 'collection_box' %}
+    .collection-box-wrapper[data-block-id="{{ block.id }}"] .collection-box {
+      background: linear-gradient(
+        {{ block.settings.box_gradient_direction }}, 
+        {{ block.settings.box_bg_from }}, 
+        {{ block.settings.box_bg_to }}
+      );
+    }
+
+    .collection-box-wrapper[data-block-id="{{ block.id }}"] .box-title {
+      color: {{ block.settings.title_color }};
+      font-size: {{ block.settings.title_size_desktop }}px;
+      margin-bottom: 15px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+    }
+
+
+  {% endif %}
+{% endfor %}
+
+.bottom-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.left-text {
+  color: {{ section.settings.left_text_color }};
+  font-size: {{ section.settings.left_text_size_desktop }}px;
+  font-weight: 500;
+}
+
+.left-link {
+  display: block;
+  margin-top: 10px;
+  color: {{ section.settings.left_link_color }};
+  font-size: {{ section.settings.left_link_size_desktop }}px;
+  text-decoration: underline;
+  font-weight: 400;
+  transition: opacity 0.3s ease;
+}
+
+.left-link:hover {
+  opacity: 0.8;
+}
+
+.right-text {
+  color: {{ section.settings.right_text_color }};
+  font-size: {{ section.settings.right_text_size_desktop }}px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 768px) {
+  .section-heading {
+    font-size: {{ section.settings.heading_size_mobile }}px;
+  }
+
+  .collection-boxes-grid {
+    grid-template-columns: 1fr;
+    gap: {{ section.settings.box_gap }}px;
+  }
+
+  {% for block in section.blocks %}
+    {% if block.type == 'collection_box' %}
+      .collection-box[data-block-id="{{ block.id }}"] .box-title {
+        font-size: {{ block.settings.title_size_mobile }}px;
+      }
+    {% endif %}
+  {% endfor %}
+
+  .bottom-content {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .left-text {
+    font-size: {{ section.settings.left_text_size_mobile }}px;
+  }
+
+  .left-link {
+    font-size: {{ section.settings.left_link_size_mobile }}px;
+  }
+
+  .right-text {
+    font-size: {{ section.settings.right_text_size_mobile }}px;
+  }
+}
+</style>
+
+<div class="collection-boxes-section">
+  <div class="collection-boxes-container">
+    <h2 class="section-heading">{{ section.settings.heading }}</h2>
+    
+    <div class="collection-border-box">
+    <div class="collection-boxes-grid">
+      {% for block in section.blocks %}
+        {% if block.type == 'collection_box' %}
+          {% if block.settings.button_link != blank %}
+            <a href="{{ block.settings.button_link }}" class="collection-box-wrapper" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+              <div class="collection-box">
+                <span class="box-title">{{ block.settings.box_title }}</span>
+              </div>
+            </a>
+          {% else %}
+            <div class="collection-box-wrapper" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+              <div class="collection-box">
+                <span class="box-title">{{ block.settings.box_title }}</span>
+              </div>
+            </div>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="bottom-content">
+      <div class="left-text">
+        {{ section.settings.left_text }}
+        {% if section.settings.left_link_url != blank %}
+          <a href="{{ section.settings.left_link_url }}" class="left-link">{{ section.settings.left_link_text }}</a>
+        {% endif %}
+      </div>
+      <div class="right-text">{{ section.settings.right_text }}</div>
+    </div>
+    </div>
+  </div>
+</div>

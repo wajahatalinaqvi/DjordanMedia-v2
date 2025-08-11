@@ -18,7 +18,7 @@
         "subheading_bottom_gap_mobile": 0,
         "buttons_top_gap": 0,
         "buttons_top_gap_mobile": 0,
-        "heading": "Master [gradient]After Effects[\/gradient] and Start Creating [gradient]Now![\/gradient]",
+        "heading": "Master [gradient]After Effects[/gradient] and Start Creating [gradient]Now![/gradient]",
         "heading_alignment_desktop": "center",
         "heading_alignment_mobile": "center",
         "heading_gradient_from": "#f8f8f8",
@@ -219,7 +219,7 @@
       "settings": {
         "padding_top": 80,
         "padding_bottom": 80,
-        "heading_text": "What You'll Get Inside The [gradient]Course![\/gradient]",
+        "heading_text": "What You'll Get Inside The [gradient]Course![/gradient]",
         "heading_size_desktop": 56,
         "heading_size_mobile": 31,
         "subheading_gradient_from": "#d9d3b9",
@@ -259,7 +259,7 @@
         "custom_liquid_hFBrPL": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class='custom-html-container'><p>Essential SFX is a sound effects extension built for Adobe After Effects, Premiere Pro, and DaVinci Resolve. Instead of dragging files from random folders, this extension installs directly into your editing software giving you a clean, organized panel of professional-grade sound effects right inside your timeline.\n<\/p><\/div>"
+            "custom_liquid": "<div class='custom-html-container'><p>Essential SFX is a sound effects extension built for Adobe After Effects, Premiere Pro, and DaVinci Resolve. Instead of dragging files from random folders, this extension installs directly into your editing software giving you a clean, organized panel of professional-grade sound effects right inside your timeline.\n</p></div>"
           }
         },
         "list_item_rtG4KJ": {
@@ -349,15 +349,15 @@
         "box_bg_end": "#1e1e1ecc",
         "text_color": "#ffffff",
         "video_alignment": "left",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01f0dce4a82e4ac2bcdf84d7f07cf249.mp4",
-        "video_cover": "shopify:\/\/shop_images\/Rectangle_27.png"
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/01f0dce4a82e4ac2bcdf84d7f07cf249.mp4",
+        "video_cover": "shopify://shop_images/Rectangle_27.png"
       }
     },
     "gradient_heading_PD3KG6": {
       "type": "gradient-heading",
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "What You’ll Learn in This [gradient] Course![\/gradient]",
+        "heading_text": "What You’ll Learn in This [gradient] Course![/gradient]",
         "heading_size_desktop": 56,
         "heading_size_mobile": 31,
         "subheading_text": "",
@@ -380,7 +380,7 @@
       "type": "apps",
       "blocks": {
         "spark_spotlight_carousal_CARKYM": {
-          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "type": "shopify://apps/spark/blocks/spotlight-carousal/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
           "settings": {
             "show_videos_dynamically": false,
             "auto_play_video_next_video": false,
@@ -428,7 +428,7 @@
         "custom_liquid_hAyjHx": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class='custom-html-container'><p>Essential FX is a custom extension for Adobe After Effects that enhances the way you edit — giving you clean, fast access to powerful tools, effects, speedramping, and workflow shortcuts inside your timeline.\n<\/p><\/div>"
+            "custom_liquid": "<div class='custom-html-container'><p>Essential FX is a custom extension for Adobe After Effects that enhances the way you edit — giving you clean, fast access to powerful tools, effects, speedramping, and workflow shortcuts inside your timeline.\n</p></div>"
           }
         },
         "heading_settings_KnwkYU": {
@@ -492,7 +492,7 @@
         "text_color": "#ffffff",
         "video_alignment": "right",
         "video_url": "",
-        "video_cover": "shopify:\/\/shop_images\/Rectangle_27.png"
+        "video_cover": "shopify://shop_images/Rectangle_27.png"
       }
     },
     "text_with_boxes_xDnVqJ": {
@@ -504,7 +504,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/22e40acf239ff9130a4be22581d1d71769fe8210.png",
+            "icon": "shopify://shop_images/22e40acf239ff9130a4be22581d1d71769fe8210.png",
             "icon_width": 80,
             "icon_bg_from": "#ebe4c8",
             "icon_bg_to": "#9b9b9b",
@@ -530,7 +530,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/eba71c545a05992dfcbdb59f08972bb55cd624dd.png",
+            "icon": "shopify://shop_images/eba71c545a05992dfcbdb59f08972bb55cd624dd.png",
             "icon_width": 80,
             "icon_bg_from": "#4a90e2",
             "icon_bg_to": "#9b9b9b",
@@ -556,7 +556,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/be3b5bb2e784eb1db101988da67fb4f56ae9c2e8.png",
+            "icon": "shopify://shop_images/be3b5bb2e784eb1db101988da67fb4f56ae9c2e8.png",
             "icon_width": 80,
             "icon_bg_from": "#ebe4c8",
             "icon_bg_to": "#9b9b9b",
@@ -584,7 +584,7 @@
       ],
       "name": "Text with Boxes",
       "settings": {
-        "main_heading": "Join a [gradient] Global Community [\/gradient] and Master Timeless Skills!",
+        "main_heading": "Join a [gradient] Global Community [/gradient] and Master Timeless Skills!",
         "heading_text_transform": "none",
         "heading_gradient_from": "#ffffff",
         "heading_gradient_to": "#ffffff",
@@ -602,7 +602,7 @@
       "type": "gradient-heading",
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "What [gradient]members [\/gradient]have said about the [gradient] course [\/gradient]",
+        "heading_text": "What [gradient]members [/gradient]have said about the [gradient] course [/gradient]",
         "heading_size_desktop": 56,
         "heading_size_mobile": 31,
         "subheading_text": "",
@@ -627,7 +627,7 @@
         "review_dPHYXL": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26_cff3ba0c-ab29-42cb-8cf8-9595bae6e578.png",
+            "reviewer_image": "shopify://shop_images/Group_26_cff3ba0c-ab29-42cb-8cf8-9595bae6e578.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(175, 170, 149, 1), rgba(235, 228, 200, 1) 53%, rgba(175, 170, 149, 1) 100%)",
             "image_bg_opacity": 60,
@@ -635,7 +635,7 @@
             "name_color": "#4a90e2",
             "use_name_gradient": true,
             "name_gradient": "linear-gradient(339deg, rgba(0, 0, 0, 0.8) 7%, rgba(235, 228, 200, 1) 42%, rgba(175, 170, 149, 1) 81%)",
-            "reviewer_title": "Videographer \/ Editor",
+            "reviewer_title": "Videographer / Editor",
             "title_color": "#ffffff",
             "use_title_gradient": false,
             "title_gradient": "linear-gradient(90deg, rgba(170, 164, 144, 1) 42%, rgba(246, 238, 209, 1) 100%)",
@@ -654,7 +654,7 @@
         "review_TBGCXY": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26_cff3ba0c-ab29-42cb-8cf8-9595bae6e578.png",
+            "reviewer_image": "shopify://shop_images/Group_26_cff3ba0c-ab29-42cb-8cf8-9595bae6e578.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(175, 170, 149, 1), rgba(235, 228, 200, 1) 53%, rgba(175, 170, 149, 1) 100%)",
             "image_bg_opacity": 60,
@@ -662,7 +662,7 @@
             "name_color": "#f6eed1",
             "use_name_gradient": true,
             "name_gradient": "linear-gradient(339deg, rgba(0, 0, 0, 0.8) 7%, rgba(235, 228, 200, 1) 42%, rgba(175, 170, 149, 1) 81%)",
-            "reviewer_title": "Videographer \/ Photographer",
+            "reviewer_title": "Videographer / Photographer",
             "title_color": "#ffffff",
             "use_title_gradient": false,
             "title_gradient": "linear-gradient(90deg, rgba(170, 164, 144, 1) 42%, rgba(246, 238, 209, 1) 100%)",
@@ -670,7 +670,7 @@
             "name_size_mobile": 16,
             "title_size_desktop": 14,
             "title_size_mobile": 12,
-            "review_text": "Every penny you spend on @djordanmediacourses is well worth it. Take it from a fellow editor. Not only do you get the benefit of the tutorials, you also get to be part of one of the biggest and most influential names out there on these platforms that make viral car reels and videos alike. 10\/10 would recommend.",
+            "review_text": "Every penny you spend on @djordanmediacourses is well worth it. Take it from a fellow editor. Not only do you get the benefit of the tutorials, you also get to be part of one of the biggest and most influential names out there on these platforms that make viral car reels and videos alike. 10/10 would recommend.",
             "review_text_color": "#cccccc",
             "use_text_gradient": true,
             "text_gradient": "linear-gradient(54deg, rgba(62, 62, 61, 1), rgba(255, 255, 255, 1) 100%)",
@@ -681,7 +681,7 @@
         "review_Dk7dFR": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26_cff3ba0c-ab29-42cb-8cf8-9595bae6e578.png",
+            "reviewer_image": "shopify://shop_images/Group_26_cff3ba0c-ab29-42cb-8cf8-9595bae6e578.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(175, 170, 149, 1), rgba(235, 228, 200, 1) 53%, rgba(175, 170, 149, 1) 100%)",
             "image_bg_opacity": 60,
@@ -689,7 +689,7 @@
             "name_color": "#4a90e2",
             "use_name_gradient": true,
             "name_gradient": "linear-gradient(339deg, rgba(0, 0, 0, 0.8) 7%, rgba(235, 228, 200, 1) 42%, rgba(175, 170, 149, 1) 81%)",
-            "reviewer_title": "Videographer \/ Editor",
+            "reviewer_title": "Videographer / Editor",
             "title_color": "#ffffff",
             "use_title_gradient": false,
             "title_gradient": "linear-gradient(90deg, rgba(101, 155, 232, 1) 42%, rgba(204, 204, 204, 1) 100%)",
@@ -708,7 +708,7 @@
         "review_RXk66H": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26_cff3ba0c-ab29-42cb-8cf8-9595bae6e578.png",
+            "reviewer_image": "shopify://shop_images/Group_26_cff3ba0c-ab29-42cb-8cf8-9595bae6e578.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(175, 170, 149, 1), rgba(235, 228, 200, 1) 53%, rgba(175, 170, 149, 1) 100%)",
             "image_bg_opacity": 60,
@@ -716,7 +716,7 @@
             "name_color": "#4a90e2",
             "use_name_gradient": true,
             "name_gradient": "linear-gradient(339deg, rgba(0, 0, 0, 0.8) 7%, rgba(235, 228, 200, 1) 42%, rgba(175, 170, 149, 1) 81%)",
-            "reviewer_title": "Videographer \/ Photographer",
+            "reviewer_title": "Videographer / Photographer",
             "title_color": "#ffffff",
             "use_title_gradient": false,
             "title_gradient": "linear-gradient(90deg, rgba(101, 155, 232, 1) 42%, rgba(204, 204, 204, 1) 100%)",
@@ -765,7 +765,7 @@
         "review_border_radius": 8,
         "quote_size": 16,
         "quote_color": "#4a90e2",
-        "quote_icon_image": "shopify:\/\/shop_images\/quote-up.png",
+        "quote_icon_image": "shopify://shop_images/quote-up.png",
         "enable_card_gradient_border": false,
         "card_border_gradient": "linear-gradient(94deg, rgba(11, 11, 11, 1), rgba(246, 238, 209, 1) 54%, rgba(11, 11, 11, 1) 100%)",
         "border_glow_intensity": 40,
@@ -776,7 +776,7 @@
       "type": "gradient-heading",
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "What are you [gradient] waiting[\/gradient] for !",
+        "heading_text": "What are you [gradient] waiting[/gradient] for !",
         "heading_size_desktop": 56,
         "heading_size_mobile": 31,
         "subheading_text": "Don't miss out on this opportunity—buy the course now and beginyour journey to mastering After Effects!",
@@ -850,7 +850,7 @@
           "disabled": true,
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
             "page": ""
           }
         },
@@ -902,7 +902,7 @@
           "type": "question",
           "settings": {
             "title": "What will I learn in this course?",
-            "text": "<p>You’ll learn everything from beginner-level After Effects to advanced speed ramping, transitions, sound design, effects, cinematic grading, and editing techniques that help you create viral-quality content. The lessons are step-by-step with real footage to follow along.<\/p>",
+            "text": "<p>You’ll learn everything from beginner-level After Effects to advanced speed ramping, transitions, sound design, effects, cinematic grading, and editing techniques that help you create viral-quality content. The lessons are step-by-step with real footage to follow along.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -917,7 +917,7 @@
           "type": "question",
           "settings": {
             "title": "Is this just for car or automotive edits?",
-            "text": "<p>Not at all. While many students are in the car scene, the techniques you’ll learn apply to any niche — music videos, content creation, brand promos, social media edits, and more.<\/p>",
+            "text": "<p>Not at all. While many students are in the car scene, the techniques you’ll learn apply to any niche — music videos, content creation, brand promos, social media edits, and more.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -932,7 +932,7 @@
           "type": "question",
           "settings": {
             "title": "Will I get support if I’m stuck?",
-            "text": "<p>Definitely. You’ll be invited to a private Discord community where you can ask questions, share your work, get feedback, and connect with over 600 other creators worldwide, alongside myself.<\/p>",
+            "text": "<p>Definitely. You’ll be invited to a private Discord community where you can ask questions, share your work, get feedback, and connect with over 600 other creators worldwide, alongside myself.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -947,7 +947,7 @@
           "type": "question",
           "settings": {
             "title": "Is this course beginner-friendly?",
-            "text": "<p>Yes — 75% of students started with little to no After Effects experience. The course is built to take you from zero to advanced in a structured and easy-to-follow way.<\/p>",
+            "text": "<p>Yes — 75% of students started with little to no After Effects experience. The course is built to take you from zero to advanced in a structured and easy-to-follow way.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -962,7 +962,7 @@
           "type": "question",
           "settings": {
             "title": "Are Updates Included?",
-            "text": "<p>Yes — when you enroll into the complete editing bundle, you get access to all current content<em>and<\/em>any future updates or new lessons added to the bundle, at no extra cost.<\/p>",
+            "text": "<p>Yes — when you enroll into the complete editing bundle, you get access to all current content<em>and</em>any future updates or new lessons added to the bundle, at no extra cost.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -977,7 +977,7 @@
           "type": "question",
           "settings": {
             "title": "What if I'm already experienced with after effects?",
-            "text": "<p>Even experienced editors have leveled up with this course — especially when it comes to mastering speed ramps, workflow optimization, and advanced effect layering. Plus, it saves hours of trial and error.<\/p>",
+            "text": "<p>Even experienced editors have leveled up with this course — especially when it comes to mastering speed ramps, workflow optimization, and advanced effect layering. Plus, it saves hours of trial and error.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -1086,7 +1086,7 @@
       "settings": {
         "subtitle": "Impressive",
         "title": "About your brand",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
         "button_label": "",
         "button_link": "",
         "layout": "left",
@@ -1105,7 +1105,7 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "About your brand",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -1126,7 +1126,7 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "About your brand",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -1146,7 +1146,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
@@ -1155,7 +1155,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
@@ -1164,7 +1164,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }

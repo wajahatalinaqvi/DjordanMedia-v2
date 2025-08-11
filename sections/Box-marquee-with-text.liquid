@@ -4,6 +4,56 @@
   "settings": [
     {
       "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "color",
+      "id": "section_bg_color",
+      "label": "Section Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "label": "Section Top Padding",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "label": "Section Bottom Padding (Desktop)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top_mobile",
+      "label": "Section Top Padding (Mobile)",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom_mobile",
+      "label": "Section Bottom Padding (Mobile)",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
       "content": "Marquee Settings"
     },
     {
@@ -127,6 +177,58 @@
           "default": "Master After Effect"
         },
         {
+<<<<<<< HEAD
+=======
+          "type": "header",
+          "content": "Image Settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 20,
+          "max": 200,
+          "step": 5,
+          "unit": "px",
+          "label": "Image Width",
+          "default": 50
+        },
+        {
+          "type": "select",
+          "id": "image_position",
+          "label": "Image Position",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left of Text"
+            },
+            {
+              "value": "right",
+              "label": "Right of Text"
+            }
+          ],
+          "default": "left"
+        },
+        {
+          "type": "range",
+          "id": "image_spacing",
+          "min": 5,
+          "max": 30,
+          "step": 1,
+          "unit": "px",
+          "label": "Space Between Image and Text",
+          "default": 10
+        },
+        {
+          "type": "header",
+          "content": "Text Settings"
+        },
+        {
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           "type": "range",
           "id": "font_size",
           "label": "Font Size (Desktop)",
@@ -198,8 +300,14 @@
 <style>
 .marquee-section {
   overflow: hidden;
+<<<<<<< HEAD
   padding: 20px 0;
   background: #000000;
+=======
+  padding-top: {{ section.settings.section_padding_top }}px;
+  padding-bottom: {{ section.settings.section_padding_bottom }}px;
+  background: {{ section.settings.section_bg_color }};
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
   position: relative;
   width: 100%;
 }
@@ -233,6 +341,21 @@
   flex-shrink: 0;
 }
 
+<<<<<<< HEAD
+=======
+.marquee-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.marquee-image {
+  display: block;
+  height: auto;
+  object-fit: contain;
+}
+
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
 .marquee-text {
   background: linear-gradient(to right, var(--text-gradient-from), var(--text-gradient-to));
   -webkit-background-clip: text;
@@ -262,6 +385,14 @@
 }
 
 @media screen and (max-width: 768px) {
+<<<<<<< HEAD
+=======
+  .marquee-section {
+    padding-top: {{ section.settings.section_padding_top_mobile }}px;
+    padding-bottom: {{ section.settings.section_padding_bottom_mobile }}px;
+  }
+
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
   .marquee-box {
     padding: {{ section.settings.box_padding_mobile }}px;
   }
@@ -280,12 +411,32 @@
       {% for copy in (1..copies) %}
         {% for block in section.blocks %}
           <div class="marquee-box">
+<<<<<<< HEAD
             <div class="marquee-text"
                  style="
                    font-size: {{ block.settings.font_size }}px;
                    --text-gradient-from: {{ block.settings.text_gradient_from }};
                    --text-gradient-to: {{ block.settings.text_gradient_to }};">
               {{ block.settings.text }}
+=======
+            <div class="marquee-content" style="gap: {{ block.settings.image_spacing }}px; flex-direction: {% if block.settings.image_position == 'right' %}row-reverse{% else %}row{% endif %};">
+              {% if block.settings.image %}
+                {{ block.settings.image | image_url: width: block.settings.image_width | image_tag: 
+                  class: 'marquee-image',
+                  widths: '50, 100, 150, 200',
+                  width: block.settings.image_width,
+                  height: 'auto',
+                  loading: 'lazy'
+                }}
+              {% endif %}
+              <div class="marquee-text"
+                   style="
+                     font-size: {{ block.settings.font_size }}px;
+                     --text-gradient-from: {{ block.settings.text_gradient_from }};
+                     --text-gradient-to: {{ block.settings.text_gradient_to }};">
+                {{ block.settings.text }}
+              </div>
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
             </div>
           </div>
         {% endfor %}

@@ -8,8 +8,8 @@
         "header-0": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/Djordanmedia_Logo_2021_cfd4f2d8-51c9-4649-a49e-bf4f67975841.png",
-            "logo-inverted": "shopify:\/\/shop_images\/Djordanmedia_Logo_2021_cfd4f2d8-51c9-4649-a49e-bf4f67975841.png",
+            "logo": "shopify://shop_images/Djordanmedia_Logo_2021_cfd4f2d8-51c9-4649-a49e-bf4f67975841.png",
+            "logo-inverted": "shopify://shop_images/Djordanmedia_Logo_2021_cfd4f2d8-51c9-4649-a49e-bf4f67975841.png",
             "desktop_logo_width": 100,
             "mobile_logo_width": 60
           }
@@ -42,7 +42,7 @@
           "settings": {
             "text": "4th of July sale",
             "link_text": "20% off added at checkout!",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         },
         "announcement-1": {
@@ -67,7 +67,7 @@
       "type": "apps",
       "blocks": {
         "sky_pilot_digital_downloads_customer_digital_library_button_wEkYXP": {
-          "type": "shopify:\/\/apps\/sky-pilot\/blocks\/customer_digital_library_button\/d19e6703-9148-4c06-b38c-b4d4f4a42811",
+          "type": "shopify://apps/sky-pilot/blocks/customer_digital_library_button/d19e6703-9148-4c06-b38c-b4d4f4a42811",
           "settings": {
             "button_label": "My Purchases",
             "justification": "center",

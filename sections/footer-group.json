@@ -9,24 +9,24 @@
           "type": "promotion",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ESSFXg_d3a0d184-7817-4b21-bf6c-a9013785624d.gif",
+            "image": "shopify://shop_images/ESSFXg_d3a0d184-7817-4b21-bf6c-a9013785624d.gif",
             "image_mask": "square",
             "title": "Essential EXTENSIONS",
             "text": "",
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/collections\/essentials"
+            "button_link": "shopify://collections/essentials"
           }
         },
         "footer-promotions-0": {
           "type": "promotion",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/STONE_HELICOPTER_AdobeExpress_1.gif",
+            "image": "shopify://shop_images/STONE_HELICOPTER_AdobeExpress_1.gif",
             "image_mask": "square",
             "title": "Editing Course",
             "text": "",
             "button_label": "Learn Now",
-            "button_link": "shopify:\/\/collections\/editing-course"
+            "button_link": "shopify://collections/editing-course"
           }
         },
         "footer-promotions-1": {
@@ -37,7 +37,7 @@
             "title": "lut packs",
             "text": "",
             "button_label": "view more",
-            "button_link": "shopify:\/\/collections\/lut-pack"
+            "button_link": "shopify://collections/lut-pack"
           }
         }
       },
@@ -67,7 +67,7 @@
           "settings": {
             "show_footer_title": true,
             "title": "Dont miss out!",
-            "text": "<p>Be the FIRST to hear about new releases, special promotions, and more!<\/p>",
+            "text": "<p>Be the FIRST to hear about new releases, special promotions, and more!</p>",
             "container_width": 33
           }
         }

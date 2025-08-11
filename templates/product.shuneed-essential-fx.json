@@ -21,7 +21,7 @@
         "subheading_bottom_gap_mobile": 0,
         "buttons_top_gap": 0,
         "buttons_top_gap_mobile": 0,
-        "heading": "Essential[gradient] FX [\/gradient] Extension For After Effects",
+        "heading": "Essential[gradient] FX [/gradient] Extension For After Effects",
         "heading_alignment_desktop": "center",
         "heading_alignment_mobile": "center",
         "heading_gradient_from": "#f8f8f8",
@@ -224,7 +224,7 @@
       "settings": {
         "padding_top": 80,
         "padding_bottom": 80,
-        "heading_text": "What You'll Get Inside The [gradient]Course![\/gradient]",
+        "heading_text": "What You'll Get Inside The [gradient]Course![/gradient]",
         "heading_size_desktop": 56,
         "heading_size_mobile": 31,
         "subheading_gradient_from": "#d9d3b9",
@@ -402,15 +402,15 @@
         "box_bg_end": "#1e1e1ecc",
         "text_color": "#ffffff",
         "video_alignment": "left",
-        "video_url": "https:\/\/youtu.be\/rXvC5uvjKIk",
-        "video_cover": "shopify:\/\/shop_images\/88fe0776f52c9e3f81439b29373a9885af41049d_1.png"
+        "video_url": "https://youtu.be/rXvC5uvjKIk",
+        "video_cover": "shopify://shop_images/88fe0776f52c9e3f81439b29373a9885af41049d_1.png"
       }
     },
     "gradient_heading_PD3KG6": {
       "type": "gradient-heading",
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "Made With Essential [gradient] FX [\/gradient]",
+        "heading_text": "Made With Essential [gradient] FX [/gradient]",
         "heading_size_desktop": 56,
         "heading_size_mobile": 31,
         "subheading_text": "",
@@ -433,7 +433,7 @@
       "type": "apps",
       "blocks": {
         "spark_spotlight_carousal_CARKYM": {
-          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "type": "shopify://apps/spark/blocks/spotlight-carousal/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
           "settings": {
             "show_videos_dynamically": false,
             "auto_play_video_next_video": false,
@@ -481,7 +481,7 @@
         "custom_liquid_hAyjHx": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class='custom-html-container'><p>Over 30 professional editors helped shape the tools, structure, and workflow behind EssentialFX. This isn’t just another preset pack—it’s a full system of advanced methods, tools, and automation built specifically for Adobe After Effects. Every feature was created to solve real editing frustrations and make your creative process faster, smoother, and more powerful.\n\nEssentialFX V4 isn’t theory—it’s the result of real-world editing experience, designed by those who live in the timeline every day.\n<\/p><\/div>"
+            "custom_liquid": "<div class='custom-html-container'><p>Over 30 professional editors helped shape the tools, structure, and workflow behind EssentialFX. This isn’t just another preset pack—it’s a full system of advanced methods, tools, and automation built specifically for Adobe After Effects. Every feature was created to solve real editing frustrations and make your creative process faster, smoother, and more powerful.\n\nEssentialFX V4 isn’t theory—it’s the result of real-world editing experience, designed by those who live in the timeline every day.\n</p></div>"
           }
         },
         "heading_settings_KnwkYU": {
@@ -548,7 +548,7 @@
         "text_color": "#ffffff",
         "video_alignment": "right",
         "video_url": "",
-        "video_cover": "shopify:\/\/shop_images\/88fe0776f52c9e3f81439b29373a9885af41049d_1_99beaf1e-d88f-49d8-8819-9c6d33ad9bb9.png"
+        "video_cover": "shopify://shop_images/88fe0776f52c9e3f81439b29373a9885af41049d_1_99beaf1e-d88f-49d8-8819-9c6d33ad9bb9.png"
       }
     },
     "text_with_boxes_MtfrVN": {
@@ -560,7 +560,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/code-icon-3d-rendering-symbol-of-web-development-png.webp",
+            "icon": "shopify://shop_images/code-icon-3d-rendering-symbol-of-web-development-png.webp",
             "icon_width": 80,
             "icon_bg_from": "#ebe4c8",
             "icon_bg_to": "#9b9b9b",
@@ -586,7 +586,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/pngtree-3d-render-of-the-united-states-flag-png-image_14725608.png",
+            "icon": "shopify://shop_images/pngtree-3d-render-of-the-united-states-flag-png-image_14725608.png",
             "icon_width": 80,
             "icon_bg_from": "#4a90e2",
             "icon_bg_to": "#9b9b9b",
@@ -612,7 +612,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/3d-render-repair-icon-with-blue-button-white-backgound-3d-render-repair-icon_174191-511.png",
+            "icon": "shopify://shop_images/3d-render-repair-icon-with-blue-button-white-backgound-3d-render-repair-icon_174191-511.png",
             "icon_width": 80,
             "icon_bg_from": "#ebe4c8",
             "icon_bg_to": "#9b9b9b",
@@ -640,7 +640,7 @@
       ],
       "name": "Text with Boxes",
       "settings": {
-        "main_heading": "Built for [gradient] Editors [\/gradient] by [gradient] Editors",
+        "main_heading": "Built for [gradient] Editors [/gradient] by [gradient] Editors",
         "heading_text_transform": "none",
         "heading_gradient_from": "#ffffff",
         "heading_gradient_to": "#ffffff",
@@ -663,7 +663,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/22e40acf239ff9130a4be22581d1d71769fe8210.png",
+            "icon": "shopify://shop_images/22e40acf239ff9130a4be22581d1d71769fe8210.png",
             "icon_width": 80,
             "icon_bg_from": "#ebe4c8",
             "icon_bg_to": "#9b9b9b",
@@ -689,7 +689,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/eba71c545a05992dfcbdb59f08972bb55cd624dd.png",
+            "icon": "shopify://shop_images/eba71c545a05992dfcbdb59f08972bb55cd624dd.png",
             "icon_width": 80,
             "icon_bg_from": "#4a90e2",
             "icon_bg_to": "#9b9b9b",
@@ -715,7 +715,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/be3b5bb2e784eb1db101988da67fb4f56ae9c2e8.png",
+            "icon": "shopify://shop_images/be3b5bb2e784eb1db101988da67fb4f56ae9c2e8.png",
             "icon_width": 80,
             "icon_bg_from": "#ebe4c8",
             "icon_bg_to": "#9b9b9b",
@@ -744,7 +744,7 @@
       "disabled": true,
       "name": "Text with Boxes",
       "settings": {
-        "main_heading": "Join a [gradient] Global Community [\/gradient] and Master Timeless Skills!",
+        "main_heading": "Join a [gradient] Global Community [/gradient] and Master Timeless Skills!",
         "heading_text_transform": "none",
         "heading_gradient_from": "#ffffff",
         "heading_gradient_to": "#ffffff",
@@ -762,7 +762,7 @@
       "type": "gradient-heading",
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "What our [gradient]Users [\/gradient]Say",
+        "heading_text": "What our [gradient]Users [/gradient]Say",
         "heading_size_desktop": 56,
         "heading_size_mobile": 31,
         "subheading_text": "",
@@ -787,7 +787,7 @@
         "review_Dk7dFR": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26_8f7aba72-6c02-4391-b089-b5aa5d8273d5.png",
+            "reviewer_image": "shopify://shop_images/Group_26_8f7aba72-6c02-4391-b089-b5aa5d8273d5.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(52, 17, 250, 1), rgba(93, 65, 253, 1) 53%, rgba(70, 39, 244, 1) 100%)",
             "image_bg_opacity": 60,
@@ -814,7 +814,7 @@
         "review_gDGh8j": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26_ead4f11e-c213-44fb-ac7e-8dc110bdeebd.png",
+            "reviewer_image": "shopify://shop_images/Group_26_ead4f11e-c213-44fb-ac7e-8dc110bdeebd.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(45, 97, 239, 1), rgba(80, 127, 255, 1) 53%, rgba(54, 108, 255, 1) 100%)",
             "image_bg_opacity": 60,
@@ -841,7 +841,7 @@
         "review_gWxgVx": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26_04c225e0-18b1-4756-bf54-fb14e5ea3b6b.png",
+            "reviewer_image": "shopify://shop_images/Group_26_04c225e0-18b1-4756-bf54-fb14e5ea3b6b.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(45, 97, 239, 1), rgba(80, 127, 255, 1) 53%, rgba(54, 108, 255, 1) 100%)",
             "image_bg_opacity": 60,
@@ -897,7 +897,7 @@
         "review_border_radius": 8,
         "quote_size": 16,
         "quote_color": "#3495d0",
-        "quote_icon_image": "shopify:\/\/shop_images\/quote-up.png",
+        "quote_icon_image": "shopify://shop_images/quote-up.png",
         "enable_card_gradient_border": false,
         "card_border_gradient": "linear-gradient(94deg, rgba(52, 149, 208, 1), rgba(52, 17, 250, 1) 54%, rgba(11, 11, 11, 1) 100%)",
         "border_glow_intensity": 40,
@@ -908,7 +908,7 @@
       "type": "gradient-heading",
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "Your new FX workflow is [gradient] here  [\/gradient]",
+        "heading_text": "Your new FX workflow is [gradient] here  [/gradient]",
         "heading_size_desktop": 56,
         "heading_size_mobile": 31,
         "subheading_text": "Essential FX Version 2.0 is available now",
@@ -982,7 +982,7 @@
           "disabled": true,
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
             "page": ""
           }
         },
@@ -1034,7 +1034,7 @@
           "type": "question",
           "settings": {
             "title": "Is this a preset pack or a plugin?",
-            "text": "<p>EssentialFX is not just presets—it's a <strong>full After Effects extension<\/strong> with real tools, custom interfaces, and advanced workflow features.<br\/><br\/>Built by professional editors to solve real editing problems.<\/p>",
+            "text": "<p>EssentialFX is not just presets—it's a <strong>full After Effects extension</strong> with real tools, custom interfaces, and advanced workflow features.<br/><br/>Built by professional editors to solve real editing problems.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -1049,7 +1049,7 @@
           "type": "question",
           "settings": {
             "title": "Do I get future updates with my purchase?",
-            "text": "<p>Yes!<\/p><ul><li><br\/>Version License, you'll receive all updates within Version 4 (e.g., 4.0, 4.1, 4.2...).<br\/><\/li><li><br\/>Lifetime License, you’ll get every future version we release—forever.<br\/><\/li><\/ul>",
+            "text": "<p>Yes!</p><ul><li><br/>Version License, you'll receive all updates within Version 4 (e.g., 4.0, 4.1, 4.2...).<br/></li><li><br/>Lifetime License, you’ll get every future version we release—forever.<br/></li></ul>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -1064,7 +1064,7 @@
           "type": "question",
           "settings": {
             "title": "Do I need to be advanced to use EssentialFX?",
-            "text": "<p>Nope!<br\/><br\/>EssentialFX is designed for both <strong>beginner and advanced editors.<\/strong> Every feature is intuitive, labeled, and designed to make complex edits easier—not harder.<\/p>",
+            "text": "<p>Nope!<br/><br/>EssentialFX is designed for both <strong>beginner and advanced editors.</strong> Every feature is intuitive, labeled, and designed to make complex edits easier—not harder.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -1079,7 +1079,7 @@
           "type": "question",
           "settings": {
             "title": "Do you offer customer support if I have issues?",
-            "text": "<p>Yes—and it’s one of the things we’re known for.<br\/><br\/>Our support is fast, personal, and trusted by hundreds of creators. We go above and beyond to make sure you're fully satisfied—with an <strong>almost guaranteed success rate<\/strong> in resolving any issues.<\/p>",
+            "text": "<p>Yes—and it’s one of the things we’re known for.<br/><br/>Our support is fast, personal, and trusted by hundreds of creators. We go above and beyond to make sure you're fully satisfied—with an <strong>almost guaranteed success rate</strong> in resolving any issues.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -1094,7 +1094,7 @@
           "type": "question",
           "settings": {
             "title": "How many devices can I install it on?",
-            "text": "<p>Each license includes <strong>2 activations<\/strong> (ideal for a desktop + laptop).<br\/><br\/>Need more? The <strong>Studio License<\/strong> includes up to <strong>8 activations<\/strong> for teams and multi-device workflows.<\/p>",
+            "text": "<p>Each license includes <strong>2 activations</strong> (ideal for a desktop + laptop).<br/><br/>Need more? The <strong>Studio License</strong> includes up to <strong>8 activations</strong> for teams and multi-device workflows.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -1109,7 +1109,7 @@
           "type": "question",
           "settings": {
             "title": "Will this work on both Mac and Windows?",
-            "text": "<p>Absolutely. EssentialFX works seamlessly on both <strong>Mac and Windows<\/strong>, as long as you're using <strong>Adobe After Effects 2024 or newer<\/strong>.<\/p>",
+            "text": "<p>Absolutely. EssentialFX works seamlessly on both <strong>Mac and Windows</strong>, as long as you're using <strong>Adobe After Effects 2024 or newer</strong>.</p>",
             "question_color": "#afaa95",
             "use_question_gradient": true,
             "question_gradient_end_color": "#ffffff",
@@ -1218,7 +1218,7 @@
       "settings": {
         "subtitle": "Impressive",
         "title": "About your brand",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.</p>",
         "button_label": "",
         "button_link": "",
         "layout": "left",
@@ -1237,7 +1237,7 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "About your brand",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -1258,7 +1258,7 @@
         "image2_mask": "none",
         "subtitle": "",
         "title": "About your brand",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.</p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -1278,7 +1278,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
@@ -1287,7 +1287,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }
@@ -1296,7 +1296,7 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
             "author": "Author's name",
             "author_info": "Los Angeles, CA"
           }

@@ -66,11 +66,11 @@
     "cart_icon": "cart",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "social_instagram_link": "https:\/\/instagram.com\/djordanmedia",
-    "social_snapchat_link": "https:\/\/www.snapchat.com\/add\/djordanmedia",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@destinjordan",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCWdHFj545CtdaZA5tkhepfQ",
-    "favicon": "shopify:\/\/shop_images\/djordanmedia_favicon.png",
+    "social_instagram_link": "https://instagram.com/djordanmedia",
+    "social_snapchat_link": "https://www.snapchat.com/add/djordanmedia",
+    "social_tiktok_link": "https://www.tiktok.com/@destinjordan",
+    "social_youtube_link": "https://www.youtube.com/channel/UCWdHFj545CtdaZA5tkhepfQ",
+    "favicon": "shopify://shop_images/djordanmedia_favicon.png",
     "show_breadcrumbs": false,
     "breadcrumb": false,
     "checkout_accent_color": "#111111",
@@ -88,8 +88,8 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/Djordanmedia_Logo_2021_05840330-ecd9-46a9-bb04-68626dd9ded4.png",
-              "logo-inverted": "shopify:\/\/shop_images\/Djordanmedia_Logo_2021_05840330-ecd9-46a9-bb04-68626dd9ded4.png",
+              "logo": "shopify://shop_images/Djordanmedia_Logo_2021_05840330-ecd9-46a9-bb04-68626dd9ded4.png",
+              "logo-inverted": "shopify://shop_images/Djordanmedia_Logo_2021_05840330-ecd9-46a9-bb04-68626dd9ded4.png",
               "desktop_logo_width": 120,
               "mobile_logo_width": 110
             }
@@ -128,14 +128,14 @@
             "settings": {
               "show_footer_title": true,
               "title": "Sign up and save",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
               "container_width": 33
             }
           },
           "1494301487048": {
             "type": "logo_social",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/Djordanmedia_eb3081d8-0ad0-4fc3-86d1-ac9b6c909cc8.jpg",
+              "logo": "shopify://shop_images/Djordanmedia_eb3081d8-0ad0-4fc3-86d1-ac9b6c909cc8.jpg",
               "desktop_logo_height": 50,
               "container_width": 95
             }
@@ -174,7 +174,7 @@
           "popup_seconds": 5,
           "popup_days": 30,
           "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
           "image_position": "left",
           "show_social_icons": false,
           "enable_newsletter": true,
@@ -196,11 +196,11 @@
           "enable_test_mode": false,
           "blur_image": false,
           "heading": "Confirm your age",
-          "text": "<p>Are you 18 years old or older?<\/p>",
+          "text": "<p>Are you 18 years old or older?</p>",
           "decline_button_label": "No I'm not",
           "approve_button_label": "Yes I am",
           "decline_heading": "Come back when you're older",
-          "decline_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.<\/p>",
+          "decline_text": "<p>Sorry, the content of this store can't be seen by a younger audience. Come back when you're older.</p>",
           "return_button_label": "Oops, I entered incorrectly"
         }
       },
@@ -211,33 +211,33 @@
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/ezgif-3-f06126a566.gif",
+              "image": "shopify://shop_images/ezgif-3-f06126a566.gif",
               "title": "EssentialFX",
               "text": "",
               "button_label": "Learn More",
-              "button_link": "shopify:\/\/products\/essentialfx-1"
+              "button_link": "shopify://products/essentialfx-1"
             }
           },
           "footer-promotions-0": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/STONE_HELICOPTER_AdobeExpress_1.gif",
+              "image": "shopify://shop_images/STONE_HELICOPTER_AdobeExpress_1.gif",
               "title": "Editing Course",
               "text": "",
               "button_label": "Learn Now",
-              "button_link": "shopify:\/\/collections\/editing-course"
+              "button_link": "shopify://collections/editing-course"
             }
           },
           "footer-promotions-1": {
             "type": "promotion",
             "settings": {
               "enable_image": true,
-              "image": "shopify:\/\/shop_images\/ezgif-3-0a89482510.gif",
+              "image": "shopify://shop_images/ezgif-3-0a89482510.gif",
               "title": "lut packs",
               "text": "",
               "button_label": "view more",
-              "button_link": "shopify:\/\/collections\/lut-pack"
+              "button_link": "shopify://collections/lut-pack"
             }
           }
         },
@@ -254,22 +254,22 @@
     "content_for_index": [],
     "blocks": {
       "6279071938380501511": {
-        "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "type": "shopify://apps/powerful-contact-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
         "settings": {}
       },
       "17368511000352060744": {
-        "type": "shopify:\/\/apps\/goaffpro-affiliate-marketing\/blocks\/goaffpro-embedded-pixel\/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
         "disabled": false,
         "settings": {}
       },
       "10436698916776057164": {
-        "type": "shopify:\/\/apps\/appstle-subscription\/blocks\/appstle-subscription-helper\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+        "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
         "disabled": false,
         "settings": {}
       },
       "5057006142565981955": {
-        "type": "shopify:\/\/apps\/affirm-pay-over-time-messaging\/blocks\/cart-drawer-embed-block\/6dce54be-130d-4d13-9636-1e8f611b3071",
+        "type": "shopify://apps/affirm-pay-over-time-messaging/blocks/cart-drawer-embed-block/6dce54be-130d-4d13-9636-1e8f611b3071",
         "disabled": false,
         "settings": {
           "logo_align_drawer": "left",
@@ -284,12 +284,12 @@
         }
       },
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
           "button_color": "#2a75aa",
@@ -303,7 +303,7 @@
         }
       },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
       }
@@ -502,7 +502,7 @@
               "settings": {
                 "show_footer_title": true,
                 "title": "Sign up and save",
-                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
                 "container_width": 30
               }
             },
@@ -535,7 +535,7 @@
             "popup_seconds": 5,
             "popup_days": 30,
             "popup_title": "Sign up and save",
-            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
             "popup_image": "",
             "enable_newsletter": true,
             "button_label": "Optional button",
@@ -559,7 +559,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -570,7 +570,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -581,7 +581,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }

@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
 {
   "sections": {
     "hero_video_MLV3jp": {
@@ -10,7 +22,11 @@
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
+<<<<<<< HEAD
         "video_url": "https:\/\/www.youtube.com\/watch?v=wD7ZDrCew1o",
+=======
+        "video_url": "https://www.youtube.com/watch?v=wD7ZDrCew1o",
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
         "overlay_opacity": 0,
         "section_height": "550px",
         "mobile_height": "250px"
@@ -20,7 +36,11 @@
       "type": "main-product",
       "blocks": {
         "judge_me_reviews_preview_badge_qYbXzC": {
+<<<<<<< HEAD
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+=======
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           "settings": {}
         },
         "price": {
@@ -77,7 +97,11 @@
           "disabled": true,
           "settings": {
             "title": "Shipping information",
+<<<<<<< HEAD
             "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+=======
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
             "page": ""
           }
         },
@@ -94,7 +118,11 @@
           "settings": {}
         },
         "judge_me_reviews_review_widget_wajyLA": {
+<<<<<<< HEAD
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+=======
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           "disabled": true,
           "settings": {}
         }
@@ -133,56 +161,88 @@
           "type": "question",
           "settings": {
             "title": "Why is this Extension a subscription?",
+<<<<<<< HEAD
             "text": "<p>Essential AI is a subscription-based service to ensure you receive the best and most up-to-date experience possible. By subscribing, you gain access to our AI that continuously evolves, offering solutions, personalized response, and real-time updates. This means you always have the latest tools and techniques at your fingertips, ensuring your projects stay ahead of the curve. The subscription model also allows us to provide and maintain the high-quality performance you expect from an AI-powered tool.<\/p>"
+=======
+            "text": "<p>Essential AI is a subscription-based service to ensure you receive the best and most up-to-date experience possible. By subscribing, you gain access to our AI that continuously evolves, offering solutions, personalized response, and real-time updates. This means you always have the latest tools and techniques at your fingertips, ensuring your projects stay ahead of the curve. The subscription model also allows us to provide and maintain the high-quality performance you expect from an AI-powered tool.</p>"
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           }
         },
         "question_BPFeHM": {
           "type": "question",
           "settings": {
             "title": "Is Essential AI easy to use for beginners?",
+<<<<<<< HEAD
             "text": "<p>Absolutely! Essential AI is user-friendly and easy to use, even for beginners. Its intuitive interface and clear instructions make it accessible to users of all skill levels. Whether you're new to Adobe After Effects or an experienced professional, Essential AI adapts to your needs and helps you grow.<\/p>"
+=======
+            "text": "<p>Absolutely! Essential AI is user-friendly and easy to use, even for beginners. Its intuitive interface and clear instructions make it accessible to users of all skill levels. Whether you're new to Adobe After Effects or an experienced professional, Essential AI adapts to your needs and helps you grow.</p>"
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           }
         },
         "question_ejrEyt": {
           "type": "question",
           "settings": {
             "title": "Is this suitable for professional-level projects and complex compositions?",
+<<<<<<< HEAD
             "text": "<p> Essential AI is designed to handle professional-level projects and complex compositions. It offers advanced techniques, expert guidance, and efficient workflow solutions that meet the demands of high-level video editing techniques. Let's be honest, theirs always a better way to learn something.<\/p>"
+=======
+            "text": "<p> Essential AI is designed to handle professional-level projects and complex compositions. It offers advanced techniques, expert guidance, and efficient workflow solutions that meet the demands of high-level video editing techniques. Let's be honest, theirs always a better way to learn something.</p>"
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           }
         },
         "question_kj9PCx": {
           "type": "question",
           "settings": {
             "title": "How does Essential AI personalize its responses to my specific needs?",
+<<<<<<< HEAD
             "text": "<p>Essential AI learns from your interactions and adapts to provide more relevant and personalized responses over time. It tailors its guidance based on your editing style, project requirements, and past queries, ensuring you receive the most accurate and helpful advice for YOU.<\/p>"
+=======
+            "text": "<p>Essential AI learns from your interactions and adapts to provide more relevant and personalized responses over time. It tailors its guidance based on your editing style, project requirements, and past queries, ensuring you receive the most accurate and helpful advice for YOU.</p>"
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           }
         },
         "question_yUAxxf": {
           "type": "question",
           "settings": {
             "title": "What makes Essential AI different from other AI tools available?",
+<<<<<<< HEAD
             "text": "<p>Essential AI is specifically designed for Adobe After Effects, offering deep integration and tailored solutions for video editors. Its comprehensive feature set, updates, and personalized responses set it apart from other AI tools, and it is the first of its kind to be integrated into After Effects.<\/p>"
+=======
+            "text": "<p>Essential AI is specifically designed for Adobe After Effects, offering deep integration and tailored solutions for video editors. Its comprehensive feature set, updates, and personalized responses set it apart from other AI tools, and it is the first of its kind to be integrated into After Effects.</p>"
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           }
         },
         "question_kqqa4Y": {
           "type": "question",
           "settings": {
             "title": "Can Essential AI help with troubleshooting and fixing errors in my projects?",
+<<<<<<< HEAD
             "text": "<p>Yes, Essential AI excels at troubleshooting and fixing errors in your projects. It provides detailed solutions to specific issues, guides you through technical glitches, and helps you optimize your render settings and project files to prevent future problems.<\/p>"
+=======
+            "text": "<p>Yes, Essential AI excels at troubleshooting and fixing errors in your projects. It provides detailed solutions to specific issues, guides you through technical glitches, and helps you optimize your render settings and project files to prevent future problems.</p>"
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           }
         },
         "question_rH3384": {
           "type": "question",
           "settings": {
             "title": "What if I decide to cancel my subscription?",
+<<<<<<< HEAD
             "text": "<p>We specifically ensured that you can access your subscription at any moment if you need to opt out!<\/p>"
+=======
+            "text": "<p>We specifically ensured that you can access your subscription at any moment if you need to opt out!</p>"
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           }
         },
         "question_cKaBBq": {
           "type": "question",
           "settings": {
             "title": "Does Essential AI offer tips and suggestions based on the latest industry trends?",
+<<<<<<< HEAD
             "text": "<p>Essential AI is constantly updated with the latest industry trends and best practices. It provides creative suggestions, effect ideas, and workflow tips that reflect current trends in video editing and animation, helping you stay ahead of the curve.<\/p>"
+=======
+            "text": "<p>Essential AI is constantly updated with the latest industry trends and best practices. It provides creative suggestions, effect ideas, and workflow tips that reflect current trends in video editing and animation, helping you stay ahead of the curve.</p>"
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
           }
         }
       },
@@ -205,7 +265,11 @@
       "disabled": true,
       "settings": {
         "title": "Check out ESSENTIAL AI!",
+<<<<<<< HEAD
         "video_url": "https:\/\/www.youtube.com\/watch?v=yO0kG_nHmdU&ab_channel=DJordanMedia",
+=======
+        "video_url": "https://www.youtube.com/watch?v=yO0kG_nHmdU&ab_channel=DJordanMedia",
+>>>>>>> 0c0e8d8a82b9ff93eaf4543308d99e147ccfea74
         "divider": false
       }
     },

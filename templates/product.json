@@ -19,7 +19,7 @@
         "subheading_bottom_gap_mobile": 0,
         "buttons_top_gap": 0,
         "buttons_top_gap_mobile": 0,
-        "heading": "Master [gradient]After Effects[\/gradient] and Start Creating [gradient]Now![\/gradient]",
+        "heading": "Master [gradient]After Effects[/gradient] and Start Creating [gradient]Now![/gradient]",
         "heading_alignment_desktop": "center",
         "heading_alignment_mobile": "center",
         "heading_gradient_from": "#f8f8f8",
@@ -222,7 +222,7 @@
       "settings": {
         "padding_top": 35,
         "padding_bottom": 35,
-        "heading_text": "What You'll Get Inside The [gradient]Course![\/gradient]",
+        "heading_text": "What You'll Get Inside The [gradient]Course![/gradient]",
         "heading_size_desktop": 45,
         "heading_size_mobile": 23,
         "subheading_gradient_from": "#d9d3b9",
@@ -274,7 +274,7 @@
         "custom_liquid_cD3WCC": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class='custom-html-container'><p>Essential SFX is a sound effects extension built for Adobe After Effects, Premiere Pro, and DaVinci Resolve. Instead of dragging files from random folders, this extension installs directly into your editing software giving you a clean, organized panel of professional-grade sound effects right inside your timeline.\n<\/p><\/div>"
+            "custom_liquid": "<div class='custom-html-container'><p>Essential SFX is a sound effects extension built for Adobe After Effects, Premiere Pro, and DaVinci Resolve. Instead of dragging files from random folders, this extension installs directly into your editing software giving you a clean, organized panel of professional-grade sound effects right inside your timeline.\n</p></div>"
           }
         },
         "list_item_K6K4yQ": {
@@ -364,8 +364,8 @@
         "box_bg_end": "#1e1e1ecc",
         "text_color": "#ffffff",
         "video_alignment": "left",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01f0dce4a82e4ac2bcdf84d7f07cf249.mp4",
-        "video_cover": "shopify:\/\/shop_images\/Rectangle_27.png"
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/01f0dce4a82e4ac2bcdf84d7f07cf249.mp4",
+        "video_cover": "shopify://shop_images/Rectangle_27.png"
       }
     },
     "gradient_heading_dbe6J6": {
@@ -373,7 +373,7 @@
       "disabled": true,
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "Made With Essential [gradient] SFX[\/gradient]",
+        "heading_text": "Made With Essential [gradient] SFX[/gradient]",
         "heading_size_desktop": 31,
         "heading_size_mobile": 36,
         "subheading_text": "",
@@ -396,7 +396,7 @@
       "type": "apps",
       "blocks": {
         "spark_spotlight_carousal_zAN9rP": {
-          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "type": "shopify://apps/spark/blocks/spotlight-carousal/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
           "settings": {
             "show_videos_dynamically": false,
             "auto_play_video_next_video": false,
@@ -445,7 +445,7 @@
         "custom_liquid_hiTUxN": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class='custom-html-container'><p>Essential FX is a custom extension for Adobe After Effects that enhances the way you edit — giving you clean, fast access to powerful tools, effects, speedramping, and workflow shortcuts inside your timeline.\n<\/p><\/div>"
+            "custom_liquid": "<div class='custom-html-container'><p>Essential FX is a custom extension for Adobe After Effects that enhances the way you edit — giving you clean, fast access to powerful tools, effects, speedramping, and workflow shortcuts inside your timeline.\n</p></div>"
           }
         },
         "heading_settings_pCBDHd": {
@@ -509,7 +509,7 @@
         "text_color": "#ffffff",
         "video_alignment": "right",
         "video_url": "",
-        "video_cover": "shopify:\/\/shop_images\/Rectangle_27.png"
+        "video_cover": "shopify://shop_images/Rectangle_27.png"
       }
     },
     "gradient_heading_H9dKFq": {
@@ -517,7 +517,7 @@
       "disabled": true,
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "What Our [gradient]User[\/gradient] Says",
+        "heading_text": "What Our [gradient]User[/gradient] Says",
         "heading_size_desktop": 48,
         "heading_size_mobile": 36,
         "subheading_text": "",
@@ -542,7 +542,7 @@
         "review_fgPkWC": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26.png",
+            "reviewer_image": "shopify://shop_images/Group_26.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(0, 117, 255, 0.31), rgba(82, 124, 226, 1) 53%, rgba(0, 0, 0, 1) 100%)",
             "image_bg_opacity": 60,
@@ -569,7 +569,7 @@
         "review_KbGqyr": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26.png",
+            "reviewer_image": "shopify://shop_images/Group_26.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(0, 117, 255, 0.31), rgba(82, 124, 226, 1) 53%, rgba(0, 0, 0, 1) 100%)",
             "image_bg_opacity": 60,
@@ -596,7 +596,7 @@
         "review_JKtM8P": {
           "type": "review",
           "settings": {
-            "reviewer_image": "shopify:\/\/shop_images\/Group_26.png",
+            "reviewer_image": "shopify://shop_images/Group_26.png",
             "use_image_background": false,
             "image_background": "linear-gradient(3deg, rgba(0, 117, 255, 0.31), rgba(82, 124, 226, 1) 53%, rgba(0, 0, 0, 1) 100%)",
             "image_bg_opacity": 60,
@@ -652,7 +652,7 @@
         "review_border_radius": 8,
         "quote_size": 16,
         "quote_color": "#4a90e2",
-        "quote_icon_image": "shopify:\/\/shop_images\/quote-up.png",
+        "quote_icon_image": "shopify://shop_images/quote-up.png",
         "enable_card_gradient_border": true,
         "card_border_gradient": "linear-gradient(94deg, rgba(11, 11, 11, 1), rgba(70, 155, 255, 1) 54%, rgba(11, 11, 11, 1) 100%)",
         "border_glow_intensity": 40,
@@ -668,7 +668,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/22e40acf239ff9130a4be22581d1d71769fe8210.png",
+            "icon": "shopify://shop_images/22e40acf239ff9130a4be22581d1d71769fe8210.png",
             "icon_width": 80,
             "icon_bg_from": "#4a90e2",
             "icon_bg_to": "#9b9b9b",
@@ -694,7 +694,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/eba71c545a05992dfcbdb59f08972bb55cd624dd.png",
+            "icon": "shopify://shop_images/eba71c545a05992dfcbdb59f08972bb55cd624dd.png",
             "icon_width": 80,
             "icon_bg_from": "#4a90e2",
             "icon_bg_to": "#9b9b9b",
@@ -720,7 +720,7 @@
             "box_bg_color": "#000000",
             "border_glow_from": "#aaa490",
             "border_glow_middle": "#ede6ca",
-            "icon": "shopify:\/\/shop_images\/be3b5bb2e784eb1db101988da67fb4f56ae9c2e8.png",
+            "icon": "shopify://shop_images/be3b5bb2e784eb1db101988da67fb4f56ae9c2e8.png",
             "icon_width": 80,
             "icon_bg_from": "#4a90e2",
             "icon_bg_to": "#9b9b9b",
@@ -769,7 +769,7 @@
       "disabled": true,
       "name": "Gradient Heading",
       "settings": {
-        "heading_text": "Your new SFX workflow is [gradient] here[\/gradient]",
+        "heading_text": "Your new SFX workflow is [gradient] here[/gradient]",
         "heading_size_desktop": 41,
         "heading_size_mobile": 20,
         "subheading_text": "Essential SFX Version 2.0 is available now",
@@ -792,7 +792,7 @@
       "type": "main-product",
       "blocks": {
         "judge_me_reviews_preview_badge_qYbXzC": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {}
         },
@@ -849,7 +849,7 @@
           "disabled": true,
           "settings": {
             "title": "Shipping information",
-            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.</p><p>Ex: Shipping and return policies, size guides, and other common questions.</p>",
             "page": ""
           }
         },
@@ -866,7 +866,7 @@
           "settings": {}
         },
         "judge_me_reviews_review_widget_wajyLA": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
@@ -925,7 +925,7 @@
           "type": "question",
           "settings": {
             "title": "What software does Essential SFX work with?",
-            "text": "<p>Our software is compatible with all major audio editing and production software, including but not limited to Adobe Premiere, Final Cut Pro, Logic Pro, Ableton Live, and many more.<\/p>",
+            "text": "<p>Our software is compatible with all major audio editing and production software, including but not limited to Adobe Premiere, Final Cut Pro, Logic Pro, Ableton Live, and many more.</p>",
             "question_color": "#3b5dba",
             "use_question_gradient": true,
             "question_gradient_end_color": "#3b5dba",
@@ -940,7 +940,7 @@
           "type": "question",
           "settings": {
             "title": "Is this a one-time purchase or subscription?",
-            "text": "<p>Essential SFX is a one-time purchase that gives you lifetime access to the entire sound effects library included in your package.<\/p>",
+            "text": "<p>Essential SFX is a one-time purchase that gives you lifetime access to the entire sound effects library included in your package.</p>",
             "question_color": "#ffffff",
             "use_question_gradient": false,
             "question_gradient_end_color": "#cccccc",
@@ -955,7 +955,7 @@
           "type": "question",
           "settings": {
             "title": "Do I get future updates?",
-            "text": "<p>Yes! All customers receive free updates to their purchased sound packs, including any expansions or improvements we make to existing effects.<\/p>",
+            "text": "<p>Yes! All customers receive free updates to their purchased sound packs, including any expansions or improvements we make to existing effects.</p>",
             "question_color": "#ffffff",
             "use_question_gradient": false,
             "question_gradient_end_color": "#cccccc",
@@ -970,7 +970,7 @@
           "type": "question",
           "settings": {
             "title": "Can I preview sounds before using them?",
-            "text": "<p>Absolutely! Our intuitive interface allows you to preview any sound effect before adding it to your project, complete with waveform visualization.<\/p>",
+            "text": "<p>Absolutely! Our intuitive interface allows you to preview any sound effect before adding it to your project, complete with waveform visualization.</p>",
             "question_color": "#ffffff",
             "use_question_gradient": false,
             "question_gradient_end_color": "#cccccc",
