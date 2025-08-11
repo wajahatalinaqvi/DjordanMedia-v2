@@ -1,0 +1,745 @@
+{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+
+<div class="faq-section {% if section.settings.use_gradient_bg %}gradient-bg{% endif %}" 
+     style="
+       background-color: {{ section.settings.bg_color }};
+       {% if section.settings.use_gradient_bg %}
+         background: linear-gradient({{ section.settings.gradient_direction }}deg, {{ section.settings.bg_color }} 0%, {{ section.settings.gradient_end_color }} 100%);
+       {% endif %}
+     ">
+  <div class="page-width page-width--narrow">
+    
+    {%- if section.settings.title != blank or section.settings.subtitle != blank -%}
+      <header class="section-header faq-header">
+        {% if section.settings.title != blank %}
+          <h2 class="section-header__title faq-main-title"
+             {% if section.settings.use_title_gradient %}
+                style="
+                  background: linear-gradient({{ section.settings.title_gradient_direction }}deg, {{ section.settings.title_color }} 0%, {{ section.settings.title_gradient_end_color }} 100%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;"
+             {% else %}
+                style="color: {{ section.settings.title_color }};"
+             {% endif %}>
+            {{ section.settings.title | escape }}
+          </h2>
+        {% endif %}
+        
+        {% if section.settings.subtitle != blank %}
+          <p class="faq-subtitle"
+             {% if section.settings.use_subtitle_gradient %}
+                style="
+                  background: linear-gradient({{ section.settings.subtitle_gradient_direction }}deg, {{ section.settings.subtitle_color }} 0%, {{ section.settings.subtitle_gradient_end_color }} 100%);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                  background-clip: text;"
+             {% else %}
+                style="color: {{ section.settings.subtitle_color }};"
+             {% endif %}>
+            {{ section.settings.subtitle | escape }}
+          </p>
+        {% endif %}
+      </header>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when 'question' %}
+                  {
+                    "@type": "Question",
+                    "name": {{ block.settings.title | json }},
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": {{ block.settings.text | json }}
+                    }
+                  }{% unless forloop.last %},{% endunless %}
+              {% endcase %}
+            {% endfor %}
+          ]
+        }
+      </script>
+
+      <div class="faq-container">
+        {%- for block in section.blocks -%}
+          <div class="faq-item" {{ block.shopify_attributes }}>
+            {% case block.type %}
+              {% when 'rich-text'%}
+                <div class="index-section index-section--faq">
+                  <div class="text-{{ block.settings.align_text }}">
+                    {%- if block.settings.title != blank -%}
+                      <p class="h2">
+                        {{ block.settings.title | escape }}
+                      </p>
+                    {%- endif -%}
+                    {%- if block.settings.text != blank -%}
+                      <div class="rte">
+                        {%- if block.settings.enlarge_text %}<div class="enlarge-text">{% endif -%}
+                          {{ block.settings.text }}
+                        {%- if block.settings.enlarge_text %}</div>{% endif -%}
+                      </div>
+                    {%- endif -%}
+                  </div>
+                </div>
+
+              {% when 'question'%}
+                <div class="faq-question-wrapper">
+                  <button type="button" class="faq-question" aria-controls="FAQ-content-{{ block.id }}"
+                     {% if block.settings.use_question_gradient %}
+                        style="
+                          background: linear-gradient({{ block.settings.question_gradient_direction }}deg, {{ block.settings.question_color }} 0%, {{ block.settings.question_gradient_end_color }} 100%);
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                          background-clip: text;"
+                     {% else %}
+                        style="color: {{ block.settings.question_color }};"
+                     {% endif %}>
+                    <span>{{ block.settings.title }}</span>
+                    <div class="faq-icon">
+                      <span class="icon-plus">+</span>
+                      <span class="icon-minus">−</span>
+                    </div>
+                  </button>
+                  <div id="FAQ-content-{{ block.id }}" class="faq-answer"
+                     {% if block.settings.use_answer_gradient %}
+                        style="
+                          background: linear-gradient({{ block.settings.answer_gradient_direction }}deg, {{ block.settings.answer_color }} 0%, {{ block.settings.answer_gradient_end_color }} 100%);
+                          -webkit-background-clip: text;
+                          -webkit-text-fill-color: transparent;
+                          background-clip: text;"
+                     {% else %}
+                        style="color: {{ block.settings.answer_color }};"
+                     {% endif %}>
+                    {{ block.settings.text }}
+                  </div>
+                </div>
+            {% endcase %}
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+    {%- if section.blocks.size == 0 -%}
+      <div class="placeholder-noblocks">
+        {{ 'home_page.onboarding.no_content' | t }}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{%- if section.settings.divider -%}</div>{%- endif -%}
+
+<style>
+  .faq-section {
+    padding: {{ section.settings.padding_top }}px 0 {{ section.settings.padding_bottom }}px;
+  }
+  
+  .faq-header {
+    text-align: center;
+    margin-bottom: {{ section.settings.header_bottom_spacing }}px;
+  }
+  
+  .faq-main-title {
+    font-weight: {{ section.settings.title_weight }};
+    font-size: {{ section.settings.title_size }}px;
+    margin-bottom: 10px;
+  }
+  
+  .faq-subtitle {
+    font-size: {{ section.settings.subtitle_size }}px;
+    margin-top: 0;
+  }
+  
+  .faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .faq-item {
+    margin-bottom: {{ section.settings.question_spacing }}px;
+  }
+  
+  .faq-question-wrapper {
+    border: {% if section.settings.show_borders %}1px solid {{ section.settings.border_color }}{% else %}none{% endif %};
+    border-radius: {{ section.settings.border_radius }}px;
+    background-color: {{ section.settings.question_bg_color }};
+    overflow: hidden;
+  }
+  
+  .faq-question {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: {{ section.settings.question_size }}px;
+    font-weight: {{ section.settings.question_weight }};
+  }
+  
+  .faq-icon {
+    margin-left: 10px;
+  }
+  
+  .icon-minus {
+    display: none;
+  }
+  
+  .faq-question.active .icon-plus {
+    display: none;
+  }
+  
+  .faq-question.active .icon-minus {
+    display: block;
+  }
+  
+  .faq-answer {
+    display: none;
+    padding: 0 20px 16px;
+    font-size: {{ section.settings.answer_size }}px;
+  }
+  
+  .faq-answer.active {
+    display: block;
+  }
+
+  @media screen and (max-width: 768px) {
+    .faq-main-title {
+      font-size: {{ section.settings.title_size_mobile }}px;
+    }
+    
+    .faq-subtitle {
+      font-size: {{ section.settings.subtitle_size_mobile }}px;
+    }
+    
+    .faq-question {
+      font-size: {{ section.settings.question_size_mobile }}px;
+    }
+    
+    .faq-answer {
+      font-size: {{ section.settings.answer_size_mobile }}px;
+    }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    
+    faqQuestions.forEach(question => {
+      question.addEventListener('click', function() {
+        const answer = this.nextElementSibling;
+        const isActive = this.classList.contains('active');
+        
+        // Close all answers
+        faqQuestions.forEach(q => {
+          q.classList.remove('active');
+          q.nextElementSibling.classList.remove('active');
+        });
+        
+        // Toggle current answer
+        if (!isActive) {
+          this.classList.add('active');
+          answer.classList.add('active');
+        }
+      });
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout Settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "default": 60,
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "default": 60,
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "header_bottom_spacing",
+      "label": "Space After Header",
+      "default": 40,
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "question_spacing",
+      "label": "Space Between Questions",
+      "default": 16,
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Background Settings"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_gradient_bg",
+      "label": "Use Gradient Background",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "gradient_end_color",
+      "label": "Gradient End Color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "gradient_direction",
+      "label": "Gradient Direction",
+      "default": 90,
+      "min": 0,
+      "max": 360,
+      "step": 10,
+      "unit": "deg"
+    },
+    {
+      "type": "header",
+      "content": "Title Settings"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "FAQ"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_title_gradient",
+      "label": "Use Gradient for Title",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "title_gradient_end_color",
+      "label": "Title Gradient End Color",
+      "default": "#CCCCCC"
+    },
+    {
+      "type": "range",
+      "id": "title_gradient_direction",
+      "label": "Title Gradient Direction",
+      "default": 90,
+      "min": 0,
+      "max": 360,
+      "step": 10,
+      "unit": "deg"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title Size (Desktop)",
+      "default": 40,
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "title_size_mobile",
+      "label": "Title Size (Mobile)",
+      "default": 32,
+      "min": 18,
+      "max": 60,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "title_weight",
+      "label": "Title Font Weight",
+      "default": "600",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-Bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Subtitle Settings"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Got Questions? We've Got Answers!"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_subtitle_gradient",
+      "label": "Use Gradient for Subtitle",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "subtitle_gradient_end_color",
+      "label": "Subtitle Gradient End Color",
+      "default": "#CCCCCC"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_gradient_direction",
+      "label": "Subtitle Gradient Direction",
+      "default": 90,
+      "min": 0,
+      "max": 360,
+      "step": 10,
+      "unit": "deg"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "label": "Subtitle Size (Desktop)",
+      "default": 18,
+      "min": 14,
+      "max": 40,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size_mobile",
+      "label": "Subtitle Size (Mobile)",
+      "default": 16,
+      "min": 12,
+      "max": 30,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Question Appearance"
+    },
+    {
+      "type": "color",
+      "id": "question_bg_color",
+      "label": "Question Background Color",
+      "default": "#111111"
+    },
+    {
+      "type": "range",
+      "id": "question_size",
+      "label": "Question Font Size (Desktop)",
+      "default": 18,
+      "min": 14,
+      "max": 30,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "question_size_mobile",
+      "label": "Question Font Size (Mobile)",
+      "default": 16,
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "question_weight",
+      "label": "Question Font Weight",
+      "default": "500",
+      "options": [
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "600",
+          "label": "Semi-Bold"
+        },
+        {
+          "value": "700",
+          "label": "Bold"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Answer Appearance"
+    },
+    {
+      "type": "range",
+      "id": "answer_size",
+      "label": "Answer Font Size (Desktop)",
+      "default": 16,
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "answer_size_mobile",
+      "label": "Answer Font Size (Mobile)",
+      "default": 14,
+      "min": 12,
+      "max": 22,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Border Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_borders",
+      "label": "Show Borders",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border Color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Border Radius",
+      "default": 8,
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "rich-text",
+      "name": "Rich Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Rich text"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.</p>"
+        },
+        {
+          "type": "select",
+          "id": "align_text",
+          "label": "Text Alignment",
+          "default": "left",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question",
+          "default": "What software does Essential SFX work with?"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Answer",
+          "default": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+        },
+        {
+          "type": "color",
+          "id": "question_color",
+          "label": "Question Text Color",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_question_gradient",
+          "label": "Use Gradient for Question",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "question_gradient_end_color",
+          "label": "Question Gradient End Color",
+          "default": "#CCCCCC"
+        },
+        {
+          "type": "range",
+          "id": "question_gradient_direction",
+          "label": "Question Gradient Direction",
+          "default": 90,
+          "min": 0,
+          "max": 360,
+          "step": 10,
+          "unit": "deg"
+        },
+        {
+          "type": "color",
+          "id": "answer_color",
+          "label": "Answer Text Color",
+          "default": "#CCCCCC"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_answer_gradient",
+          "label": "Use Gradient for Answer",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "answer_gradient_end_color",
+          "label": "Answer Gradient End Color",
+          "default": "#999999"
+        },
+        {
+          "type": "range",
+          "id": "answer_gradient_direction",
+          "label": "Answer Gradient Direction",
+          "default": 90,
+          "min": 0,
+          "max": 360,
+          "step": 10,
+          "unit": "deg"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ",
+      "settings": {
+        "title": "FAQ",
+        "subtitle": "Got Questions? We've Got Answers!",
+        "bg_color": "#000000",
+        "title_color": "#FFFFFF",
+        "subtitle_color": "#FFFFFF"
+      },
+      "blocks": [
+        {
+          "type": "question",
+          "settings": {
+            "title": "What software does Essential SFX work with?",
+            "text": "<p>Our software is compatible with all major audio editing and production software, including but not limited to Adobe Premiere, Final Cut Pro, Logic Pro, Ableton Live, and many more.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "title": "Is this a one-time purchase or subscription?",
+            "text": "<p>Essential SFX is a one-time purchase that gives you lifetime access to the entire sound effects library included in your package.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "title": "Do I get future updates?",
+            "text": "<p>Yes! All customers receive free updates to their purchased sound packs, including any expansions or improvements we make to existing effects.</p>"
+          }
+        },
+        {
+          "type": "question",
+          "settings": {
+            "title": "Can I preview sounds before using them?",
+            "text": "<p>Absolutely! Our intuitive interface allows you to preview any sound effect before adding it to your project, complete with waveform visualization.</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  }
+}
+{% endschema %}

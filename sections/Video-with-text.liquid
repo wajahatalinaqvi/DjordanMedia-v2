@@ -1,0 +1,617 @@
+{% schema %}
+{
+  "name": "Video With Text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout Settings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top Padding",
+      "default": 60,
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom Padding",
+      "default": 60,
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "label": "Top Margin",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "Bottom Margin",
+      "default": 0,
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px"
+    },
+ 
+   
+    {
+      "type": "header",
+      "content": "Spacing Settings"
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "label": "Space After Heading",
+      "default": 10,
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "subheading_spacing",
+      "label": "Space After Subheading",
+      "default": 20,
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "custom_content_spacing",
+      "label": "Space After Custom Content",
+      "default": 16,
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "list_item_spacing",
+      "label": "Space Between List Items",
+      "default": 8,
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "list_spacing",
+      "label": "Space After List",
+      "default": 20,
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "List Settings"
+    },
+    {
+      "type": "color",
+      "id": "dot_color",
+      "label": "List Dot Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Text Content Box Settings"
+    },
+
+    {
+      "type": "color",
+      "id": "box_bg_start",
+      "label": "Box Background Start Color",
+      "default": "#000000D9"
+    },
+    {
+      "type": "color",
+      "id": "box_bg_main",
+      "label": "Box Background Main Color",
+      "default": "#121212CC"
+    },
+    {
+      "type": "color",
+      "id": "box_bg_end",
+      "label": "Box Background End Color",
+      "default": "#1E1E1ECC"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "header",
+      "content": "Video Settings"
+    },
+    {
+      "type": "select",
+      "id": "video_alignment",
+      "label": "Video Position",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "right"
+    },
+    {
+  "type": "text",
+  "id": "video_url",
+  "label": "Video URL",
+  "info": "Paste a YouTube, Vimeo, or direct .mp4 video link here"
+},
+    {
+      "type": "image_picker",
+      "id": "video_cover",
+      "label": "Video Cover Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "custom_liquid",
+      "name": "Custom Liquid",
+      "settings": [
+        {
+          "type": "liquid",
+          "id": "custom_liquid",
+          "label": "Custom Liquid",
+          "default": "<p>Custom content here</p>"
+        }
+      ]
+    },
+    {
+      "type": "heading_settings",
+      "name": "Heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading_text",
+          "label": "Heading Text",
+          "default": "What Is Essential SFX",
+          "info": "Separate words with spaces to color them individually"
+        },
+        {
+          "type": "text",
+          "id": "word_colors",
+          "label": "Word Colors (comma-separated)",
+          "default": "#FFFFFF,#FFFFFF,#FFFFFF,#4A90E2",
+          "info": "Add colors separated by commas (e.g., #FFFFFF,#000000,#4A90E2)"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_desktop",
+          "label": "Font Size (Desktop)",
+          "default": 40,
+          "min": 20,
+          "max": 80,
+          "step": 2,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_mobile",
+          "label": "Font Size (Mobile)",
+          "default": 16,
+          "min": 14,
+          "max": 50,
+          "step": 2,
+          "unit": "px"
+        }
+      ]
+    },
+    {
+      "type": "subheading",
+      "name": "Subheading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "subheading_text",
+          "label": "Subheading Text",
+          "default": "Your subheading here"
+        },
+        {
+          "type": "color",
+          "id": "subheading_color",
+          "label": "Subheading Color",
+          "default": "#9B9B9B"
+        },
+        {
+          "type": "range",
+          "id": "subheading_size_desktop",
+          "label": "Font Size (Desktop)",
+          "default": 18,
+          "min": 14,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "subheading_size_mobile",
+          "label": "Font Size (Mobile)",
+          "default": 16,
+          "min": 12,
+          "max": 30,
+          "step": 1,
+          "unit": "px"
+        }
+      ]
+    },
+
+    {
+      "type": "list_item",
+      "name": "List Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "item_text",
+          "label": "Item Text",
+          "default": "List item text"
+        },
+        {
+          "type": "range",
+          "id": "text_size_desktop",
+          "label": "Font Size (Desktop)",
+          "default": 16,
+          "min": 12,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "text_size_mobile",
+          "label": "Font Size (Mobile)",
+          "default": 14,
+          "min": 10,
+          "max": 30,
+          "step": 1,
+          "unit": "px"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video With Text",
+      "blocks": [
+        {
+          "type": "heading_settings",
+          "settings": {
+            "heading_text": "What Is Essential SFX",
+            "word_colors": "#FFFFFF,#FFFFFF,#FFFFFF,#4A90E2"
+          }
+        },
+        {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class='custom-html-container'><p>Add your custom HTML or Liquid code here</p></div>"
+          }
+        },
+        {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Multi Software compatibility"
+          }
+        },
+        {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Live waveform previews (hear it live)"
+          }
+        },
+        {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Custom File uploads into the extension"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.video-with-text {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  margin-top: {{ section.settings.margin_top }}px;
+  margin-bottom: {{ section.settings.margin_bottom }}px;
+  background: #000000;
+ 
+}
+.list-item-{{ section.id }}::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 7px;
+  border-radius: 50%;
+  background: {{ section.settings.dot_color }} !important;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.6);
+}
+.video-text-container-{{ section.id }}{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  {% if section.settings.video_alignment == 'right' %}
+     direction: rtl;
+    text-align: left;
+  {% else %}
+    text-align: left;
+  {% endif %}
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.video-container iframe,
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  {% comment %} padding: 30px; {% endcomment %}
+  border-radius: 8px;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.25);
+ 
+  {% if section.settings.video_alignment == 'right' %}
+    direction: ltr;
+    text-align: left;
+  {% else %}
+    text-align: left;
+  {% endif %}
+}
+
+.text-content::before {
+  content: '';
+  position: absolute;
+  top: -32px;
+  right: -13px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(ellipse, rgb(255 255 255 / 90%) -80%, rgba(255, 255, 255, 0) 102%);
+  filter: blur(116px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.heading-container {
+  display: block;
+  margin-bottom: {{ section.settings.heading_spacing }}px;
+}
+
+.heading-words {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.heading-word {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+
+.subheading {
+  margin-bottom: {{ section.settings.subheading_spacing }}px;
+  line-height: 1.3;
+}
+
+.custom-html-container {
+  margin: 0;
+}
+
+.custom-liquid {
+  margin-bottom: {{ section.settings.custom_content_spacing }}px;
+}
+
+.list-container {
+  margin-bottom: 0;
+}
+
+.list-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: {{ section.settings.list_spacing }}px;
+}
+
+.list-item-{{ section.id }} {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: {{ section.settings.list_item_spacing }}px;
+  color: {{ section.settings.text_color }};
+  font-family: 'Poppins' !important;
+    font-weight: 300 !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .video-text-container-{{ section.id }}{
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .heading-container {
+    margin-bottom: 20px;
+  }
+  .text-content::before{
+      right: -12px;
+    width: 332px;
+}
+}
+
+
+
+  {% for block in section.blocks %}
+    {% if block.type == "heading_settings" %}
+      #shopify-section-{{ section.id }} .heading-container[data-block-id="{{ block.id }}"] .heading-word {
+        font-size: {{ block.settings.heading_size_desktop }}px;
+      }
+    {% endif %}
+    {% endfor %}
+</style>
+
+<div class="video-with-text">
+  <div class="video-text-container-{{ section.id }}">
+<div class="video-container" id="video-{{ section.id }}">
+  {% assign video_url = section.settings.video_url | default: "" | strip %}
+
+  {% if video_url contains "youtube.com/watch?v=" %}
+    {% assign youtube_id = video_url | split: "v=" | last | split: "&" | first %}
+    <iframe
+      src="https://www.youtube.com/embed/{{ youtube_id }}?rel=0&controls=1"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+  {% elsif video_url contains "youtu.be/" %}
+    {% assign youtube_id = video_url | split: "youtu.be/" | last | split: "?" | first %}
+    <iframe
+      src="https://www.youtube.com/embed/{{ youtube_id }}?rel=0&controls=1"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+  {% elsif video_url contains "vimeo.com" %}
+    {% assign vimeo_id = video_url | split: '/' | last %}
+    <iframe
+      src="https://player.vimeo.com/video/{{ vimeo_id }}"
+      frameborder="0"
+      allow="autoplay; fullscreen"
+      allowfullscreen
+    ></iframe>
+
+  {% elsif video_url contains ".mp4" or video_url contains ".webm" %}
+    <video autoplay muted playsinline controls width="100%">
+      <source src="{{ video_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  {% else %}
+<img src="{{ section.settings.video_cover | image_url: width: 2000 }}" alt="Video cover" width="2000" height="{{ 2000 | divided_by: section.settings.video_cover.aspect_ratio | round }}">
+  {% endif %}
+</div>
+
+
+
+
+    
+    <div class="text-content">
+      {% for block in section.blocks %}
+        {% if block.type == "heading_settings" %}
+          <div class="heading-container" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+            <div class="heading-words">
+              {% assign words = block.settings.heading_text | split: ' ' %}
+              {% assign colors = block.settings.word_colors | split: ',' %}
+              {% for word in words %}
+                <span class="heading-word" 
+                      style="
+                        color: {{ colors[forloop.index0] | default: colors.last }};">
+                  {{ word }}
+                </span>
+              {% endfor %}
+            </div>
+          </div>
+        {% elsif block.type == "subheading" %}
+          <div class="subheading" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}
+               style="
+                 color: {{ block.settings.subheading_color | default: section.settings.text_color }};
+                 font-size: {{ block.settings.subheading_size_desktop | default: block.settings.text_size_desktop }}px;">
+            {{ block.settings.subheading_text }}
+          </div>
+        {% elsif block.type == "custom_liquid" %}
+          <div class="custom-liquid" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+            {{ block.settings.custom_liquid }}
+          </div>
+        {% elsif block.type == "list_item" %}
+          <div class="list-container" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+            <ul class="list-items">
+              <li class="list-item-{{ section.id }}"
+                  style="font-size: {{ block.settings.text_size_desktop }}px;">
+                {{ block.settings.item_text }}
+              </li>
+            </ul>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% style %}
+@media screen and (max-width: 768px) {
+  {% for block in section.blocks %}
+    {% if block.type == "heading_settings" %}
+      #shopify-section-{{ section.id }} .heading-container[data-block-id="{{ block.id }}"] .heading-word {
+        font-size: {{ block.settings.heading_size_mobile }}px;
+      }
+    {% endif %}
+    
+    {% if block.type == "subheading" %}
+      #shopify-section-{{ section.id }} .subheading[data-block-id="{{ block.id }}"] {
+        font-size: {{ block.settings.subheading_size_mobile | default: block.settings.text_size_mobile }}px;
+      }
+    {% endif %}
+    
+    {% if block.type == "list_item" %}
+      #shopify-section-{{ section.id }} .list-container[data-block-id="{{ block.id }}"] .-list-item-{{ section.id }} {
+        font-size: {{ block.settings.text_size_mobile }}px;
+      }
+    {% endif %}
+  {% endfor %}
+}
+{% endstyle %}

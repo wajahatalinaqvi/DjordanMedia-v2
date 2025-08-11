@@ -1,0 +1,326 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1707951957c7ec05d9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_homepage_tA9GyR": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget_homepage\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "essentialfx-1"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_homepage_tA9GyR"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "5b3146d7-e33f-4930-be18-9f24ac8cb3b6": {
+      "type": "testimonials",
+      "blocks": {
+        "b6689765-d05d-47d6-9fca-27cd116e8699": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This program has transformed the way I edit video, and I have @djordanmedia to thank for that! I took his courses and they have helped me unlock this softwares (and my own) true potential in no time. It's an intimidating software at first, but it is a breeze once you get used to it. After Effects has a lot of effects built into the program out of the box; most of my videos use effects all native to After Effects. However, there is a plethora of plugins available to enhance your videos, some of which are free! Some plugins do cost quite a bit of money though, as they are expensive one time purchases or expensive subscriptions. They are not necessary by any means, but do keep that in mind.<\/p><p>If you are interested in learning how to do effects like this, use code \"MastroMedia\" at checkout on @djordanmedia's website for a discount!<\/p>",
+            "author": "Mastro.Media",
+            "author_info": "Videographer \/ Editor"
+          }
+        },
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Started off as photographer and had a passion for it. I had been doing it for 2 years and loved every bit of it and still do. Then I saw djordanmedia reels and course and I was hooked! I wanted to learn how to make Epic  videos ! Like Jordan and so I got the course and never looked back at it ! I’ve learnt so much from the courses ! From setting up basic composition to speed ramping to insane Effects and ultimately finding my flow ! I never thought I’ve fall in love with video editing Jordan has thought me so much and I’m so thankful and grateful for his help and the courses he provided !!<\/p>",
+            "author": "Zains media",
+            "author_info": "Videographer \/ Editor"
+          }
+        },
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>These courses are well worth the money, what you learn from them is priceless. Sure, YouTube tutorials can help you understand the basics of After Effects and specific ways to use effects, but DJordanMedia explains it 10x better and helps you understand a super efficient editing workflow through both After Effects and Premiere Pro! I used to edit on a super outdated version of Sony Vegas, these courses caused me to completely switch to Adobe. In 2 hours these courses have baked in everything I need to know to make quality content, and after 1 week of practicing I'm entirely comfortable with using Adobe software to edit thanks to DJordanMedia! My content has never looked better and it's paid off by bringing me plenty of new clients! The Discord server that you get invited to through these courses is very active with everyone helping each other too, and you get access to exclusive benefits! It's a lot of fun watching each other grow through the community server. I 100% recommend this course to anyone who's trying to expand their knowledge in After Effects, beginner or not!<\/p>",
+            "author": "Matt Redman (RedmanProductions)",
+            "author_info": "Videographer"
+          }
+        },
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Firstly, I am so glad that these courses are available internationally. I was always nervous about video editing and did not know where to start. Tutorials online are hours long and are not straightforward, which made it harder for me to understand. Thankfully I found Djordanmedia, and after talking to him I felt that the courses were the right fit for me. I am now comfortable and a lot more confident editing in Adobe After Effects which has helped me work for more clients. I would definitely recommend these courses to anyone that wants to advance their editing skills without the hassle of searching for multiple tutorials online.<\/p>",
+            "author": "Abdul Mahmood",
+            "author_info": "Videographer"
+          }
+        },
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>A year and a half ago, I started photography out of my passion for cars, and 5 months ago I got the courage to buy the courses and now my life has completely changed professionally. I started collaborating with many people and businesses<\/p>",
+            "author": "Heron",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Well I’ve been doing photography since 2016 and been learning more and more about it still, I do photography as a business and passion but since the pandemic 2019 wasn’t a good year of business since a lot of my clients canceled due to COVID. But I still have my passion and I’ve been seeing videos and “reels” and tiktok making its way up to catch the viewers attention and I saw potential in doing videography. I didn’t know anything about videography nor editing but every since Destin gave people who want a teacher to learn from he gave everyone the option to learn. And that motivated me more. Ever since I’ve been taking the courses I’ve gained knowledge and experience skills of videography and editing and how to manage high level editing skills and I’ve gained new friends from the media world and clients!<\/p>",
+            "author": "krememedia",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "3cd83848-45a7-4878-847e-cb806f4172d8": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I bought a camera to do portraits for my family and friends, but I fell in love with taking photos of cars. Then I saw a video of danielpetermedia and at the same moment I realized, that I want to make videos aswell. The problem was, I didn't know where to start. I knew that the only way to make good videos is to use after effects, but the tutorials were hard to understand or they were very advanced. Then I saw a video of you and it blew my mind. I never saw a video creator, that was so creative and so good. I hesitated for a few weeks, but then I bought the courses and everybody around me noticed how much better they have become. For me it feels like a modern art and I can't wait to see what is going to happen in the future. I met a lot of amazing people, saw a lot of beautiful cars and it just made a better person overall. I'm feeling pretty confident using after effects. About 3 months ago I didn't know where to start and I thought it was impossible. The courses are not cheap, but it was the best videography investment that I made. Thanks for sharing your experience and knowledge!<\/p>",
+            "author": "visualgraphx",
+            "author_info": "Videographer"
+          }
+        },
+        "7fc19609-dbc9-4d04-b2d6-fc91b9b1b999": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Am in the clothing industry video editing for 1 year and am doing a really decent job(trend videos), i want to use the course for more creativity on my videos and also doing some ok car videos(Instagram my work) At the moment i buy it all before 4 days i saw it but not much(i did the 1 ,2 course) cuz am working 10 hours a day at the moment. But the videos is amazing your explanations is amazing! I am owner of 2 clothing shops and am doing some jobs with clothing trend videos<\/p>",
+            "author": "christos.media",
+            "author_info": "Videographer \/ Photographer"
+          }
+        }
+      },
+      "block_order": [
+        "b6689765-d05d-47d6-9fca-27cd116e8699",
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-0",
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-1",
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-2",
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-3",
+        "template--16718556659967__5b3146d7-e33f-4930-be18-9f24ac8cb3b6-1682635917dd55d773-4",
+        "3cd83848-45a7-4878-847e-cb806f4172d8",
+        "7fc19609-dbc9-4d04-b2d6-fc91b9b1b999"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "d7c0f281-ad56-408f-a12a-8b155819fc95": {
+      "type": "testimonials",
+      "blocks": {
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>They are too fire. I look at videos I made like a couple months ago and regret even posting them. The courses taught me stuff that would have taken me years to get on my own<\/p>",
+            "author": "vehicle_visuals_",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The courses changes everything for me bro. Literally went from 0 to 100 in a matter of days. Ontop of that the community we have it top tier. Zero regrets💯<\/p>",
+            "author": "fitzandchips",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Don’t hesitate to invest in yourself. I’m mad I waited so long myself but learning the knowledge and skills for this art is way more important than any piece of equipment you can buy or use. Learning from the courses and getting help from members in the group is the best thing I’ve ever done for myself and my passion. Even if you’re experienced, this course will take your skills to a new level and an even finer edge. Since I started this course I’ve been getting booked out with events and clients getting me closer to pursuing my passion full time with other very talented individuals, I highly recommend it<\/p>",
+            "author": "malcolm_createdviibes",
+            "author_info": "Videographer \/ Photographer \/ Portrait"
+          }
+        },
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>His courses are the best for any level, from beginner to advanced in editing! I‘ve been editing for quite some years but after visiting the course, editing in After effects has been so much easier ! I‘d defenetly recommend it! No matter the experience 🙌🏽🔥<\/p>",
+            "author": "saamue7",
+            "author_info": "Videographer \/ Photographer \/ Car Enthusiast"
+          }
+        },
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Results speak for themselves. Get the course, you won’t regret it🙏🏼<\/p>",
+            "author": "mastro.media",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "f3b06058-b5be-459c-b4ad-f006cd283999": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Courses are very helpful, well put together explanations are straight to the point and is easy to follow, it encourages everyone to develop their own styles from learning the best and easiest way to do it 🔥<\/p>",
+            "author": "rohhse.productions",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "aadd5640-0729-4bce-bafa-494c8a149316": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Worth every penny!! I’ve learned so much and been able to book with clients, and come up with a high quality content 🙌 great introduction and great community 🤙🏼😍<\/p>",
+            "author": "nawrasvisuals",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "48348068-1a18-4be3-beaf-b8f0f6aff145": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>One of the best investments iv ever made in a course! Everything is well put together and well explained, everything he shows you is clear and on point!! I just need to put In the time to keep practicing. But I definitely recommend his courses!!!! Much luv brother<\/p>",
+            "author": "shphotosf80",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "c273e9ab-15d0-4e8c-8ab0-b5157a32002e": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Courses changed the game. Teaches the basic fundamentals and some advanced editing to which you just stack your skills from there. From color grading to rendering, etc. These courses have it all! By far one of the best things Ive done. Invest in yourself this knowledge can be taken anywhere!<\/p>",
+            "author": "chillonmedia",
+            "author_info": "Photographer \/ Videographer"
+          }
+        }
+      },
+      "block_order": [
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-0",
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-1",
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-2",
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-3",
+        "template--16718556659967__d7c0f281-ad56-408f-a12a-8b155819fc95-1682635917dd55d773-4",
+        "f3b06058-b5be-459c-b4ad-f006cd283999",
+        "aadd5640-0729-4bce-bafa-494c8a149316",
+        "48348068-1a18-4be3-beaf-b8f0f6aff145",
+        "c273e9ab-15d0-4e8c-8ab0-b5157a32002e"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "f047abd5-32c1-43eb-a068-571c78ec15dc": {
+      "type": "testimonials",
+      "blocks": {
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I was one of the first people to join this course… These courses are excellent for people who are just getting started in After Effects! The discord is very supportive, courses are super organized with chapters, and absolutely NO ONE goes into as much detail as<a href=\"https:\/\/www.instagram.com\/djordanmedia\/\">@djordanmedia<\/a>on YT… 11\/10 👏<\/p>",
+            "author": "nicksfilms",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>100% recommend to everyone who wanna make dope videos! I literally didn’t know a thing about video, and the courses taught me fundamentals and to advanced level of video editing. He started the whole new level of car edits, and you won’t regret getting the courses 🔥<\/p>",
+            "author": "davesumedia",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Every penny you spend on<a href=\"https:\/\/www.instagram.com\/djordanmedia\/\">@djordanmedia<\/a>courses is well worth it. Take it from a fellow editor. Not only you get the benefit of the tutorials, you also get to be a part of the biggest and most influential names out there on these platforms that make viral car reels and videos alike. 10\/10 would recommend<\/p>",
+            "author": "gokmayne",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The tutorials are very well explained and the discord community provides a ton of value and support. It was a great investment for me 🙌🏽🙌🏽<\/p>",
+            "author": "ijm_edia",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Well worth the money, learned after effects and exporting techniques way faster than on my own, awesome community too ready to help!<\/p>",
+            "author": "hatchedphotography",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "accc63c6-fc21-4637-8008-c7bb6c92aec4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This course has helped me drastically with anything editing. The course is very in depth but allows someone that’s an absolute beginner to understand everything. Do not miss your chance! The team is a family!<\/p>",
+            "author": "dmooremedia",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "d3d3f04e-04fa-4b6f-90d3-5f0be1556d23": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>These courses are game changing. Concise, right to the point no extra confusing step, and in the end you get the final product. Came with no experience, but after 3 months I had a filming job lined up. Doing these courses helped me change the game and allowed me to make even more unique edits.<\/p>",
+            "author": "jrez_m3",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "c82e722a-c602-4ccc-8d09-b5547957b1d2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Best page on insta! Was a bit hesitant on getting on<a href=\"https:\/\/www.instagram.com\/explore\/tags\/djordanmedia\/\">#djordanmedia<\/a>editing course at first but honestly once I did I never looked back or had any regrets you seriously learn so much and the skills and knowledge you gain is for life!<\/p>",
+            "author": "zains_media",
+            "author_info": "Videographer \/ Photographer"
+          }
+        }
+      },
+      "block_order": [
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-0",
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-1",
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-2",
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-3",
+        "template--16718556659967__f047abd5-32c1-43eb-a068-571c78ec15dc-1682635917dd55d773-4",
+        "accc63c6-fc21-4637-8008-c7bb6c92aec4",
+        "d3d3f04e-04fa-4b6f-90d3-5f0be1556d23",
+        "c82e722a-c602-4ccc-8d09-b5547957b1d2"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1707951957c7ec05d9",
+    "5b3146d7-e33f-4930-be18-9f24ac8cb3b6",
+    "d7c0f281-ad56-408f-a12a-8b155819fc95",
+    "f047abd5-32c1-43eb-a068-571c78ec15dc"
+  ]
+}

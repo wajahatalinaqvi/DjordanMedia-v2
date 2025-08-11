@@ -1,0 +1,425 @@
+{
+  "sections": {
+    "advanced_content_MjNg7Q": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_xzcAbk": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\" \/>\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"\/>\n    <title>DJordanMedia's $3250 Editing Contest<\/title>\n    <style>\n        \/* Colors based on provided theme *\/\n        :root {\n            --background: #F0EDE0; \/* Cream *\/\n            --text: #1C1E24;\n            --buttons: #2A75AA;\n            --button-text: #FFFFFF;\n            --highlight: #FF4500;\n            --header-bg: #2A75AA;\n            --header-text: #F0EDE0;\n        }\n\n        body {\n            margin: 0;\n            padding: 0;\n            font-family: Arial, sans-serif;\n            background: var(--background);\n            color: var(--text);\n        }\n\n        \/* Hero Section *\/\n        .hero {\n            padding: 50px 20px;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            background: linear-gradient(to bottom, var(--header-bg) 0%, var(--background) 100%);\n            text-align: center;\n            position: relative;\n            overflow: hidden;\n        }\n\n        .hero h1 {\n            font-size: 3em;\n            color: var(--header-text);\n            margin-bottom: 15px;\n            text-shadow: 0 0 10px rgba(0,0,0,0.3), 0 0 20px var(--highlight);\n        }\n\n        .hashtag {\n            display: inline-block;\n            font-size: 1.2em;\n            color: var(--header-text);\n            background: rgba(0,0,0,0.2);\n            padding: 5px 10px;\n            border-radius: 20px;\n            margin-bottom: 20px;\n            text-shadow: 0 0 5px rgba(0,0,0,0.2);\n        }\n\n        .hero p {\n            font-size: 1.2em;\n            color: var(--header-text);\n            max-width: 600px;\n            margin: 0 auto 20px auto;\n            line-height: 1.5;\n            text-shadow: 0 0 5px rgba(0,0,0,0.1);\n        }\n\n        .hero-button {\n            display: inline-block;\n            background: linear-gradient(45deg, var(--buttons), var(--highlight));\n            color: var(--button-text);\n            padding: 10px 25px;\n            border-radius: 30px;\n            font-size: 1.1em;\n            font-weight: bold;\n            text-decoration: none;\n            transition: all 0.3s ease-in-out;\n            box-shadow: 0 0 10px var(--buttons), 0 0 20px var(--highlight);\n            cursor: pointer;\n        }\n\n        .hero-button:hover {\n            background: var(--buttons);\n            box-shadow: 0 0 15px var(--buttons), 0 0 25px var(--highlight);\n            transform: translateY(-3px);\n        }\n    <\/style>\n<\/head>\n<body>\n    <section class=\"hero\">\n        <h1>DJordanMedia's $3250 Editing Contest<\/h1>\n        <div class=\"hashtag\">#DJordanContest<\/div>\n        <p>Show off your editing prowess and seize the chance to win a Sony A7IV Bundle! Impress us with your creative vision, technique, and originality. Let’s celebrate the art of editing and empower creators worldwide.<\/p>\n        <a href=\"https:\/\/youtu.be\/7BPtweNi1PM\" target=\"_blank\" class=\"hero-button\">\n          Watch the Contest Overview Here\n        <\/a>\n    <\/section>\n<\/body>\n<\/html>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "image_pCA8aL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WebBanner_01.png",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_xzcAbk",
+        "image_pCA8aL"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false,
+        "lazyload_images": false
+      }
+    },
+    "countdown_x3Tgg6": {
+      "type": "countdown",
+      "blocks": {
+        "content_yhgnNw": {
+          "type": "content",
+          "settings": {
+            "heading": "Contest Closes in",
+            "heading_size": "h2",
+            "text": "",
+            "content_alignment": "left"
+          }
+        },
+        "timer_nqpF7x": {
+          "type": "timer",
+          "settings": {
+            "year": "2025",
+            "month": "01",
+            "day": "6",
+            "hour": "23",
+            "minute": "59",
+            "hide_timer": false,
+            "text": "<p>The Contest is now Closed. Judging will begin.<\/p>"
+          }
+        },
+        "button_rzbdFT": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_link": "",
+            "button": "Shop Collection",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content_yhgnNw",
+        "timer_nqpF7x",
+        "button_rzbdFT"
+      ],
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
+    "advanced_content_ALkxJK": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_wLPBf3": {
+          "type": "liquid",
+          "settings": {
+            "code": "<style>\n    :root {\n        --background: #F0EDE0; \/* Cream *\/\n        --text: #1C1E24;\n        --buttons: #2A75AA;\n        --button-text: #FFFFFF;\n        --highlight: #FF4500;\n        --header-bg: #2A75AA;\n        --header-text: #F0EDE0;\n    }\n\n    body {\n        margin: 0; \n        padding: 0; \n        font-family: Arial, sans-serif;\n    }\n\n    .prizes-section {\n        background: var(--background);\n        color: var(--text);\n        text-align: center;\n        padding: 80px 20px;\n        border-top: 2px solid var(--buttons);\n        position: relative;\n        max-width: 1200px;\n        margin: 0 auto;\n    }\n\n    .prizes-section h2 {\n        font-size: 2.5em;\n        margin-bottom: 20px;\n        color: var(--text);\n        text-shadow: 0 0 5px rgba(0,0,0,0.1);\n    }\n\n    .prizes-intro {\n        font-size: 1.1em;\n        max-width: 600px;\n        margin: 0 auto 60px auto;\n        line-height: 1.5;\n        color: var(--text);\n    }\n\n    .prizes-grid {\n        display: grid;\n        \/* Reduced min width from 250px to 200px for better mobile fit *\/\n        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n        gap: 40px;\n        max-width: 1000px;\n        margin: 0 auto;\n        padding: 0 20px;\n    }\n\n    .prize-card {\n        background: var(--header-bg);\n        color: var(--header-text);\n        padding: 30px 20px;\n        border-radius: 15px;\n        box-shadow: 0 0 15px rgba(0,0,0,0.1);\n        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease;\n        position: relative;\n    }\n\n    .prize-card h3 {\n        font-size: 1.8em;\n        margin-bottom: 10px;\n    }\n\n    .prize-value {\n        font-size: 1.2em;\n        margin-bottom: 20px;\n        font-weight: bold;\n    }\n\n    .prize-details {\n        list-style: none;\n        padding: 0;\n        margin: 0;\n        font-size: 1em;\n        line-height: 1.5;\n    }\n\n    .prize-details li {\n        margin-bottom: 10px;\n    }\n\n    .grand-prize {\n        grid-column: span 2;\n        background: linear-gradient(45deg, var(--buttons), var(--highlight));\n        color: var(--button-text);\n        box-shadow: 0 0 20px rgba(0,0,0,0.2);\n    }\n\n    .prize-card:hover {\n        transform: translateY(-5px);\n        box-shadow: 0 0 20px rgba(0,0,0,0.15);\n        background: linear-gradient(45deg, var(--buttons), var(--highlight));\n        color: var(--button-text);\n    }\n\n    @media (max-width: 600px) {\n        .prize-card h3 {\n            font-size: 1.5em;\n        }\n        .prize-value {\n            font-size: 1em;\n        }\n\n        \/* On small screens, ensure grand prize doesn't try to span two columns *\/\n        .grand-prize {\n            grid-column: 1 \/ -1;\n        }\n    }\n<\/style>\n\n<section class=\"prizes-section\">\n    <h2>What’s Up For Grabs?<\/h2>\n    <p class=\"prizes-intro\">Free to enter, free to download—win top-tier gear, cash, and exclusive editing bundles. It’s time to take your editing skills to new heights!<\/p>\n\n    <div class=\"prizes-grid\">\n        <!-- Grand Prize Card -->\n        <div class=\"prize-card grand-prize\">\n            <h3>Grand Prize<\/h3>\n            <p class=\"prize-value\">Sony A7IV Bundle<\/p>\n            <ul class=\"prize-details\">\n                <li>Full-Frame Mirrorless Camera<\/li>\n                <li>Included Lens & 128GB SD Card<\/li>\n                <li>The Ultimate Content Creator’s Tool<\/li>\n            <\/ul>\n        <\/div>\n\n        <!-- Runner-Up Prizes -->\n        <div class=\"prize-card\">\n            <h3>2nd Place<\/h3>\n            <p class=\"prize-value\">$300 + EssentialFX Bundle<\/p>\n        <\/div>\n        <div class=\"prize-card\">\n            <h3>3rd Place<\/h3>\n            <p class=\"prize-value\">$100 + EssentialFX Bundle<\/p>\n        <\/div>\n        <div class=\"prize-card\">\n            <h3>4th - 10th<\/h3>\n            <p class=\"prize-value\">$50 each<\/p>\n        <\/div>\n        <div class=\"prize-card\">\n            <h3>Honorable Mentions<\/h3>\n            <p class=\"prize-value\">Recognition & Credit<\/p>\n        <\/div>\n    <\/div>\n<\/section>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "image_qnwGxi": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/test.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_wLPBf3",
+        "image_qnwGxi"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "advanced_content_zFRECR": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_Ap7PFm": {
+          "type": "liquid",
+          "settings": {
+            "code": "<style>\n    :root {\n        --background: #F0EDE0; \/* Cream *\/\n        --text: #1C1E24;\n        --buttons: #2A75AA;\n        --button-text: #FFFFFF;\n        --highlight: #FF4500;\n        --header-bg: #2A75AA;\n        --header-text: #F0EDE0;\n    }\n\n    body {\n        margin: 0; \n        padding: 0; \n        font-family: Arial, sans-serif;\n    }\n\n    .how-to-enter {\n        background: var(--background);\n        color: var(--text);\n        text-align: center;\n        padding: 80px 20px;\n        border-top: 2px solid var(--buttons);\n        max-width: 1200px;\n        margin: 0 auto;\n        position: relative;\n    }\n\n    .how-to-enter h2 {\n        font-size: 2.5em;\n        margin-bottom: 20px;\n        color: var(--text);\n        text-shadow: 0 0 5px rgba(0,0,0,0.1);\n    }\n\n    .how-to-intro {\n        font-size: 1.1em;\n        max-width: 600px;\n        margin: 0 auto 60px auto;\n        line-height: 1.5;\n        color: var(--text);\n    }\n\n    .steps-grid {\n        display: grid;\n        grid-template-columns: 1fr; \/* Default single-column for mobile *\/\n        gap: 40px;\n        max-width: 1000px;\n        margin: 0 auto;\n        padding: 0 20px;\n        justify-items: center;\n    }\n\n    \/* On larger screens, display all five steps in a single row *\/\n    @media (min-width: 600px) {\n        .steps-grid {\n            grid-template-columns: repeat(5, 1fr);\n        }\n    }\n\n    .step-card {\n        background: var(--header-bg);\n        color: var(--header-text);\n        padding: 30px 20px;\n        border-radius: 15px;\n        box-shadow: 0 0 15px rgba(0,0,0,0.1);\n        transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, color 0.3s ease;\n        position: relative;\n        text-align: center;\n        max-width: 200px;\n    }\n\n    .step-card:hover {\n        transform: translateY(-5px);\n        box-shadow: 0 0 20px rgba(0,0,0,0.15);\n        background: linear-gradient(45deg, var(--buttons), var(--highlight));\n        color: var(--button-text);\n    }\n\n    .step-number {\n        display: block;\n        width: 40px; \n        height: 40px; \n        background: var(--highlight);\n        color: var(--button-text);\n        border-radius: 50%;\n        font-weight: bold;\n        font-size: 1.2em;\n        line-height: 40px;\n        text-align: center;\n        margin: 0 auto 10px auto;\n    }\n\n    .step-title {\n        font-size: 1.4em;\n        margin-bottom: 10px;\n    }\n\n    .step-description {\n        font-size: 1em;\n        line-height: 1.4;\n    }\n\n    \/* Sequential gradients for each step *\/\n    .steps-grid .step-card:nth-child(1) {\n        background: linear-gradient(45deg, #2A75AA, #2A75AA);\n    }\n\n    .steps-grid .step-card:nth-child(2) {\n        background: linear-gradient(45deg, #2A75AA, #428B9A);\n    }\n\n    .steps-grid .step-card:nth-child(3) {\n        background: linear-gradient(45deg, #2A75AA, #5A9F85);\n    }\n\n    .steps-grid .step-card:nth-child(4) {\n        background: linear-gradient(45deg, #2A75AA, #78AE5D);\n    }\n\n    .steps-grid .step-card:nth-child(5) {\n        background: linear-gradient(45deg, #2A75AA, #FF4500);\n    }\n\n    @media (max-width: 600px) {\n        .step-title {\n            font-size: 1.2em;\n        }\n    }\n\n    .rules-link {\n        margin-top: 40px;\n        font-size: 1em;\n    }\n\n    .rules-link a {\n        color: var(--buttons);\n        text-decoration: underline;\n        font-weight: bold;\n    }\n<\/style>\n\n<section class=\"how-to-enter\">\n    <h2>How to Enter<\/h2>\n    <p class=\"how-to-intro\">Ready to join the contest? Just follow these simple steps to get started.<\/p>\n\n    <div class=\"steps-grid\">\n        <div class=\"step-card\">\n            <span class=\"step-number\">1<\/span>\n            <h3 class=\"step-title\">Follow & Subscribe<\/h3>\n            <p class=\"step-description\">\n                Follow DJordanMedia on Instagram and subscribe on YouTube to stay up-to-date.\n            <\/p>\n        <\/div>\n\n        <div class=\"step-card\">\n            <span class=\"step-number\">2<\/span>\n            <h3 class=\"step-title\">\"Purchase\" the Free Assets<\/h3>\n            <p class=\"step-description\">\n                Add the free contest product to your cart and complete the checkout process (no charge).\n            <\/p>\n        <\/div>\n\n        <div class=\"step-card\">\n            <span class=\"step-number\">3<\/span>\n            <h3 class=\"step-title\">Edit Your Video<\/h3>\n            <p class=\"step-description\">\n                Use your creative vision to edit the provided footage, incorporating the contest logo.\n            <\/p>\n        <\/div>\n\n        <div class=\"step-card\">\n            <span class=\"step-number\">4<\/span>\n            <h3 class=\"step-title\">Post & Tag<\/h3>\n            <p class=\"step-description\">\n                Upload your final edit to Instagram, YouTube, or TikTok. Include #DJordanContest and tag @djordanmedia.\n            <\/p>\n        <\/div>\n\n        <div class=\"step-card\">\n            <span class=\"step-number\">5<\/span>\n            <h3 class=\"step-title\">Submit Your Entry<\/h3>\n            <p class=\"step-description\">\n                Complete the submission form on this page, providing your video link.\n            <\/p>\n        <\/div>\n    <\/div>\n\n    <p class=\"rules-link\">\n        For full contest rules and guidelines, please visit the <a href=\"https:\/\/djordanmedia.com\/pages\/editing-contest-rules\" target=\"_blank\">Rules Page<\/a>.\n    <\/p>\n<\/section>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_Ap7PFm"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_nYwNQL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_a4pPzq": {
+          "type": "heading",
+          "settings": {
+            "title": "DJORDANMEDIA's $3250 editing contest"
+          }
+        },
+        "text_fn4Lw9": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><strong>Show Us Your Creativity!<\/strong><br\/>Submit your entry for the DJordanMedia Editing Contest <strong>below<\/strong> on the form.<\/p><p>Follow the steps in the description below, link your video, and get a chance to win the Sony A7IV Bundle! Let’s celebrate creativity and empower the editing community together.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_a4pPzq",
+        "text_fn4Lw9"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "hero_video_wpDC8g": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Bring your\nbrand to life.",
+        "title_size": 80,
+        "subheading": "Seamless hero videos",
+        "link_text": "Optional button",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "countdown_RNATEU": {
+      "type": "countdown",
+      "blocks": {
+        "content_9kqz8h": {
+          "type": "content",
+          "settings": {
+            "heading": "Contest Timer",
+            "heading_size": "h2",
+            "text": "<p>The #DJordanContest closes in:<\/p>",
+            "content_alignment": "left"
+          }
+        },
+        "timer_JhYYtL": {
+          "type": "timer",
+          "settings": {
+            "year": "2025",
+            "month": "01",
+            "day": "6",
+            "hour": "23",
+            "minute": "59",
+            "hide_timer": true,
+            "text": "<p>The Editing Contest is Now Closed.<\/p>"
+          }
+        },
+        "button_bch7aj": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "Shop Collection",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "content_9kqz8h",
+        "timer_JhYYtL",
+        "button_bch7aj"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "lazyload_images": true
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Adjustable FX",
+        "title": "Custom Designed FX",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/adjustable.png",
+        "layout": "right",
+        "height": 750,
+        "framed": false,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_qYbXzC": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "judge_me_reviews_review_widget_wajyLA": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_qYbXzC",
+        "price",
+        "separator",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "tab",
+        "contact",
+        "share",
+        "judge_me_reviews_review_widget_wajyLA"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "advanced_content_iF8Xdp": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_83HfNG": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "code": "<style>\n    :root {\n        --background: #F0EDE0; \/* Cream *\/\n        --text: #1C1E24;\n        --buttons: #2A75AA;\n        --button-text: #FFFFFF;\n        --highlight: #FF4500;\n        --header-bg: #2A75AA;\n        --header-text: #F0EDE0;\n    }\n\n    body {\n        margin: 0; \n        padding: 0; \n        font-family: Arial, sans-serif;\n        background: var(--background);\n        color: var(--text);\n    }\n\n    .submission-form-section {\n        background: var(--background);\n        color: var(--text);\n        text-align: center;\n        padding: 50px 20px;\n        border-top: 2px solid var(--buttons);\n        max-width: 1200px;\n        margin: 0 auto;\n        position: relative;\n    }\n\n    .submission-form-section h2 {\n        font-size: 2em;\n        margin-bottom: 20px;\n        color: var(--text);\n        text-shadow: 0 0 5px rgba(0,0,0,0.1);\n    }\n\n    .submission-form-intro {\n        font-size: 1.1em;\n        max-width: 600px;\n        margin: 0 auto 40px auto;\n        line-height: 1.5;\n        color: var(--text);\n    }\n\n    .form-container {\n        display: flex;\n        justify-content: center;\n        align-items: center;\n        margin: 20px auto 0 auto;\n        max-width: 700px; \/* Controls the max width of the form *\/\n    }\n\n    .form-container iframe {\n        width: 100%;\n        height: 2644px;\n        border: none;\n        box-shadow: 0 0 10px rgba(0,0,0,0.1);\n        border-radius: 10px;\n    }\n\n    @media (max-width: 600px) {\n        .submission-form-section h2 {\n            font-size: 1.8em;\n        }\n        .submission-form-intro {\n            font-size: 1em;\n        }\n    }\n<\/style>\n\n<section class=\"submission-form-section\">\n    <h2>Submit Your Entry<\/h2>\n    <p class=\"submission-form-intro\">\n        Once you’ve completed your edit and posted it, please submit your entry using the form below.\n    <\/p>\n    <div class=\"form-container\">\n        <iframe \n          src=\"https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSc5WMDK5KzhXSvaP6H0OuGJv4udOzzR_uc5aPorOc2XpF5rhw\/viewform?embedded=true\"\n          marginheight=\"0\" marginwidth=\"0\">\n          Loading…\n        <\/iframe>\n    <\/div>\n<\/section>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_83HfNG"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": false,
+        "lazyload_images": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Video Editing Essentials",
+        "related_count": 5,
+        "products_per_row": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    }
+  },
+  "order": [
+    "advanced_content_MjNg7Q",
+    "countdown_x3Tgg6",
+    "advanced_content_ALkxJK",
+    "advanced_content_zFRECR",
+    "rich_text_nYwNQL",
+    "hero_video_wpDC8g",
+    "countdown_RNATEU",
+    "background-image-text",
+    "main",
+    "advanced_content_iF8Xdp",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

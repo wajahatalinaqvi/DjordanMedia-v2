@@ -1,0 +1,483 @@
+<style>
+  .contact-form-custom {
+    background-color: {{ section.settings.section_background_color | default: '#1a1a1a' }};
+    padding: 60px 40px;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin:0px !important;
+  }
+  
+  .contact-form-custom .section-header__title {
+    font-size: {{ section.settings.title_font_size_desktop | default: 48 }}px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 10px;
+    color: {{ section.settings.title_color | default: '#ffffff' }};
+  }
+  
+  .contact-form-custom .section-header__title .highlight {
+    color: {{ section.settings.highlight_color | default: '#4a90e2' }};
+  }
+  
+  .contact-form-custom .section-header__rte {
+    text-align: center;
+    font-size: {{ section.settings.subtitle_font_size_desktop | default: 16 }}px;
+    color: {{ section.settings.subtitle_color | default: '#cccccc' }};
+    margin-bottom: 50px;
+  }
+  
+  .contact-form-custom .form-vertical {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form-custom label {
+    display: block;
+    color: {{ section.settings.label_color | default: '#cccccc' }};
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-transform: none;
+    letter-spacing: normal;
+  }
+  
+  .contact-form-custom .input-full {
+    background-color: #2a2a2a;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form-custom .input-full:focus {
+    outline: none;
+    border-color: #4a90e2;
+    background-color: #333333;
+  }
+  
+  .contact-form-custom .input-full::placeholder {
+    color: #888888;
+  }
+  
+  .contact-form-custom textarea.input-full {
+    min-height: 120px;
+    resize: vertical;
+  }
+  
+  .contact-form-custom .grid {
+    display: flex;
+    gap: 20px;
+    {% comment %} margin-bottom: 25px; {% endcomment %}
+  }
+  
+  .contact-form-custom .grid__item {
+    flex: 1;
+    {% comment %} margin-bottom: 0; {% endcomment %}
+  }
+  
+  /* .contact-form-custom .btn {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: {{ section.settings.button_border_radius | default: 6 }}px;
+    background: #191919;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #2a2a2a;
+    border-top: none;
+    border-bottom: none;
+    overflow: visible;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: none;
+    letter-spacing: normal;
+  } */
+  .contact-form-custom .btn {
+ display: inline-block;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 6px;
+  background: #191919;
+  position: relative;
+  z-index: 1;
+  border: 1px solid #2a2a2a;
+  border-top: none;
+  border-bottom: none;
+  overflow: visible;
+  transition: all 0.3s ease;
+  text-transform: capitalize;
+  }
+  
+  .contact-form-custom .btn-text {
+    background: linear-gradient(
+      to right,
+      {{ section.settings.gradient_text_from | default: '#aaa490' }} 0%,
+      {{ section.settings.gradient_text_to | default: '#ede6ca' }} 80%,
+      {{ section.settings.gradient_text_from | default: '#aaa490' }} 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+  
+  .contact-form-custom .btn::before,
+  .contact-form-custom .btn::after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      #000 0%,
+      {{ section.settings.gradient_text_from | default: '#aaa490' }} 25%,
+      {{ section.settings.gradient_text_to | default: '#ede6ca' }} 50%,
+      {{ section.settings.gradient_text_from | default: '#aaa490' }} 75%,
+      #000 100%
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 5px rgba(237, 230, 202, 0.5);
+  }
+  
+  .contact-form-custom .btn::before {
+    top: 0;
+  }
+  
+  .contact-form-custom .btn::after {
+    bottom: 0;
+  }
+  
+  .contact-form-custom .btn:hover {
+    border-left: 1px solid #2a2a2a;
+    border-right: 1px solid #2a2a2a;
+    border-top: none;
+    border-bottom: none;
+    background-color: #1A1A1A !important;
+    background-clip: padding-box;
+  }
+  
+  .contact-form-custom .btn:hover::before,
+  .contact-form-custom .btn:hover::after {
+    opacity: 1;
+  }
+  
+  .contact-form-custom .gradient-text {
+    background: linear-gradient(to right, {{ section.settings.gradient_text_from | default: '#aaa490' }}, {{ section.settings.gradient_text_to | default: '#ede6ca' }});
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+  .contact-form-custom .note--success {
+    background-color: rgba(74, 144, 226, 0.1);
+    border-color: #4a90e2;
+    color: #4a90e2;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form-custom .errors {
+    background-color: rgba(208, 46, 46, 0.1);
+    border-color: #d02e2e;
+    color: #ff6b6b;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .contact-form-custom {
+      padding: 40px 20px;
+    }
+    
+    .contact-form-custom .section-header__title {
+      font-size: {{ section.settings.title_font_size_mobile | default: 36 }}px;
+    }
+    
+    .contact-form-custom .section-header__rte {
+      font-size: {{ section.settings.subtitle_font_size_mobile | default: 14 }}px;
+    }
+    
+    .contact-form-custom .grid {
+      flex-direction: column;
+      gap: 0;
+    }
+    
+    .contact-form-custom .grid__item {
+      {% comment %} margin-bottom: 25px; {% endcomment %}
+    }
+  }
+</style>
+
+<div class="index-section contact-form-custom">
+  <div class="page-width{% if section.settings.narrow_column %} page-width--narrow{% endif %}">
+    {% if section.settings.custom_title != blank %}
+      <div class="section-header">
+        <h2 class="section-header__title">
+          {% if section.settings.highlight_word != blank and section.settings.custom_title contains section.settings.highlight_word %}
+            {% assign title_parts = section.settings.custom_title | split: section.settings.highlight_word %}
+            {% for part in title_parts %}
+              {% unless forloop.last %}
+                {{ part }}<span class="highlight">{{ section.settings.highlight_word }}</span>
+              {% else %}
+                {{ part }}
+              {% endunless %}
+            {% endfor %}
+          {% else %}
+            {{ section.settings.custom_title }}
+          {% endif %}
+        </h2>
+      </div>
+    {% endif %}
+    
+    {% if section.settings.custom_subtitle != blank %}
+      {% unless section.settings.custom_title != blank %}
+        <div class="section-header">
+      {% endunless %}
+        <div class="rte section-header__rte">{{ section.settings.custom_subtitle }}</div>
+      {% unless section.settings.custom_title != blank %}
+        </div>
+      {% endunless %}
+    {% endif %}
+
+    <div class="form-vertical">
+      {%- assign form_id = 'contact-' | append: section.id -%}
+      {%- form 'contact', id: form_id -%}
+
+        {%- if form.posted_successfully? -%}
+          <p class="note note--success">
+            {{ 'contact.form.post_success' | t }}
+          </p>
+        {%- endif -%}
+
+        {{ form.errors | default_errors }}
+
+        <div class="grid grid--small">
+          <div class="grid__item medium-up--one-half">
+            <label for="ContactFormName-{{ section.id }}">{{ 'contact.form.name' | t }}</label>
+            <input type="text" id="ContactFormName-{{ section.id }}" class="input-full" name="contact[name]" placeholder="John Smith" autocapitalize="words" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}">
+          </div>
+
+          <div class="grid__item medium-up--one-half">
+            <label for="ContactFormEmail-{{ section.id }}">{{ 'contact.form.email' | t }}</label>
+            <input type="email" id="ContactFormEmail-{{ section.id }}" class="input-full" name="contact[email]" placeholder="Email Address" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+          </div>
+        </div>
+
+        {%- if section.settings.show_phone -%}
+          <label for="ContactFormPhone-{{ section.id }}">{{ 'contact.form.phone' | t }}</label>
+          <input type="tel" id="ContactFormPhone-{{ section.id }}" class="input-full" name="contact[phone]" placeholder="Phone Number" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+        {%- endif -%}
+
+        {%- if section.settings.show_order_number -%}
+          <label for="ContactFormOrderNumber-{{ section.id }}">Order Number ( Optional )</label>
+          <input type="text" id="ContactFormOrderNumber-{{ section.id }}" class="input-full" name="contact[order_number]" placeholder="Order Number ( Optional )">
+        {%- endif -%}
+
+        <label for="ContactFormMessage-{{ section.id }}">{{ 'contact.form.message' | t }}</label>
+        <textarea rows="5" id="ContactFormMessage-{{ section.id }}" class="input-full" name="contact[body]" placeholder="Please briefly describe your question or concern">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+
+        <label for="contact-form-submit-{{ section.id }}" class="hidden-label">{{ 'contact.form.send' | t }}</label>
+        <button type="submit" id="contact-form-submit-{{ section.id }}" class="btn">
+          <span class="btn-text">Submit</span>
+        </button>
+
+        {{ 'shopify.online_store.spam_detection.disclaimer_html' | t }}
+
+      {%- endform -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.contact-form.name",
+  "class": "index-section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.contact-form.settings.content"
+    },
+    {
+      "type": "header",
+      "content": "Section Settings"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "Section Background Color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "header",
+      "content": "Title & Subtitle Settings"
+    },
+    {
+      "type": "text",
+      "id": "custom_title",
+      "label": "Custom Title",
+      "info": "Enter your title text here. Leave blank to hide the title completely."
+    },
+    {
+      "type": "text",
+      "id": "highlight_word",
+      "label": "Word to Highlight",
+      "info": "Enter a word from your title that you want to highlight with a different color"
+    },
+    {
+      "type": "textarea",
+      "id": "custom_subtitle",
+      "label": "Custom Subtitle",
+      "info": "Enter your subtitle text here. Leave blank to hide the subtitle."
+    },
+    {
+      "type": "header",
+      "content": "Font Size Settings"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size_desktop",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "label": "Title Font Size (Desktop)",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "title_font_size_mobile",
+      "min": 18,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Title Font Size (Mobile)",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "subtitle_font_size_desktop",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Subtitle Font Size (Desktop)",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "subtitle_font_size_mobile",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Subtitle Font Size (Mobile)",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Color Settings"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "label": "Highlight Word Color",
+      "default": "#4a90e2"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle Color",
+      "default": "#cccccc"
+    },
+    {
+      "type": "color",
+      "id": "label_color",
+      "label": "Form Label Color",
+      "default": "#cccccc"
+    },
+    {
+      "type": "header",
+      "content": "Form Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_phone",
+      "label": "t:sections.contact-form.settings.show_phone.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_order_number",
+      "label": "Show order number field",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "narrow_column",
+      "label": "t:sections.contact-form.settings.narrow_column.label",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Button Styling"
+    },
+    {
+      "type": "color",
+      "id": "gradient_text_from",
+      "label": "Button Gradient Start Color",
+      "default": "#aaa490"
+    },
+    {
+      "type": "color",
+      "id": "gradient_text_to",
+      "label": "Button Gradient End Color",
+      "default": "#ede6ca"
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Button Border Radius",
+      "default": 6
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact Form Latest"
+    }
+  ],
+  "disabled_on": {
+    "groups": ["footer", "header", "aside"]
+  }
+}
+{% endschema %}

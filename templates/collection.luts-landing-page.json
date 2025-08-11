@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": false,
+        "collection_image_enable": true,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "text": "",
+            "link": "",
+            "label": "Shop now",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Apply our own unique, cinematic look",
+            "heading": "LUT PACKS",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/ezgif-1-956b3596ed.gif",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "image_compare_qgF99C": {
+      "type": "image-compare",
+      "blocks": {
+        "image_8DgBxj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BEFORER34.jpg"
+          }
+        },
+        "image_Gg7T7X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AFTERR34.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_8DgBxj",
+        "image_Gg7T7X"
+      ],
+      "settings": {
+        "heading": "Transform your videos",
+        "heading_size": "h2",
+        "heading_position": "center",
+        "fullwidth": true,
+        "slider_style": "classic",
+        "height": 500,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "image_compare_V3ijTw": {
+      "type": "image-compare",
+      "blocks": {
+        "image_4gqEdm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brab_before.jpg"
+          }
+        },
+        "image_tTNPtU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brab_after.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_4gqEdm",
+        "image_tTNPtU"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "fullwidth": true,
+        "slider_style": "classic",
+        "height": 500,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "advanced_content_nmke8P": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_HrzW4y": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>LUT Pack Bundle Section<\/title>\n    <link href=\"https:\/\/fonts.googleapis.com\/css?family=Roboto:300,400,500&display=swap\" rel=\"stylesheet\">\n    <style>\n        body, html {\n            height: 100%;\n            margin: 0;\n            font-family: 'Roboto', sans-serif;\n            background-color: #F0EDE0; \/* Tan background *\/\n        }\n\n        #bundle-section {\n            padding: 50px;\n            text-align: center;\n            background-color: #F0EDE0; \/* Match page background *\/\n            border-radius: 10px;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 0 20px rgba(151, 12, 16, 0.8); \/* Glowing red border *\/\n            margin: 20px auto;\n            max-width: 800px; \/* Centered container *\/\n            animation: fadeIn 1s; \/* Fade-in animation *\/\n        }\n\n        @keyframes fadeIn {\n            from { opacity: 0; }\n            to { opacity: 1; }\n        }\n\n        h2 {\n            color: #970C10; \/* Dark red headline *\/\n            margin-bottom: 10px;\n        }\n\n        p {\n            font-size: 1.5em;\n            color: #000; \/* Black text *\/\n            margin-bottom: 20px;\n            font-weight: bold; \/* Make the discount stand out *\/\n        }\n\n        .old-price {\n            text-decoration: line-through; \/* Strikethrough for old price *\/\n            color: #A9A9A9; \/* Gray color for old price *\/\n            font-size: 1.2em; \/* Slightly smaller font *\/\n        }\n\n        .sale-price {\n            color: #970C10; \/* Dark red color for sale price *\/\n            font-size: 2em; \/* Larger font for sale price *\/\n            margin-top: 10px; \/* Space above sale price *\/\n        }\n\n        .cta-button {\n            display: inline-block;\n            padding: 15px 30px;\n            background-color: #ccc; \/* Boring default color *\/\n            color: #000; \/* Black text *\/\n            text-decoration: none;\n            border-radius: 5px;\n            transition: background-color 0.3s ease, box-shadow 0.3s ease;\n            font-weight: bold; \/* Make the button text bold *\/\n        }\n\n        .cta-button:hover {\n            background-color: #4CAF50; \/* Change to green on hover *\/\n            color: #FFFFFF; \/* Change text to white on hover *\/\n            box-shadow: 0 0 20px rgba(76, 175, 80, 0.8); \/* Green glow *\/\n        }\n    <\/style>\n<\/head>\n<body>\n\n<!-- Complete LUT Pack Bundle Section -->\n<div id=\"bundle-section\">\n    <h2>The Complete LUT Pack Bundle<\/h2>\n    <p>72% OFF - Sale Now!<\/p>\n    <p class=\"old-price\">Old Price: $247<\/p>\n    <p class=\"sale-price\">Sale Price: $67<\/p>\n    <p>Download all our LUTs in one pack!<\/p>\n    <a href=\"https:\/\/djordanmedia.com\/collections\/lut-pack\/products\/lut-pack-bundle-pack\" class=\"cta-button\">Get Offer Now<\/a>\n<\/div>\n\n<\/body>\n<\/html>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_HrzW4y"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": false,
+        "lazyload_images": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": true,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "promo-grid",
+    "image_compare_qgF99C",
+    "image_compare_V3ijTw",
+    "advanced_content_nmke8P",
+    "main-collection"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "sections": {
+    "1750529015a0e2c44e": {
+      "type": "apps",
+      "blocks": {
+        "spark_shoppable_video_JCgqAc": {
+          "type": "shopify:\/\/apps\/spark\/blocks\/shoppable-video\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": false,
+            "auto_play_video": "always",
+            "feed_title": "",
+            "title_alignment": "center",
+            "item_alignment": false,
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": false,
+            "product_card_status": "hidden",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "player_type": "full_screen_player",
+            "show_views_on_player": false,
+            "player_border_radius": 16,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "show_compare_at_price": true,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "Shop",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#ffffff",
+            "product_card_btn_border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "spark_shoppable_video_JCgqAc"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1750528554c81aa3f1": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_VHRqMK": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTI2NjQ1\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_VHRqMK"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "1750529015a0e2c44e",
+    "1750528554c81aa3f1",
+    "main"
+  ]
+}

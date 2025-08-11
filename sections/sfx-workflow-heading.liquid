@@ -1,0 +1,272 @@
+{% schema %}
+{
+  "name": "SFX Workflow Heading",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Heading Content"
+    },
+    {
+      "type": "text",
+      "id": "heading_text",
+      "label": "Heading Text",
+      "default": "Your new SFX workflow is"
+    },
+    {
+      "type": "text",
+      "id": "highlight_word",
+      "label": "Word to Highlight",
+      "default": "here",
+      "info": "This word will be highlighted in blue"
+    },
+    {
+      "type": "text",
+      "id": "subheading_text",
+      "label": "Subheading Text",
+      "default": "Essential SFX Version 2.0 is available now"
+    },
+    {
+      "type": "header",
+      "content": "Heading Font Settings"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "label": "Heading Size (Desktop)",
+      "default": 56,
+      "min": 24,
+      "max": 80,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Heading Size (Mobile)",
+      "default": 40,
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "heading_text_transform",
+      "label": "Heading Text Style",
+      "options": [
+        { "value": "none", "label": "Normal" },
+        { "value": "uppercase", "label": "UPPERCASE" },
+        { "value": "lowercase", "label": "lowercase" },
+        { "value": "capitalize", "label": "Capitalize Each Word" }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "header",
+      "content": "Subheading Font Settings"
+    },
+    {
+      "type": "range",
+      "id": "subheading_size_desktop",
+      "label": "Subheading Size (Desktop)",
+      "default": 18,
+      "min": 14,
+      "max": 32,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "subheading_size_mobile",
+      "label": "Subheading Size (Mobile)",
+      "default": 16,
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "subheading_text_transform",
+      "label": "Subheading Text Style",
+      "options": [
+        { "value": "none", "label": "Normal" },
+        { "value": "uppercase", "label": "UPPERCASE" },
+        { "value": "lowercase", "label": "lowercase" },
+        { "value": "capitalize", "label": "Capitalize Each Word" }
+      ],
+      "default": "none"
+    },
+    {
+      "type": "header",
+      "content": "Color Settings"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading Color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "label": "Highlight Word Color",
+      "default": "#5C8FFF"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading Color",
+      "default": "#B8B8B8"
+    },
+    {
+      "type": "header",
+      "content": "Layout Settings"
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text Alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 80,
+      "min": 0,
+      "max": 150,
+      "step": 10,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 80,
+      "min": 0,
+      "max": 150,
+      "step": 10,
+      "unit": "px"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#1A1A1A"
+    }
+  ],
+  "presets": [
+    {
+      "name": "SFX Workflow Heading",
+      "settings": {
+        "heading_text": "Your new SFX workflow is",
+        "highlight_word": "here",
+        "subheading_text": "Essential SFX Version 2.0 is available now"
+      }
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.sfx-heading-section {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  background-color: {{ section.settings.background_color }};
+  width: 100%;
+}
+
+.sfx-heading-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: {{ section.settings.text_align }};
+}
+
+.sfx-heading-wrapper {
+  margin-bottom: 20px;
+}
+
+.sfx-main-heading {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-size: {{ section.settings.heading_size_desktop }}px;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  line-height: 1.2;
+  color: {{ section.settings.heading_color }};
+  display: block;
+  letter-spacing: -0.5px;
+  text-transform: {{ section.settings.heading_text_transform }};
+}
+
+.sfx-subheading {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-size: {{ section.settings.subheading_size_desktop }}px;
+  font-weight: 400;
+  margin: 0;
+  display: block;
+  color: {{ section.settings.subheading_color }};
+  letter-spacing: 0.2px;
+  line-height: 1.4;
+  text-transform: {{ section.settings.subheading_text_transform }};
+}
+
+.sfx-highlight-word {
+  color: {{ section.settings.highlight_color }};
+  font-weight: 400;
+  display: inline;
+}
+
+@media screen and (max-width: 768px) {
+  .sfx-main-heading {
+    font-size: {{ section.settings.heading_size_mobile }}px;
+    margin-bottom: 15px;
+  }
+  
+  .sfx-subheading {
+    font-size: {{ section.settings.subheading_size_mobile }}px;
+  }
+  
+  .sfx-heading-container {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sfx-main-heading {
+    font-size: {{ section.settings.heading_size_mobile | minus: 6 }}px;
+  }
+  
+  .sfx-subheading {
+    font-size: {{ section.settings.subheading_size_mobile | minus: 2 }}px;
+  }
+}
+</style>
+
+<div class="sfx-heading-section">
+  <div class="sfx-heading-container">
+    <div class="sfx-heading-wrapper">
+      <h1 class="sfx-main-heading">
+        {% if section.settings.highlight_word != blank %}
+          {% assign heading_parts = section.settings.heading_text | split: section.settings.highlight_word %}
+          {% if heading_parts.size > 1 %}
+            {{ heading_parts[0] }}<span class="sfx-highlight-word">{{ section.settings.highlight_word }}</span>{{ heading_parts[1] }}
+          {% else %}
+            {{ section.settings.heading_text }}
+          {% endif %}
+        {% else %}
+          {{ section.settings.heading_text }}
+        {% endif %}
+      </h1>
+      {% if section.settings.subheading_text != blank %}
+        <p class="sfx-subheading">{{ section.settings.subheading_text }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>

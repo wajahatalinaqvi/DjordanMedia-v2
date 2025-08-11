@@ -1,0 +1,61 @@
+{% comment %}
+  Gradient Word Maker Snippet
+  Accepts:
+    - text: The text to process (required)
+    - start_color: Gradient start color (optional, defaults to theme setting)
+    - end_color: Gradient end color (optional, defaults to theme setting)
+    - weight: Font weight (optional, defaults to 600)
+  
+  Usage:
+    {% render 'gradient-word-maker', 
+      text: "What [gradient]members[/gradient] have said about the [gradient]course[/gradient]",
+      start_color: section.settings.gradient_from,
+      end_color: section.settings.gradient_to
+    %}
+{% endcomment %}
+
+{% assign text = text | default: "" %}
+{% assign start_color = start_color | default: "#D9D3B9" %}
+{% assign end_color = end_color | default: "#A39E8B" %}
+{% assign weight = weight | default: 600 %}
+
+{% comment %}Simple, reliable approach to handle multiple gradient tags{% endcomment %}
+{% assign open_tag = "[gradient]" %}
+{% assign close_tag = "[/gradient]" %}
+
+{% comment %}Check if tags exist in the text{% endcomment %}
+{% if text contains open_tag and text contains close_tag %}
+  {% comment %}Handle each tag one by one with string replacements{% endcomment %}
+  {% assign modified_text = text %}
+  
+  {% comment %}Process up to 10 gradient tags to avoid infinite loops{% endcomment %}
+  {% for i in (1..10) %}
+    {% comment %}Check if there are any tags left to process{% endcomment %}
+    {% unless modified_text contains open_tag and modified_text contains close_tag %}
+      {% break %}
+    {% endunless %}
+    
+    {% comment %}Find the next tag pair and get its position{% endcomment %}
+    {% assign tag_start = modified_text | split: open_tag | first | size %}
+    
+    {% comment %}Get the content after open tag{% endcomment %}
+    {% assign after_open = modified_text | slice: tag_start, modified_text.size %}
+    {% assign after_open = after_open | remove_first: open_tag %}
+    
+    {% comment %}Get the gradient text and its position{% endcomment %}
+    {% assign gradient_content = after_open | split: close_tag | first %}
+    
+    {% comment %}Create replacement with styled span{% endcomment %}
+    {% capture styled_span %}<span style="background: linear-gradient(to right, {{ start_color }}, {{ end_color }}); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-weight: {{ weight }}; display: inline;">{{ gradient_content }}</span>{% endcapture %}
+    
+    {% comment %}Replace the gradient tag pair with styled span{% endcomment %}
+    {% assign replace_target = open_tag | append: gradient_content | append: close_tag %}
+    {% assign modified_text = modified_text | replace_first: replace_target, styled_span %}
+  {% endfor %}
+  
+  {% comment %}Output the modified text{% endcomment %}
+  {{ modified_text }}
+{% else %}
+  {% comment %}No gradient tags found, output original text{% endcomment %}
+  {{ text }}
+{% endif %}

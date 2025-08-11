@@ -1,0 +1,379 @@
+{
+  "sections": {
+    "hero_video_QMfdH9": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 40,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=aEv1y2AoKOQ&ab_channel=DJordanMedia",
+        "overlay_opacity": 0,
+        "section_height": "550px",
+        "mobile_height": "auto"
+      }
+    },
+    "rich_text_PY6FGT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DbEprz": {
+          "type": "heading",
+          "settings": {
+            "title": "Essential SFX"
+          }
+        },
+        "text_exaRJn": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Compatible with Adobe After Effects, Premiere Pro, & DaVinci Resolve Studio<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DbEprz",
+        "text_exaRJn"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_FrhxGF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": false,
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_review_widget_BtpQkF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_FrhxGF",
+        "price",
+        "separator",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "tab",
+        "contact",
+        "share",
+        "judge_me_reviews_review_widget_BtpQkF"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "rich_text_YTbrK8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_h4wGw7": {
+          "type": "heading",
+          "settings": {
+            "title": "Key Features"
+          }
+        },
+        "text_XAFdYm": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<ul><li><strong>Plug-In-Free Editing<\/strong>: Seamlessly integrates without the need for additional plug-ins. 🚫🔌<\/li><\/ul><p><strong>Complimentary Updates<\/strong>: Enjoy lifetime updates with new features at no extra cost.<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_h4wGw7",
+        "text_XAFdYm"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_i3XwPn": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Live_waveform_3.gif",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Live Waveform Preview",
+        "text": "<p>Quickly preview your sounds with live waveforms for fast, precise editing.<\/p><ul><li><strong>Visualize<\/strong> audio files instantly with waveform previews.<\/li><li><strong>Identify<\/strong> the right sound without trial and error.<\/li><li><strong>Works<\/strong> seamlessly across all 19 categories and custom uploads for efficiency.<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_U9bri9": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Search.gif",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Advanced Search",
+        "text": "<p>An advanced search bar lets you locate any sound instantly.<\/p><ul><li><strong>Search<\/strong> across all 19 categories, including custom uploads.<\/li><li><strong>Simplify<\/strong> asset management and saves time.<\/li><li><strong>Keep<\/strong> your workflow smooth and efficient.<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_PKf4xQ": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CC_change.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Theme Editor",
+        "text": "<p>Customize your workspace with flexible color themes.<\/p><ul><li><strong>Choose<\/strong> from 3 default themes: Blue, Red, and Rainbow.<\/li><li><strong>Create<\/strong> your own custom theme with adjustable primary and secondary colors.<\/li><li><strong>Personalize<\/strong> your workspace to match your creative flow.<\/li><li><strong>Enhanced Workflow<\/strong>: Favorites, advanced search, and intuitive customization options for all supported platforms.<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_CtMyH4": {
+      "type": "text-and-image",
+      "settings": {
+        "image_mask": "square",
+        "image2": "shopify:\/\/shop_images\/Uploads_sdfx.gif",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Upload Assets",
+        "text": "<p>Seamlessly upload and organize your custom sound effects.<\/p><ul><li><strong>1000+ SFX<\/strong>: Access over 1,000 sound effects across 19 categories with live waveform previews.<\/li><li><strong>Upload<\/strong> custom sounds or songs directly into the extension.<\/li><li><strong>Organize<\/strong> custom uploads in dedicated folders.<\/li><li><strong>Preview<\/strong> uploads instantly with live waveform visualization.<\/li><li><strong>Included Categories: <\/strong>Action, Alerts, Ambience, Camera, Cinematic Synth, Dramatic Drone, Drones, Effects, Electric, Explosion, Foleys, Glitch, Hits, Impacts, Rain, Reverse FX, Risers, Swooshes, Transitions<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_9eHJdx": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SFX_rename_ae05713e-7923-498b-895d-352390715173.gif",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Rename Functionality",
+        "text": "<p>Rename one or multiple files quickly to keep your library clean.<\/p><ul><li>Rename single or multiple files simultaneously.<\/li><li>Selected files glow during the renaming process for clarity.<\/li><li>Real-time updates ensure a smooth and clutter-free workflow.<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_VBczi9": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EssentialSFXDEMO.jpg",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Try out the free demo for Premiere Pro and After effects!",
+        "text": "",
+        "button_label": "EssentialSFX Demo",
+        "button_link": "https:\/\/djordanmedia.com\/products\/essentialsfx-trial-free",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_aVqffV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7qQ3bA": {
+          "type": "heading",
+          "settings": {
+            "title": "Sound Effect Categories:"
+          }
+        },
+        "text_feEry4": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<h4><\/h4><ul><li><strong>Action (99)<\/strong> – High-energy sounds for action-packed sequences.<\/li><li><strong>Alerts (99)<\/strong> – Notification-style sounds for motion graphics and pop-ups.<\/li><li><strong>Ambience (116)<\/strong> – Background audio to create immersive environments.<\/li><li><strong>Camera (5)<\/strong> – Camera clicks, shutters, and adjustments.<\/li><li><strong>Cinematic Synth (41)<\/strong> – Atmospheric synth sounds for futuristic and cinematic projects.<\/li><li><strong>Dramatic Drone (24)<\/strong> – Suspenseful drones to build tension.<\/li><li><strong>Drones (75)<\/strong> – Deep, evolving soundscapes for setting the mood.<\/li><li><strong>Effects (142)<\/strong> – Versatile sound effects for various editing needs.<\/li><li><strong>Electric (46)<\/strong> – Static charges, zaps, and electronic sounds.<\/li><li><strong>Explosions (44)<\/strong> – Powerful explosion effects to add impact.<\/li><li><strong>Foleys (157)<\/strong> – Organic everyday sounds to enhance realism.<\/li><li><strong>Glitch (53)<\/strong> – Digital distortion, malfunctions, and error effects.<\/li><li><strong>Hits (232)<\/strong> – Hard-hitting sounds for trailers, stingers, and transitions.<\/li><li><strong>Impacts (136)<\/strong> – Strong, resonant effects for action sequences.<\/li><li><strong>Rain (13)<\/strong> – Atmospheric rain and storm effects.<\/li><li><strong>Reverse FX (53)<\/strong> – Swelling effects for seamless build-ups and transitions.<\/li><li><strong>Risers (101)<\/strong> – Tension-building sounds for dramatic moments.<\/li><li><strong>Swooshes (191)<\/strong> – Dynamic whooshes for movement and transitions.<\/li><li><strong>Transitions (72)<\/strong> – Seamless audio transitions for smooth scene changes.<\/li><li><strong>Custom Uploads: Unlimited<\/strong> – Import and organize personal sound libraries directly within Essential SFX.<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7qQ3bA",
+        "text_feEry4"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero_video_QMfdH9",
+    "rich_text_PY6FGT",
+    "main",
+    "rich_text_YTbrK8",
+    "text_and_image_i3XwPn",
+    "text_and_image_U9bri9",
+    "text_and_image_PKf4xQ",
+    "text_and_image_CtMyH4",
+    "text_and_image_9eHJdx",
+    "text_and_image_VBczi9",
+    "rich_text_aVqffV",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

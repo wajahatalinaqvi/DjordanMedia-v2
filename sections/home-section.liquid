@@ -1,0 +1,203 @@
+{% comment %}
+  Home Section with gradient heading, button, line, and video picker
+{% endcomment %}
+
+<section class="home-section" 
+  style="background-image: url('{{ section.settings.bg_image | image_url }}'); 
+         background-size: cover; 
+         background-position: center;padding:12% 0%;">
+
+
+
+
+
+                <!-- Announcement Banner -->
+                <div class="announcement-banner">
+                    <div style="background:#233d76;padding:8px; border-radius:5px;">
+                        <span class="announcement-badge">NEW</span>
+                        Timeline-based Interactions & Animations are here!
+
+                    </div>
+                </div>
+                    <!-- Heading -->
+                    <h1 style="text-align: center; font-size: 3rem; font-weight: bold; color: #fff;">
+                        The <span style="background: {{ section.settings.heading_gradient }}; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent;">{{ section.settings.dynamic_text }}</span><br>
+                        {{ section.settings.sub_text }}
+                    </h1>
+                        <!-- Gradient Line -->
+                    <div style="width: 100%; height: 1px; margin-bottom: 32px; position: relative;">
+                      <div class="gradient-line-custom"></div>
+                    </div>
+                    <!-- Button -->
+                    <div style="text-align: center; margin: 32px 0;">
+                        <a href="{{ section.settings.button_link }}" class="gradient-btn" style="display: inline-block; padding: 16px 32px; font-size: 1.2rem; font-weight: 600; color: #fff; border-radius: 8px; background: {{ section.settings.button_gradient }}; border: none; text-decoration: none;">
+                        {{ section.settings.button_text }}
+                        </a>
+                    </div>
+
+
+                        <!-- Video Picker -->
+                        <div style="display: flex; justify-content: center; align-items: center; margin-top: 32px;">
+                        <div style="border:8px solid #22334c; border-radius:20px">
+
+
+                      
+                        <div style="border:8px solid #000; border-radius:20px;">
+
+                          
+                                {% if section.settings.video_url contains 'youtube.com/watch' %}
+                                    {%- assign video_id = section.settings.video_url | split: 'v=' -%}
+                                    {%- assign video_id = video_id[1] | split: '&' | first -%}
+                                    <div id="YouTubeVideo-{{ section.id }}" class="video-div" style="width:800px; height:450px; pointer-events:none;">
+                                    <iframe 
+                                        width="800" 
+                                        height="450" 
+                                        src="https://www.youtube.com/embed/{{ video_id }}?autoplay=1&loop=1&playlist={{ video_id }}&mute=1&controls=0&modestbranding=1&rel=0&iv_load_policy=3&showinfo=0" 
+                                        frameborder="0" 
+                                        allow="autoplay; fullscreen" 
+                                        allowfullscreen>
+                                    </iframe>
+                                    </div>
+
+                                {% elsif section.settings.video_url contains 'youtu.be/' %}
+                                    {%- assign video_id = section.settings.video_url | split: '.be/' -%}
+                                    {%- assign video_id = video_id[1] | split: '&' | first -%}
+                                    <div id="YouTubeVideo-{{ section.id }}" class="video-div" style="width:800px; height:450px; pointer-events:none;">
+                                    <iframe 
+                                        width="800" 
+                                        height="450" 
+                                        src="https://www.youtube.com/embed/{{ video_id }}?autoplay=1&loop=1&playlist={{ video_id }}&mute=1&controls=0&modestbranding=1&rel=0&iv_load_policy=3&showinfo=0" 
+                                        frameborder="0" 
+                                        allow="autoplay; fullscreen" 
+                                        allowfullscreen>
+                                    </iframe>
+                                    </div>
+
+                                {% elsif section.settings.video_url contains 'vimeo.com' %}
+                                    {%- assign video_id = section.settings.video_url | split: '.com/' -%}
+                                    {%- assign video_id = video_id[1] | split: '/' | first -%}
+                                    <div id="Vimeo-{{ section.id }}" class="video-div" style="width:800px; height:450px; pointer-events:none;">
+                                    <iframe 
+                                        src="https://player.vimeo.com/video/{{ video_id }}?autoplay=1&loop=1&muted=1&background=1" 
+                                        width="800" 
+                                        height="450" 
+                                        frameborder="0" 
+                                        allow="autoplay; fullscreen" 
+                                        allowfullscreen>
+                                    </iframe>
+                                    </div>
+
+                                {% elsif section.settings.video_url contains '.mp4' or section.settings.video_url contains '.MP4' %}
+                                    <video id="Mp4Video-{{ section.id }}" class="video-div" style="width:800px; height:450px;" src="{{ section.settings.video_url }}" loop muted playsinline autoplay></video>
+
+                                {% else %}
+                                    <!-- Shopify hosted video -->
+                                    <video id="Mp4Video-{{ section.id }}" class="video-div" style="width:800px; height:450px;" src="{{ section.settings.video_url | file_url }}" loop muted playsinline autoplay></video>
+                                {% endif %}
+                        </div>
+  </div>  </div> 
+</section>
+
+<style>
+.gradient-line-custom {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 1px;
+    background: linear-gradient(94deg, #092749, #469bff 54%, #092749);
+    opacity: .5;
+    /* box-shadow: 0 0 10px #ede6ca; */
+}
+.announcement-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px auto;
+  width: fit-content;
+  background: #2d4b8b;
+  border: 2px solid #65779f;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(34,60,120,0.15);
+  padding: 4px 4px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  color: #fff;
+}
+.announcement-badge {
+  background: linear-gradient(180deg, #075592 0%, #0778d0 100%);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 4px 12px;
+  margin-right: 12px;
+  font-size: 1rem;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  letter-spacing: 0.5px;
+}
+</style>
+
+{% schema %}
+{
+  "name": "Home Section",
+    "presets": [
+    {
+      "name": "Home Section"}],
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "line_gradient",
+      "label": "Gradient Line (CSS Gradient)",
+      "default": "linear-gradient(90deg, #00c3ff, #ffff1c)"
+    },
+    {
+      "type": "text",
+      "id": "dynamic_text",
+      "label": "Dynamic Gradient Text",
+      "default": "Trends You See"
+    },
+    {
+      "type": "text",
+      "id": "heading_gradient",
+      "label": "Heading Gradient (CSS Gradient)",
+      "default": "linear-gradient(  90deg,  #11549f 0%,  #2e67e8 50%,  #11549f 100%);"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Let's Get Started"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link",
+      "default": "/"
+    },
+    {
+      "type": "text",
+      "id": "button_gradient",
+      "label": "Button Gradient (CSS Gradient)",
+      "default": "linear-gradient(180deg, #11549f, #027cd4)"
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video URL (mp4, YouTube, Vimeo, Shopify video)",
+      "default": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+      "type": "text",
+      "id": "sub_text",
+      "label": "Sub Text (below gradient text)",
+      "default": "Start Here"
+    }
+  ]
+}
+{% endschema %}

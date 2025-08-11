@@ -1,0 +1,414 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_3aRiph": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "judge_me_reviews_review_widget_3NwDzg": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_3aRiph",
+        "price",
+        "separator",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "tab",
+        "contact",
+        "share",
+        "judge_me_reviews_review_widget_3NwDzg"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "a605a971-6736-4d50-9bfb-24b91d9cd82a": {
+      "type": "image-compare",
+      "blocks": {
+        "template--17156554785023__a605a971-6736-4d50-9bfb-24b91d9cd82a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-446.jpg"
+          }
+        },
+        "template--17156554785023__a605a971-6736-4d50-9bfb-24b91d9cd82a-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-445.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17156554785023__a605a971-6736-4d50-9bfb-24b91d9cd82a-image-1",
+        "template--17156554785023__a605a971-6736-4d50-9bfb-24b91d9cd82a-image-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "fullwidth": false,
+        "slider_style": "classic",
+        "height": 820,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "f09da4ac-f437-4d53-aed3-424cb63a1e01": {
+      "type": "image-compare",
+      "blocks": {
+        "template--17156554785023__f09da4ac-f437-4d53-aed3-424cb63a1e01-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-423.jpg"
+          }
+        },
+        "template--17156554785023__f09da4ac-f437-4d53-aed3-424cb63a1e01-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-422.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17156554785023__f09da4ac-f437-4d53-aed3-424cb63a1e01-image-1",
+        "template--17156554785023__f09da4ac-f437-4d53-aed3-424cb63a1e01-image-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "heading_position": "center",
+        "fullwidth": false,
+        "slider_style": "minimal",
+        "height": 600,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "cf798fa7-e904-4c32-ba03-d3529b4c94f4": {
+      "type": "image-compare",
+      "blocks": {
+        "template--17156554785023__cf798fa7-e904-4c32-ba03-d3529b4c94f4-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-441.jpg"
+          }
+        },
+        "template--17156554785023__cf798fa7-e904-4c32-ba03-d3529b4c94f4-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-442.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17156554785023__cf798fa7-e904-4c32-ba03-d3529b4c94f4-image-1",
+        "template--17156554785023__cf798fa7-e904-4c32-ba03-d3529b4c94f4-image-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "heading_position": "center",
+        "fullwidth": false,
+        "slider_style": "minimal",
+        "height": 820,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "20e0de87-09a9-4569-9846-8b1232ab870a": {
+      "type": "image-compare",
+      "blocks": {
+        "template--17156554785023__20e0de87-09a9-4569-9846-8b1232ab870a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-449.jpg"
+          }
+        },
+        "template--17156554785023__20e0de87-09a9-4569-9846-8b1232ab870a-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-448.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17156554785023__20e0de87-09a9-4569-9846-8b1232ab870a-image-1",
+        "template--17156554785023__20e0de87-09a9-4569-9846-8b1232ab870a-image-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "heading_position": "center",
+        "fullwidth": false,
+        "slider_style": "minimal",
+        "height": 820,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "5853a32c-eeee-418e-b490-30e518674ff3": {
+      "type": "image-compare",
+      "blocks": {
+        "template--17156554785023__5853a32c-eeee-418e-b490-30e518674ff3-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-435.jpg"
+          }
+        },
+        "template--17156554785023__5853a32c-eeee-418e-b490-30e518674ff3-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-434.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17156554785023__5853a32c-eeee-418e-b490-30e518674ff3-image-1",
+        "template--17156554785023__5853a32c-eeee-418e-b490-30e518674ff3-image-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "heading_position": "center",
+        "fullwidth": false,
+        "slider_style": "minimal",
+        "height": 820,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "f7a19913-27c1-4b71-bcd4-0b4aeb3961b5": {
+      "type": "image-compare",
+      "blocks": {
+        "template--17156554785023__f7a19913-27c1-4b71-bcd4-0b4aeb3961b5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-444.jpg"
+          }
+        },
+        "template--17156554785023__f7a19913-27c1-4b71-bcd4-0b4aeb3961b5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-443.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17156554785023__f7a19913-27c1-4b71-bcd4-0b4aeb3961b5-image-1",
+        "template--17156554785023__f7a19913-27c1-4b71-bcd4-0b4aeb3961b5-image-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "heading_position": "center",
+        "fullwidth": false,
+        "slider_style": "minimal",
+        "height": 820,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "1e21e893-6603-4bad-b4a7-365ef74afa50": {
+      "type": "image-compare",
+      "blocks": {
+        "template--17156554785023__1e21e893-6603-4bad-b4a7-365ef74afa50-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-421.jpg"
+          }
+        },
+        "template--17156554785023__1e21e893-6603-4bad-b4a7-365ef74afa50-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DJ-420.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--17156554785023__1e21e893-6603-4bad-b4a7-365ef74afa50-image-1",
+        "template--17156554785023__1e21e893-6603-4bad-b4a7-365ef74afa50-image-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h3",
+        "heading_position": "center",
+        "fullwidth": false,
+        "slider_style": "minimal",
+        "height": 820,
+        "color": "#ffffff",
+        "lazyload_images": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>These courses are well worth the money, what you learn from them is priceless. Sure, YouTube tutorials can help you understand the basics of After Effects and specific ways to use effects, but DJordanMedia explains it 10x better and helps you understand a super efficient editing workflow through both After Effects and Premiere Pro! I used to edit on a super outdated version of Sony Vegas, these courses caused me to completely switch to Adobe. In 2 hours these courses have baked in everything I need to know to make quality content, and after 1 week of practicing I'm entirely comfortable with using Adobe software to edit thanks to DJordanMedia! My content has never looked better and it's paid off by bringing me plenty of new clients! The Discord server that you get invited to through these courses is very active with everyone helping each other too, and you get access to exclusive benefits! It's a lot of fun watching each other grow through the community server. I 100% recommend this course to anyone who's trying to expand their knowledge in After Effects, beginner or not!<\/p>",
+            "author": "Matt Redman",
+            "author_info": "Videographer"
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This course was well explained, organized and entertaining. I was able to learn a lot and able to put it into my work. Highly recommend if you want to learn the right way and further increase your knowledge! 10\/10 course!<\/p>",
+            "author": "TK 800",
+            "author_info": "Videographer"
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Firstly, I am so glad that these courses are available internationally. I was always nervous about video editing and did not know where to start. Tutorials online are hours long and are not straightforward, which made it harder for me to understand. Thankfully I found Djordanmedia, and after talking to him I felt that the courses were the right fit for me. I am now comfortable and a lot more confident editing in Adobe After Effects which has helped me work for more clients. I would definitely recommend these courses to anyone that wants to advance their editing skills without the hassle of searching for multiple tutorials online.<\/p>",
+            "author": "Abdul Mahmood",
+            "author_info": "Videographer"
+          }
+        }
+      },
+      "block_order": [
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "a605a971-6736-4d50-9bfb-24b91d9cd82a",
+    "f09da4ac-f437-4d53-aed3-424cb63a1e01",
+    "cf798fa7-e904-4c32-ba03-d3529b4c94f4",
+    "20e0de87-09a9-4569-9846-8b1232ab870a",
+    "5853a32c-eeee-418e-b490-30e518674ff3",
+    "f7a19913-27c1-4b71-bcd4-0b4aeb3961b5",
+    "1e21e893-6603-4bad-b4a7-365ef74afa50",
+    "sub",
+    "testimonials",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

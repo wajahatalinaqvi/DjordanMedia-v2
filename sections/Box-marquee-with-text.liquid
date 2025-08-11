@@ -1,0 +1,326 @@
+{% schema %}
+{
+  "name": "Box Marquee with Text",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Marquee Settings"
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": "Scroll Speed (seconds)",
+      "default": 20,
+      "min": 5,
+      "max": 60,
+      "step": 1,
+      "unit": "s"
+    },
+    {
+      "type": "select",
+      "id": "scroll_direction",
+      "label": "Scroll Direction",
+      "default": "right",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left to Right"
+        },
+        {
+          "value": "right",
+          "label": "Right to Left"
+        }
+      ],
+      "info": "Choose the direction of the marquee scroll"
+    },
+    {
+      "type": "header",
+      "content": "Box Settings"
+    },
+    {
+      "type": "range",
+      "id": "box_padding",
+      "label": "Box Padding (Desktop)",
+      "default": 20,
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "box_padding_mobile",
+      "label": "Box Padding (Mobile)",
+      "default": 15,
+      "min": 5,
+      "max": 30,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "box_gap",
+      "label": "Space Between Boxes (Desktop)",
+      "default": 20,
+      "min": 10,
+      "max": 50,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "box_gap_mobile",
+      "label": "Space Between Boxes (Mobile)",
+      "default": 15,
+      "min": 5,
+      "max": 30,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "color",
+      "id": "box_bg_from",
+      "label": "Box Background Gradient Start",
+      "default": "#1A1A1A"
+    },
+    {
+      "type": "color",
+      "id": "box_bg_to",
+      "label": "Box Background Gradient End",
+      "default": "#2A2A2A"
+    },
+    {
+      "type": "header",
+      "content": "Text Settings"
+    },
+    {
+      "type": "select",
+      "id": "marquee_copies",
+      "label": "Number of Copies (for smoother animation)",
+      "default": "2",
+      "options": [
+        {
+          "value": "2",
+          "label": "2 (Default)"
+        },
+        {
+          "value": "3",
+          "label": "3 (For more blocks)"
+        },
+        {
+          "value": "4",
+          "label": "4 (For fewer blocks)"
+        }
+      ],
+      "info": "More copies create a smoother animation but can affect performance"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "marquee_text",
+      "name": "Text Box",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Master After Effect"
+        },
+        {
+          "type": "range",
+          "id": "font_size",
+          "label": "Font Size (Desktop)",
+          "default": 18,
+          "min": 12,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "font_size_mobile",
+          "label": "Font Size (Mobile)",
+          "default": 14,
+          "min": 10,
+          "max": 24,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "color",
+          "id": "text_gradient_from",
+          "label": "Text Gradient Start",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "text_gradient_to",
+          "label": "Text Gradient End",
+          "default": "#9B9B9B"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Promotional Marquee",
+      "blocks": [
+        {
+          "type": "marquee_text",
+          "settings": {
+            "text": "Master After Effect"
+          }
+        },
+        {
+          "type": "marquee_text",
+          "settings": {
+            "text": "What You Will Get?"
+          }
+        },
+        {
+          "type": "marquee_text",
+          "settings": {
+            "text": "Step Plugin With Course"
+          }
+        },
+        {
+          "type": "marquee_text",
+          "settings": {
+            "text": "What You'll Learn?"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.marquee-section {
+  overflow: hidden;
+  padding: 20px 0;
+  background: #000000;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.marquee-container {
+  display: flex;
+  white-space: nowrap;
+  width: fit-content;
+  gap: {{ section.settings.box_gap }}px;
+  animation: scroll-{{ section.settings.scroll_direction | default: 'right' }} {{ section.settings.scroll_speed }}s linear infinite;
+  will-change: transform;
+}
+
+.marquee-container:hover {
+  animation-play-state: paused;
+}
+
+.marquee-box {
+  background: linear-gradient(to right, {{ section.settings.box_bg_from }}, {{ section.settings.box_bg_to }});
+  padding: {{ section.settings.box_padding }}px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: max-content;
+  flex-shrink: 0;
+}
+
+.marquee-text {
+  background: linear-gradient(to right, var(--text-gradient-from), var(--text-gradient-to));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
+/* Right to Left Animation (Traditional marquee) */
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - {{ section.settings.box_gap }}px/2));
+  }
+}
+
+/* Left to Right Animation */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(calc(-50% - {{ section.settings.box_gap }}px/2));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marquee-box {
+    padding: {{ section.settings.box_padding_mobile }}px;
+  }
+  
+  .marquee-container {
+    gap: {{ section.settings.box_gap_mobile }}px;
+  }
+}
+</style>
+
+<div class="marquee-section">
+  <div class="marquee-wrapper">
+    <div class="marquee-container" id="marquee-{{ section.id }}">
+      {% comment %} Generate copies based on setting {% endcomment %}
+      {% assign copies = section.settings.marquee_copies | default: "2" | plus: 0 %}
+      {% for copy in (1..copies) %}
+        {% for block in section.blocks %}
+          <div class="marquee-box">
+            <div class="marquee-text"
+                 style="
+                   font-size: {{ block.settings.font_size }}px;
+                   --text-gradient-from: {{ block.settings.text_gradient_from }};
+                   --text-gradient-to: {{ block.settings.text_gradient_to }};">
+              {{ block.settings.text }}
+            </div>
+          </div>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% style %}
+@media screen and (max-width: 768px) {
+  {% assign block_count = section.blocks.size %}
+  {% for block in section.blocks %}
+    {% assign modulo = forloop.index | modulo: block_count %}
+    {% assign actual_index = modulo | default: block_count %}
+    #shopify-section-{{ section.id }} .marquee-box:nth-child({{ forloop.index }}n) .marquee-text {
+      font-size: {{ block.settings.font_size_mobile }}px !important;
+    }
+  {% endfor %}
+}
+{% endstyle %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Dynamically adjust animation duration based on content
+  const marquee = document.getElementById('marquee-{{ section.id }}');
+  if (marquee) {
+    // Check if the marquee container width is less than window width
+    const containerWidth = marquee.offsetWidth;
+    const windowWidth = window.innerWidth;
+    
+    // If marquee content is smaller than viewport, speed up animation accordingly
+    if (containerWidth < windowWidth * 3) {
+      const adjustedDuration = Math.max({{ section.settings.scroll_speed }} * (containerWidth / (windowWidth * 2)), {{ section.settings.scroll_speed }} / 2);
+      marquee.style.animationDuration = adjustedDuration + 's';
+    }
+  }
+});
+</script>

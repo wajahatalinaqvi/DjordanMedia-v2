@@ -1,0 +1,112 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_dKtygL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bJYnap": {
+          "type": "heading",
+          "settings": {
+            "title": "Thanks for Reaching Out!"
+          }
+        },
+        "text_cJ6jxH": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Your message has been received. We’ll review your details and respond within 24–48 hours.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bJYnap",
+        "text_cJ6jxH"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_8TTceR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3MJKRh": {
+          "type": "heading",
+          "settings": {
+            "title": "What Happens Next"
+          }
+        },
+        "text_hVE3iG": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<ul><li><strong>We’ll review your project submission<\/strong><\/li><li><strong>If needed, we’ll reach out for additional details<\/strong><\/li><li><strong>You’ll receive a response via email within 1–2 business days<\/strong><\/li><li><strong>If you’re approved for a spot, we’ll send over next steps <br\/><br\/><\/strong><\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3MJKRh",
+        "text_hVE3iG"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1750531059cdd9220b": {
+      "type": "apps",
+      "blocks": {
+        "spark_shoppable_video_tfdW9k": {
+          "type": "shopify:\/\/apps\/spark\/blocks\/shoppable-video\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": false,
+            "auto_play_video": "always",
+            "feed_title": "Some recent works",
+            "title_alignment": "center",
+            "item_alignment": false,
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": false,
+            "product_card_status": "hidden",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "player_type": "full_screen_player",
+            "show_views_on_player": false,
+            "player_border_radius": 16,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "show_compare_at_price": true,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "Shop",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#FFFFFF",
+            "product_card_btn_border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "spark_shoppable_video_tfdW9k"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_dKtygL",
+    "rich_text_8TTceR",
+    "1750531059cdd9220b"
+  ]
+}

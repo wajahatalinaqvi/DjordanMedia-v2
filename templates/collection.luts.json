@@ -1,0 +1,132 @@
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": false,
+        "collection_image_enable": true,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "text": "",
+            "link": "",
+            "label": "Shop now",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Apply our own unique, cinematic look",
+            "heading": "LUT PACKS",
+            "textarea": "",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/ezgif-1-956b3596ed.gif",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false
+      }
+    },
+    "9fba5ce5-cc31-46bb-adb1-25a65e7eb94a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16674888679679__9fba5ce5-cc31-46bb-adb1-25a65e7eb94a-1676333242e471d983-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Apply our own unique, cinematic look"
+          }
+        },
+        "template--16674888679679__9fba5ce5-cc31-46bb-adb1-25a65e7eb94a-1676333242e471d983-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>DJordanMedia Color Grading LUTS let you perfect your video's color grade, giving you the power to create THE look you need!<\/p><p><strong>Compatible Files for 99% of Video Editing Software<\/strong><\/p><p>Our Color Grading LUTS are compatible with 99% of all video editing software, making them the perfect choice for any professional filmmaker.<\/p><p><strong>Tested on many styles of Videos<\/strong><\/p><p>We've rigorously tested each of our Color Grading LUTS on a variety of different video styles — from nature to travel to automotive and vlogging — ensuring that each one works perfectly for your footage.<\/p><p><strong>Each color LUT is unique<\/strong><\/p><p>Each Color Grading LUT from DJordanMedia is designed to be completely unique and unlike anything else out there — giving you an original and distinct look for your footage.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16674888679679__9fba5ce5-cc31-46bb-adb1-25a65e7eb94a-1676333242e471d983-0",
+        "template--16674888679679__9fba5ce5-cc31-46bb-adb1-25a65e7eb94a-1676333242e471d983-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "promo-grid",
+    "9fba5ce5-cc31-46bb-adb1-25a65e7eb94a",
+    "main-collection"
+  ]
+}

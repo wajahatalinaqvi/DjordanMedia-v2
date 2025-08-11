@@ -1,0 +1,1074 @@
+{
+  "sections": {
+    "text_with_button_zDdHKY": {
+      "type": "Text-with-Button",
+      "disabled": true,
+      "name": "Text with Buttons",
+      "settings": {
+        "section_padding_top": 80,
+        "section_padding_bottom": 80,
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "section_padding_top_mobile": 40,
+        "section_padding_bottom_mobile": 40,
+        "section_margin_top_mobile": 0,
+        "section_margin_bottom_mobile": 0,
+        "heading_bottom_gap": 10,
+        "subheading_bottom_gap": 20,
+        "heading_bottom_gap_mobile": 0,
+        "subheading_bottom_gap_mobile": 0,
+        "buttons_top_gap": 0,
+        "buttons_top_gap_mobile": 0,
+        "heading": "Master [gradient]After Effects[\/gradient] and Start Creating [gradient]Now![\/gradient]",
+        "heading_alignment_desktop": "center",
+        "heading_alignment_mobile": "center",
+        "heading_gradient_from": "#f8f8f8",
+        "heading_gradient_to": "#f8f8f8",
+        "word_gradient_from": "#958b5a",
+        "word_gradient_to": "#fef9e3",
+        "heading_font_size": 50,
+        "heading_font_size_mobile": 30,
+        "heading_text_transform": "none",
+        "subheading": "Jump into the world of motion graphics with our After Effects course and turn your ideas into professional videos with ease",
+        "subheading_alignment_desktop": "center",
+        "subheading_alignment_mobile": "center",
+        "subheading_color": "#ffffff",
+        "subheading_font_size": 20,
+        "subheading_font_size_mobile": 16,
+        "subheading_text_transform": "none",
+        "button1_text": "Explore Course Now",
+        "button1_link": "",
+        "button1_font_size": 16,
+        "button1_font_size_mobile": 14,
+        "button1_bg_from": "#1a1a1a",
+        "button1_bg_to": "#2a2a2a",
+        "button1_text_from": "#aaa490",
+        "button1_text_to": "#f6eed1",
+        "button1_border_from": "#aaa490",
+        "button1_border_to": "#ede6ca",
+        "button2_text": "All Plugin",
+        "button2_link": "",
+        "button2_font_size": 16,
+        "button2_font_size_mobile": 14,
+        "button2_bg_from": "#1a1a1a",
+        "button2_bg_to": "#2a2a2a",
+        "button2_text_from": "#ffffff",
+        "button2_text_to": "#9b9b9b",
+        "button2_border_from": "#333333",
+        "button2_border_to": "#4a4a4a",
+        "mobile_button_layout": "stack"
+      }
+    },
+    "box_marquee_with_text_cmNcaU": {
+      "type": "Box-marquee-with-text",
+      "blocks": {
+        "marquee_text_CJkcDa": {
+          "type": "marquee_text",
+          "settings": {
+            "text": "Master After Effect",
+            "font_size": 18,
+            "font_size_mobile": 14,
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#9b9b9b"
+          }
+        },
+        "marquee_text_HXA694": {
+          "type": "marquee_text",
+          "settings": {
+            "text": "What You Will Get?",
+            "font_size": 18,
+            "font_size_mobile": 14,
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#9b9b9b"
+          }
+        },
+        "marquee_text_9JDNrq": {
+          "type": "marquee_text",
+          "settings": {
+            "text": "Step Plugin With Course",
+            "font_size": 18,
+            "font_size_mobile": 14,
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#9b9b9b"
+          }
+        },
+        "marquee_text_cnJheQ": {
+          "type": "marquee_text",
+          "settings": {
+            "text": "What You'll Learn?",
+            "font_size": 18,
+            "font_size_mobile": 14,
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#9b9b9b"
+          }
+        }
+      },
+      "block_order": [
+        "marquee_text_CJkcDa",
+        "marquee_text_HXA694",
+        "marquee_text_9JDNrq",
+        "marquee_text_cnJheQ"
+      ],
+      "disabled": true,
+      "name": "Promotional Marquee",
+      "settings": {
+        "scroll_speed": 20,
+        "scroll_direction": "right",
+        "box_padding": 12,
+        "box_padding_mobile": 12,
+        "box_gap": 13,
+        "box_gap_mobile": 13,
+        "box_bg_from": "#1a1a1a",
+        "box_bg_to": "#2a2a2a",
+        "marquee_copies": "4"
+      }
+    },
+    "text_button_with_guidence_wJcPB6": {
+      "type": "Text-Button-With-Guidence",
+      "blocks": {
+        "feature_xpj6Jf": {
+          "type": "feature",
+          "settings": {
+            "text": "Step-by-Step Lessons in Adobe After Effects",
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#ffffff",
+            "font_size_desktop": 16,
+            "font_size_mobile": 14
+          }
+        },
+        "feature_CCp7Ap": {
+          "type": "feature",
+          "settings": {
+            "text": "Creator Mindset & Workflow Training",
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#ffffff",
+            "font_size_desktop": 16,
+            "font_size_mobile": 14
+          }
+        },
+        "feature_AUpKqw": {
+          "type": "feature",
+          "settings": {
+            "text": "Speedramping & Viral Transitions",
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#ffffff",
+            "font_size_desktop": 16,
+            "font_size_mobile": 14
+          }
+        },
+        "feature_HqeQm9": {
+          "type": "feature",
+          "settings": {
+            "text": "Filming Process, Camera setup, and editing",
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#ffffff",
+            "font_size_desktop": 16,
+            "font_size_mobile": 14
+          }
+        },
+        "feature_pLPaVW": {
+          "type": "feature",
+          "settings": {
+            "text": "Private Discord Community Access",
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#ffffff",
+            "font_size_desktop": 16,
+            "font_size_mobile": 14
+          }
+        },
+        "feature_RLWQXU": {
+          "type": "feature",
+          "settings": {
+            "text": "Trusted by Over 600 Creators Worldwide",
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#ffffff",
+            "font_size_desktop": 16,
+            "font_size_mobile": 14
+          }
+        },
+        "feature_pkfwm8": {
+          "type": "feature",
+          "settings": {
+            "text": "Lifetime Access & Free Future Updates",
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#ffffff",
+            "font_size_desktop": 16,
+            "font_size_mobile": 14
+          }
+        },
+        "feature_U4y6kD": {
+          "type": "feature",
+          "settings": {
+            "text": "Practice Footage Included",
+            "text_gradient_from": "#ffffff",
+            "text_gradient_to": "#ffffff",
+            "font_size_desktop": 16,
+            "font_size_mobile": 14
+          }
+        }
+      },
+      "block_order": [
+        "feature_xpj6Jf",
+        "feature_CCp7Ap",
+        "feature_AUpKqw",
+        "feature_HqeQm9",
+        "feature_pLPaVW",
+        "feature_RLWQXU",
+        "feature_pkfwm8",
+        "feature_U4y6kD"
+      ],
+      "disabled": true,
+      "name": "Text Button With Guidance",
+      "settings": {
+        "padding_top": 35,
+        "padding_bottom": 35,
+        "heading_text": "What You'll Get Inside The [gradient]Course![\/gradient]",
+        "heading_size_desktop": 45,
+        "heading_size_mobile": 23,
+        "subheading_gradient_from": "#d9d3b9",
+        "subheading_gradient_to": "#a39e8b",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_vertical_alignment": "center",
+        "text_button_gap": 30,
+        "button_text": "Get it!",
+        "button_url": "",
+        "button_alignment": "left",
+        "button_alignment_mobile": "center",
+        "button_bg_from": "#1a1a1a",
+        "button_bg_to": "#2a2a2a",
+        "button_border_from": "#191919",
+        "button_border_to": "#d9d3b9",
+        "button_text_gradient_from": "#d9d3b9",
+        "button_text_gradient_to": "#a39e8b",
+        "features_bg_from": "#000000d9",
+        "features_bg_middle": "#2c2c2ccc",
+        "features_bg_to": "#232323cc",
+        "features_bg_angle": 120
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "video_with_text_yywmmk": {
+      "type": "Video-with-text",
+      "blocks": {
+        "heading_settings_yCpV98": {
+          "type": "heading_settings",
+          "settings": {
+            "heading_text": "What Is Essential SFX",
+            "word_colors": "#FFFFFF,#FFFFFF,#FFFFFF,#4A90E2",
+            "heading_size_desktop": 40,
+            "heading_size_mobile": 26
+          }
+        },
+        "custom_liquid_cD3WCC": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class='custom-html-container'><p>Essential SFX is a sound effects extension built for Adobe After Effects, Premiere Pro, and DaVinci Resolve. Instead of dragging files from random folders, this extension installs directly into your editing software giving you a clean, organized panel of professional-grade sound effects right inside your timeline.\n<\/p><\/div>"
+          }
+        },
+        "list_item_K6K4yQ": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Multi Software compatibility",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        },
+        "list_item_qRaqqJ": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Live waveform previews (hear it live)",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        },
+        "list_item_he7cHd": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Custom File uploads into the extension",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        },
+        "heading_settings_zrY3Pt": {
+          "type": "heading_settings",
+          "settings": {
+            "heading_text": "Compatibility",
+            "word_colors": "",
+            "heading_size_desktop": 24,
+            "heading_size_mobile": 18
+          }
+        },
+        "list_item_BatUi6": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Adobe After Effects, Premiere Pro, & DaVinci Resolve Studio",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        },
+        "list_item_bPydbx": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Mac & Windows OS",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        },
+        "list_item_yfAEj4": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "2 device activation’s included (studio licenses available)",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        }
+      },
+      "block_order": [
+        "heading_settings_yCpV98",
+        "custom_liquid_cD3WCC",
+        "list_item_K6K4yQ",
+        "list_item_qRaqqJ",
+        "list_item_he7cHd",
+        "heading_settings_zrY3Pt",
+        "list_item_BatUi6",
+        "list_item_bPydbx",
+        "list_item_yfAEj4"
+      ],
+      "disabled": true,
+      "name": "Video With Text",
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "heading_spacing": 10,
+        "subheading_spacing": 20,
+        "custom_content_spacing": 16,
+        "list_item_spacing": 8,
+        "list_spacing": 20,
+        "dot_color": "#4a90e2",
+        "box_bg_start": "#000000d9",
+        "box_bg_main": "#121212cc",
+        "box_bg_end": "#1e1e1ecc",
+        "text_color": "#ffffff",
+        "video_alignment": "left",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/01f0dce4a82e4ac2bcdf84d7f07cf249.mp4",
+        "video_cover": "shopify:\/\/shop_images\/Rectangle_27.png"
+      }
+    },
+    "gradient_heading_dbe6J6": {
+      "type": "gradient-heading",
+      "disabled": true,
+      "name": "Gradient Heading",
+      "settings": {
+        "heading_text": "Made With Essential [gradient] SFX[\/gradient]",
+        "heading_size_desktop": 31,
+        "heading_size_mobile": 36,
+        "subheading_text": "",
+        "subheading_size_desktop": 24,
+        "subheading_size_mobile": 18,
+        "subheading_color": "#9b9b9b",
+        "subheading_gradient_from": "#4a90e2",
+        "subheading_gradient_to": "#7b68ee",
+        "heading_subheading_gap": 20,
+        "heading_color": "#ffffff",
+        "gradient_from": "#3b5dba",
+        "gradient_to": "#3b5dba",
+        "text_align": "center",
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "background_color": "#000000"
+      }
+    },
+    "1753023889099b982f": {
+      "type": "apps",
+      "blocks": {
+        "spark_spotlight_carousal_zAN9rP": {
+          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": false,
+            "auto_play_video_next_video": false,
+            "feed_title": "",
+            "title_alignment": "center",
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": true,
+            "product_card_status": "hidden",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "show_compare_at_price": true,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "Shop",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#ffffff",
+            "product_card_btn_border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "spark_spotlight_carousal_zAN9rP"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "video_with_text_8PqjGg": {
+      "type": "Video-with-text",
+      "blocks": {
+        "heading_settings_gTF3A9": {
+          "type": "heading_settings",
+          "settings": {
+            "heading_text": "Built For Editors, by Editors",
+            "word_colors": "",
+            "heading_size_desktop": 30,
+            "heading_size_mobile": 20
+          }
+        },
+        "custom_liquid_hiTUxN": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class='custom-html-container'><p>Essential FX is a custom extension for Adobe After Effects that enhances the way you edit — giving you clean, fast access to powerful tools, effects, speedramping, and workflow shortcuts inside your timeline.\n<\/p><\/div>"
+          }
+        },
+        "heading_settings_pCBDHd": {
+          "type": "heading_settings",
+          "settings": {
+            "heading_text": "All Licenses Include Free Updates",
+            "word_colors": "",
+            "heading_size_desktop": 24,
+            "heading_size_mobile": 14
+          }
+        },
+        "list_item_Gy68ze": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Standard License",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        },
+        "list_item_8DHp9a": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Multi License",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        },
+        "list_item_zbfzWy": {
+          "type": "list_item",
+          "settings": {
+            "item_text": "Studio License",
+            "text_size_desktop": 16,
+            "text_size_mobile": 14
+          }
+        }
+      },
+      "block_order": [
+        "heading_settings_gTF3A9",
+        "custom_liquid_hiTUxN",
+        "heading_settings_pCBDHd",
+        "list_item_Gy68ze",
+        "list_item_8DHp9a",
+        "list_item_zbfzWy"
+      ],
+      "disabled": true,
+      "name": "Video With Text",
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "heading_spacing": 10,
+        "subheading_spacing": 20,
+        "custom_content_spacing": 16,
+        "list_item_spacing": 8,
+        "list_spacing": 20,
+        "dot_color": "#54e24a",
+        "box_bg_start": "#000000d9",
+        "box_bg_main": "#121212cc",
+        "box_bg_end": "#1e1e1ecc",
+        "text_color": "#ffffff",
+        "video_alignment": "right",
+        "video_url": "",
+        "video_cover": "shopify:\/\/shop_images\/Rectangle_27.png"
+      }
+    },
+    "gradient_heading_H9dKFq": {
+      "type": "gradient-heading",
+      "disabled": true,
+      "name": "Gradient Heading",
+      "settings": {
+        "heading_text": "What Our [gradient]User[\/gradient] Says",
+        "heading_size_desktop": 48,
+        "heading_size_mobile": 36,
+        "subheading_text": "",
+        "subheading_size_desktop": 24,
+        "subheading_size_mobile": 18,
+        "subheading_color": "#9b9b9b",
+        "subheading_gradient_from": "#4a90e2",
+        "subheading_gradient_to": "#7b68ee",
+        "heading_subheading_gap": 20,
+        "heading_color": "#ffffff",
+        "gradient_from": "#4a90e2",
+        "gradient_to": "#4a90e2",
+        "text_align": "left",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "background_color": "#000000"
+      }
+    },
+    "custom_reviews_cRWGaL": {
+      "type": "Custom-reviews",
+      "blocks": {
+        "review_fgPkWC": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Group_26.png",
+            "use_image_background": false,
+            "image_background": "linear-gradient(3deg, rgba(0, 117, 255, 0.31), rgba(82, 124, 226, 1) 53%, rgba(0, 0, 0, 1) 100%)",
+            "image_bg_opacity": 60,
+            "reviewer_name": "John Smith",
+            "name_color": "#4a90e2",
+            "use_name_gradient": true,
+            "name_gradient": "linear-gradient(339deg, rgba(0, 0, 0, 0.8) 7%, rgba(74, 144, 226, 1) 42%, rgba(39, 60, 117, 1) 81%)",
+            "reviewer_title": "Motion Graphics Designer",
+            "title_color": "#ffffff",
+            "use_title_gradient": false,
+            "title_gradient": "linear-gradient(90deg, rgba(101, 155, 232, 1) 42%, rgba(204, 204, 204, 1) 100%)",
+            "name_size_desktop": 18,
+            "name_size_mobile": 16,
+            "title_size_desktop": 14,
+            "title_size_mobile": 12,
+            "review_text": "This course completely transformed my After Effects skills! What once was hard to follow, and required advanced technical approach, I can now create professional motion graphics and animations for my clients.",
+            "review_text_color": "#cccccc",
+            "use_text_gradient": true,
+            "text_gradient": "linear-gradient(54deg, rgba(62, 62, 61, 1), rgba(255, 255, 255, 1) 100%)",
+            "review_text_size_desktop": 16,
+            "review_text_size_mobile": 14
+          }
+        },
+        "review_KbGqyr": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Group_26.png",
+            "use_image_background": false,
+            "image_background": "linear-gradient(3deg, rgba(0, 117, 255, 0.31), rgba(82, 124, 226, 1) 53%, rgba(0, 0, 0, 1) 100%)",
+            "image_bg_opacity": 60,
+            "reviewer_name": "John Smith",
+            "name_color": "#4a90e2",
+            "use_name_gradient": true,
+            "name_gradient": "linear-gradient(339deg, rgba(0, 0, 0, 0.8) 7%, rgba(74, 144, 226, 1) 42%, rgba(39, 60, 117, 1) 81%)",
+            "reviewer_title": "Motion Graphics Designer",
+            "title_color": "#ffffff",
+            "use_title_gradient": false,
+            "title_gradient": "linear-gradient(90deg, rgba(101, 155, 232, 1) 42%, rgba(204, 204, 204, 1) 100%)",
+            "name_size_desktop": 18,
+            "name_size_mobile": 16,
+            "title_size_desktop": 14,
+            "title_size_mobile": 12,
+            "review_text": "This course completely transformed my After Effects skills! What once was hard to follow, and required advanced technical approach, I can now create professional motion graphics and animations for my clients.",
+            "review_text_color": "#cccccc",
+            "use_text_gradient": true,
+            "text_gradient": "linear-gradient(54deg, rgba(62, 62, 61, 1), rgba(255, 255, 255, 1) 100%)",
+            "review_text_size_desktop": 16,
+            "review_text_size_mobile": 14
+          }
+        },
+        "review_JKtM8P": {
+          "type": "review",
+          "settings": {
+            "reviewer_image": "shopify:\/\/shop_images\/Group_26.png",
+            "use_image_background": false,
+            "image_background": "linear-gradient(3deg, rgba(0, 117, 255, 0.31), rgba(82, 124, 226, 1) 53%, rgba(0, 0, 0, 1) 100%)",
+            "image_bg_opacity": 60,
+            "reviewer_name": "John Smith",
+            "name_color": "#4a90e2",
+            "use_name_gradient": true,
+            "name_gradient": "linear-gradient(339deg, rgba(0, 0, 0, 0.8) 7%, rgba(74, 144, 226, 1) 42%, rgba(39, 60, 117, 1) 81%)",
+            "reviewer_title": "Motion Graphics Designer",
+            "title_color": "#ffffff",
+            "use_title_gradient": false,
+            "title_gradient": "linear-gradient(90deg, rgba(101, 155, 232, 1) 42%, rgba(204, 204, 204, 1) 100%)",
+            "name_size_desktop": 18,
+            "name_size_mobile": 16,
+            "title_size_desktop": 14,
+            "title_size_mobile": 12,
+            "review_text": "This course completely transformed my After Effects skills! What once was hard to follow, and required advanced technical approach, I can now create professional motion graphics and animations for my clients.",
+            "review_text_color": "#cccccc",
+            "use_text_gradient": true,
+            "text_gradient": "linear-gradient(54deg, rgba(62, 62, 61, 1), rgba(255, 255, 255, 1) 100%)",
+            "review_text_size_desktop": 16,
+            "review_text_size_mobile": 14
+          }
+        }
+      },
+      "block_order": [
+        "review_fgPkWC",
+        "review_KbGqyr",
+        "review_JKtM8P"
+      ],
+      "disabled": true,
+      "name": "Custom Reviews",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "background_color": "#000000",
+        "main_heading": "",
+        "colored_word": "",
+        "heading_color": "#ffffff",
+        "colored_word_color": "#4a90e2",
+        "heading_size_desktop": 20,
+        "heading_size_mobile": 20,
+        "max_reviews_per_row": 3,
+        "enable_slider": true,
+        "slider_mode": "always",
+        "slider_speed": 5000,
+        "show_dots": true,
+        "center_mode": true,
+        "auto_slide": true,
+        "review_background": "#1a1a1a",
+        "use_gradient_background": false,
+        "review_gradient_background": "linear-gradient(135deg, rgba(26, 26, 26, 1), rgba(51, 51, 51, 1) 100%)",
+        "review_padding": 30,
+        "review_border_radius": 8,
+        "quote_size": 16,
+        "quote_color": "#4a90e2",
+        "quote_icon_image": "shopify:\/\/shop_images\/quote-up.png",
+        "enable_card_gradient_border": true,
+        "card_border_gradient": "linear-gradient(94deg, rgba(11, 11, 11, 1), rgba(70, 155, 255, 1) 54%, rgba(11, 11, 11, 1) 100%)",
+        "border_glow_intensity": 40,
+        "border_glow_spread": 0
+      }
+    },
+    "text_with_boxes_wV69rH": {
+      "type": "Text-with-boxes",
+      "blocks": {
+        "box_T7agkp": {
+          "type": "box",
+          "settings": {
+            "box_bg_color": "#000000",
+            "border_glow_from": "#aaa490",
+            "border_glow_middle": "#ede6ca",
+            "icon": "shopify:\/\/shop_images\/22e40acf239ff9130a4be22581d1d71769fe8210.png",
+            "icon_width": 80,
+            "icon_bg_from": "#4a90e2",
+            "icon_bg_to": "#9b9b9b",
+            "icon_bg_opacity": 90,
+            "icon_glow_color": "#ede6ca",
+            "icon_glow_intensity": 60,
+            "heading": "Creators You Love!",
+            "box_heading_text_transform": "none",
+            "subheading": "Over 800 Creator Joined World Wide",
+            "heading_color_from": "#ffffff",
+            "heading_color_to": "#9b9b9b",
+            "subheading_color_from": "#9b9b9b",
+            "subheading_color_to": "#4a90e2",
+            "heading_size_desktop": 24,
+            "heading_size_mobile": 20,
+            "subheading_size_desktop": 16,
+            "subheading_size_mobile": 14
+          }
+        },
+        "box_a74xJA": {
+          "type": "box",
+          "settings": {
+            "box_bg_color": "#000000",
+            "border_glow_from": "#aaa490",
+            "border_glow_middle": "#ede6ca",
+            "icon": "shopify:\/\/shop_images\/eba71c545a05992dfcbdb59f08972bb55cd624dd.png",
+            "icon_width": 80,
+            "icon_bg_from": "#4a90e2",
+            "icon_bg_to": "#9b9b9b",
+            "icon_bg_opacity": 90,
+            "icon_glow_color": "#ede6ca",
+            "icon_glow_intensity": 60,
+            "heading": "Build Your Success!",
+            "box_heading_text_transform": "none",
+            "subheading": "Build your network, and get support",
+            "heading_color_from": "#ffffff",
+            "heading_color_to": "#9b9b9b",
+            "subheading_color_from": "#9b9b9b",
+            "subheading_color_to": "#4a90e2",
+            "heading_size_desktop": 24,
+            "heading_size_mobile": 20,
+            "subheading_size_desktop": 16,
+            "subheading_size_mobile": 14
+          }
+        },
+        "box_twyRii": {
+          "type": "box",
+          "settings": {
+            "box_bg_color": "#000000",
+            "border_glow_from": "#aaa490",
+            "border_glow_middle": "#ede6ca",
+            "icon": "shopify:\/\/shop_images\/be3b5bb2e784eb1db101988da67fb4f56ae9c2e8.png",
+            "icon_width": 80,
+            "icon_bg_from": "#4a90e2",
+            "icon_bg_to": "#9b9b9b",
+            "icon_bg_opacity": 90,
+            "icon_glow_color": "#ede6ca",
+            "icon_glow_intensity": 60,
+            "heading": "Skills That Last Forever",
+            "box_heading_text_transform": "none",
+            "subheading": "This is not a one time skill, This is for life",
+            "heading_color_from": "#ffffff",
+            "heading_color_to": "#9b9b9b",
+            "subheading_color_from": "#9b9b9b",
+            "subheading_color_to": "#4a90e2",
+            "heading_size_desktop": 24,
+            "heading_size_mobile": 20,
+            "subheading_size_desktop": 16,
+            "subheading_size_mobile": 14
+          }
+        }
+      },
+      "block_order": [
+        "box_T7agkp",
+        "box_a74xJA",
+        "box_twyRii"
+      ],
+      "disabled": true,
+      "name": "Text with Boxes",
+      "settings": {
+        "main_heading": "Join a Global Community and Master Timeless Skills!",
+        "heading_text_transform": "none",
+        "heading_gradient_from": "#ffffff",
+        "heading_gradient_to": "#ede6ca",
+        "word_gradient_from": "#4a90e2",
+        "word_gradient_to": "#9b9b9b",
+        "heading_size_desktop": 55,
+        "heading_size_mobile": 20,
+        "heading_bottom_gap": 25,
+        "heading_text_alignment": "center",
+        "enable_autoplay": true,
+        "autoplay_speed": 4,
+        "pause_on_hover": true
+      }
+    },
+    "gradient_heading_K93YEJ": {
+      "type": "gradient-heading",
+      "disabled": true,
+      "name": "Gradient Heading",
+      "settings": {
+        "heading_text": "Your new SFX workflow is [gradient] here[\/gradient]",
+        "heading_size_desktop": 41,
+        "heading_size_mobile": 20,
+        "subheading_text": "Essential SFX Version 2.0 is available now",
+        "subheading_size_desktop": 20,
+        "subheading_size_mobile": 15,
+        "subheading_color": "#9b9b9b",
+        "subheading_gradient_from": "#4a90e2",
+        "subheading_gradient_to": "#7b68ee",
+        "heading_subheading_gap": 10,
+        "heading_color": "#ffffff",
+        "gradient_from": "#3b5dba",
+        "gradient_to": "#3b5dba",
+        "text_align": "center",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "background_color": "#000000"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_qYbXzC": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "dropdown",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "judge_me_reviews_review_widget_wajyLA": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_qYbXzC",
+        "price",
+        "separator",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "tab",
+        "contact",
+        "share",
+        "judge_me_reviews_review_widget_wajyLA"
+      ],
+      "custom_css": [
+        ".variant-wrapper--dropdown {width: 100%;}"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [
+        ".section-header__title {color: #fff; text-align: center; font-family: Poppins; font-size: 54px; font-style: normal; font-weight: 400;}",
+        "@media (max-width: 768px) {.section-header__title {color: #fff; text-align: center; font-family: Poppins; font-size: 25px; font-style: normal; font-weight: 400; }}"
+      ],
+      "settings": {
+        "product_recommendations_heading": "You may also like !",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "faq_YczCUf": {
+      "type": "faq",
+      "blocks": {
+        "question_Q4mkPC": {
+          "type": "question",
+          "settings": {
+            "title": "What software does Essential SFX work with?",
+            "text": "<p>Our software is compatible with all major audio editing and production software, including but not limited to Adobe Premiere, Final Cut Pro, Logic Pro, Ableton Live, and many more.<\/p>",
+            "question_color": "#3b5dba",
+            "use_question_gradient": true,
+            "question_gradient_end_color": "#3b5dba",
+            "question_gradient_direction": 90,
+            "answer_color": "#cccccc",
+            "use_answer_gradient": false,
+            "answer_gradient_end_color": "#999999",
+            "answer_gradient_direction": 90
+          }
+        },
+        "question_MjnWB3": {
+          "type": "question",
+          "settings": {
+            "title": "Is this a one-time purchase or subscription?",
+            "text": "<p>Essential SFX is a one-time purchase that gives you lifetime access to the entire sound effects library included in your package.<\/p>",
+            "question_color": "#ffffff",
+            "use_question_gradient": false,
+            "question_gradient_end_color": "#cccccc",
+            "question_gradient_direction": 90,
+            "answer_color": "#cccccc",
+            "use_answer_gradient": false,
+            "answer_gradient_end_color": "#999999",
+            "answer_gradient_direction": 90
+          }
+        },
+        "question_7nMFht": {
+          "type": "question",
+          "settings": {
+            "title": "Do I get future updates?",
+            "text": "<p>Yes! All customers receive free updates to their purchased sound packs, including any expansions or improvements we make to existing effects.<\/p>",
+            "question_color": "#ffffff",
+            "use_question_gradient": false,
+            "question_gradient_end_color": "#cccccc",
+            "question_gradient_direction": 90,
+            "answer_color": "#cccccc",
+            "use_answer_gradient": false,
+            "answer_gradient_end_color": "#999999",
+            "answer_gradient_direction": 90
+          }
+        },
+        "question_atDKA3": {
+          "type": "question",
+          "settings": {
+            "title": "Can I preview sounds before using them?",
+            "text": "<p>Absolutely! Our intuitive interface allows you to preview any sound effect before adding it to your project, complete with waveform visualization.<\/p>",
+            "question_color": "#ffffff",
+            "use_question_gradient": false,
+            "question_gradient_end_color": "#cccccc",
+            "question_gradient_direction": 90,
+            "answer_color": "#cccccc",
+            "use_answer_gradient": false,
+            "answer_gradient_end_color": "#999999",
+            "answer_gradient_direction": 90
+          }
+        }
+      },
+      "block_order": [
+        "question_Q4mkPC",
+        "question_MjnWB3",
+        "question_7nMFht",
+        "question_atDKA3"
+      ],
+      "disabled": true,
+      "name": "FAQ",
+      "settings": {
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "header_bottom_spacing": 40,
+        "question_spacing": 16,
+        "bg_color": "#000000",
+        "use_gradient_bg": false,
+        "gradient_end_color": "#333333",
+        "gradient_direction": 90,
+        "title": "FAQ",
+        "title_color": "#ffffff",
+        "use_title_gradient": false,
+        "title_gradient_end_color": "#cccccc",
+        "title_gradient_direction": 90,
+        "title_size": 40,
+        "title_size_mobile": 32,
+        "title_weight": "600",
+        "subtitle": "Got Questions? We've Got Answers!",
+        "subtitle_color": "#ffffff",
+        "use_subtitle_gradient": false,
+        "subtitle_gradient_end_color": "#cccccc",
+        "subtitle_gradient_direction": 90,
+        "subtitle_size": 18,
+        "subtitle_size_mobile": 16,
+        "question_bg_color": "#111111",
+        "question_size": 18,
+        "question_size_mobile": 16,
+        "question_weight": "500",
+        "answer_size": 16,
+        "answer_size_mobile": 14,
+        "show_borders": true,
+        "border_color": "#333333",
+        "border_radius": 8
+      }
+    },
+    "contact_form_fixed_YUyQkj": {
+      "type": "contact-form-fixed",
+      "disabled": true,
+      "name": "Contact Form Latest",
+      "settings": {
+        "section_background_color": "#1a1a1a",
+        "custom_title": "Still have a question ? We're All Ears!",
+        "highlight_word": "question ?",
+        "custom_subtitle": "If you're curious about something or need more details, we’re just a message away",
+        "title_font_size_desktop": 34,
+        "title_font_size_mobile": 20,
+        "subtitle_font_size_desktop": 16,
+        "subtitle_font_size_mobile": 14,
+        "title_color": "#ffffff",
+        "highlight_color": "#4a90e2",
+        "subtitle_color": "#cccccc",
+        "label_color": "#cccccc",
+        "show_phone": false,
+        "show_order_number": true,
+        "narrow_column": true,
+        "gradient_text_from": "#aaa490",
+        "gradient_text_to": "#ede6ca",
+        "button_border_radius": 6
+      }
+    }
+  },
+  "order": [
+    "text_with_button_zDdHKY",
+    "box_marquee_with_text_cmNcaU",
+    "text_button_with_guidence_wJcPB6",
+    "sub",
+    "collection-return",
+    "video_with_text_yywmmk",
+    "gradient_heading_dbe6J6",
+    "1753023889099b982f",
+    "video_with_text_8PqjGg",
+    "gradient_heading_H9dKFq",
+    "custom_reviews_cRWGaL",
+    "text_with_boxes_wV69rH",
+    "gradient_heading_K93YEJ",
+    "main",
+    "product-recommendations",
+    "recently-viewed",
+    "faq_YczCUf",
+    "contact_form_fixed_YUyQkj"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/Djordanmedia_Logo_2021_cfd4f2d8-51c9-4649-a49e-bf4f67975841.png",
+            "logo-inverted": "shopify:\/\/shop_images\/Djordanmedia_Logo_2021_cfd4f2d8-51c9-4649-a49e-bf4f67975841.png",
+            "desktop_logo_width": 100,
+            "mobile_logo_width": 60
+          }
+        }
+      },
+      "block_order": [
+        "header-0"
+      ],
+      "settings": {
+        "main_menu_link_list": "menu-v3",
+        "hover_menu": true,
+        "mega_menu_images": false,
+        "main_menu_alignment": "left-center",
+        "header_style": "normal",
+        "sticky_index": true,
+        "sticky_collection": false,
+        "toolbar_menu": "",
+        "toolbar_social": true,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true
+      }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "4th of July sale",
+            "link_text": "20% off added at checkout!",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "The Trends You See, Start Here",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "announcement-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "announcement_compact": true
+      }
+    },
+    "172751366144dab756": {
+      "type": "apps",
+      "blocks": {
+        "sky_pilot_digital_downloads_customer_digital_library_button_wEkYXP": {
+          "type": "shopify:\/\/apps\/sky-pilot\/blocks\/customer_digital_library_button\/d19e6703-9148-4c06-b38c-b4d4f4a42811",
+          "settings": {
+            "button_label": "My Purchases",
+            "justification": "center",
+            "hide_if_no_downloads": true,
+            "css_classes": "btn button button--primary",
+            "custom_css": "margin-top: 7px; margin-bottom: 7px"
+          }
+        }
+      },
+      "block_order": [
+        "sky_pilot_digital_downloads_customer_digital_library_button_wEkYXP"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "header",
+    "announcement",
+    "172751366144dab756"
+  ]
+}

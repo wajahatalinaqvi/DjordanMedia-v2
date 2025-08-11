@@ -1,0 +1,249 @@
+{
+  "sections": {
+    "hero_video_nm86cR": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/U44bmm-sOYA",
+        "overlay_opacity": 0,
+        "section_height": "550px",
+        "mobile_height": "250px"
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": false,
+        "collection_image_enable": true,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "527cbd39-7019-429c-ab4f-3a4d1b0f4a41": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16615153238271__527cbd39-7019-429c-ab4f-3a4d1b0f4a41-1676331440b213d646-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "OVER 450+ CREATORS HAVE LEARNED FROM OUR COURSES."
+          }
+        },
+        "template--16615153238271__527cbd39-7019-429c-ab4f-3a4d1b0f4a41-1676331440b213d646-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1><strong>OVER 450+ CREATORS HAVE LEARNED FROM OUR COURSES 🎥<\/strong><\/h1><p><strong>No Editing Experience Needed ✨<\/strong><\/p><p>Our courses are designed to guide you from being a complete beginner to becoming a professional video editor or thriving media creator. Whether you're just starting out or looking to master new skills, our comprehensive lessons will equip you with the knowledge to excel. Join over 450 creators who have taken the leap with us!<\/p><h3>💼 <em>Creator's Success<\/em> - Build, Create, and Succeed<\/h3><p>This course is designed to give you the blueprint to turn your passion into a thriving media business. Learn business fundamentals, entrepreneurship essentials, gear upgrading, and networking keys to help you scale your media career—whether you're transitioning from a 9-5 or taking your content creation to the next level.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16615153238271__527cbd39-7019-429c-ab4f-3a4d1b0f4a41-1676331440b213d646-0",
+        "template--16615153238271__527cbd39-7019-429c-ab4f-3a4d1b0f4a41-1676331440b213d646-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1723605310653fd7d9": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_jXdPqz": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_jXdPqz"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "logo_list_mHQWUE": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_Ht47xW": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yokohama__Unternehmen__logo_svg.png",
+            "link": ""
+          }
+        },
+        "logo_image_wjfdXM": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-basic-black.png",
+            "link": ""
+          }
+        },
+        "logo_image_4e87Gx": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CC_logo_2.png",
+            "link": ""
+          }
+        },
+        "logo_image_bUUjww": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Techart-Logo_PNG.webp",
+            "link": ""
+          }
+        },
+        "logo_image_mxddF7": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brabus_logo_bl.png",
+            "link": ""
+          }
+        },
+        "logo_image_M8QPAz": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DYNA_LOGO_A.png",
+            "link": ""
+          }
+        },
+        "logo_image_8gcbeC": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VIP_Modular_Signature___Crest_Black_1.png",
+            "link": ""
+          }
+        },
+        "logo_image_epVre8": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s-l1600.jpg",
+            "link": ""
+          }
+        },
+        "logo_image_NRa3JU": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TC.png",
+            "link": ""
+          }
+        },
+        "logo_image_cgVA7t": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cod_logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_Ht47xW",
+        "logo_image_wjfdXM",
+        "logo_image_4e87Gx",
+        "logo_image_bUUjww",
+        "logo_image_mxddF7",
+        "logo_image_M8QPAz",
+        "logo_image_8gcbeC",
+        "logo_image_epVre8",
+        "logo_image_NRa3JU",
+        "logo_image_cgVA7t"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Our clients trust us, and you should too.",
+        "logo_opacity": 100,
+        "divider": false
+      }
+    },
+    "03c2a2e8-8aad-4b8f-a9ec-ee02e339cfc6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16615153238271__03c2a2e8-8aad-4b8f-a9ec-ee02e339cfc6-16826365397dbdce42-0": {
+          "type": "heading",
+          "settings": {
+            "title": "SEE WHAT THE MEMBERS SAY"
+          }
+        },
+        "template--16615153238271__03c2a2e8-8aad-4b8f-a9ec-ee02e339cfc6-16826365397dbdce42-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "c91f6f90-1894-4c22-ba28-ceff9ae409b3": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/reviews",
+            "link_text": "REVIEWS"
+          }
+        }
+      },
+      "block_order": [
+        "template--16615153238271__03c2a2e8-8aad-4b8f-a9ec-ee02e339cfc6-16826365397dbdce42-0",
+        "template--16615153238271__03c2a2e8-8aad-4b8f-a9ec-ee02e339cfc6-16826365397dbdce42-1",
+        "c91f6f90-1894-4c22-ba28-ceff9ae409b3"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": true,
+        "enable_sort": true
+      }
+    }
+  },
+  "order": [
+    "hero_video_nm86cR",
+    "collection-header",
+    "527cbd39-7019-429c-ab4f-3a4d1b0f4a41",
+    "1723605310653fd7d9",
+    "logo_list_mHQWUE",
+    "03c2a2e8-8aad-4b8f-a9ec-ee02e339cfc6",
+    "main-collection"
+  ]
+}

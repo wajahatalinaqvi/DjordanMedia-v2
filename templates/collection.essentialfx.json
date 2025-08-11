@@ -1,0 +1,155 @@
+{
+  "sections": {
+    "hero_video_8Xg8ei": {
+      "type": "hero-video",
+      "settings": {
+        "title": "The #1 After Effects Extensions",
+        "title_size": 54,
+        "subheading": "Comparison is for those who follow; innovation is for those who lead.",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/4RhNLPLCeQ8",
+        "overlay_opacity": 0,
+        "section_height": "750px",
+        "mobile_height": "250px"
+      }
+    },
+    "e9aa3f7f-098a-467b-91ae-3a60035c2e91": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16782109671679__e9aa3f7f-098a-467b-91ae-3a60035c2e91-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/essential_screenm.png",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16782109671679__e9aa3f7f-098a-467b-91ae-3a60035c2e91-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": true,
+        "enable_sort": true
+      }
+    },
+    "b736a8c7-9f91-4386-aad9-89f54d1634ea": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/youtu.be\/seXTYuk5uPw",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "hero_video_8Xg8ei",
+    "e9aa3f7f-098a-467b-91ae-3a60035c2e91",
+    "collection-header",
+    "promo-grid",
+    "main-collection",
+    "b736a8c7-9f91-4386-aad9-89f54d1634ea"
+  ]
+}

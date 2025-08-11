@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "aefea095-9374-49bb-bd6d-679359db630d": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=hMz0_GusFHE",
+        "overlay_opacity": 0,
+        "section_height": "450px",
+        "mobile_height": "auto"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {}
+    },
+    "7eb86374-11d2-4d3d-a347-949b82006e55": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--16643752984831__7eb86374-11d2-4d3d-a347-949b82006e55-16717408947cc8575c-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "editing-course",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16643752984831__7eb86374-11d2-4d3d-a347-949b82006e55-16717408947cc8575c-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "preset-packs",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16643752984831__7eb86374-11d2-4d3d-a347-949b82006e55-16717408947cc8575c-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "clip-packs",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16643752984831__7eb86374-11d2-4d3d-a347-949b82006e55-16717408947cc8575c-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16643752984831__7eb86374-11d2-4d3d-a347-949b82006e55-16717408947cc8575c-0",
+        "template--16643752984831__7eb86374-11d2-4d3d-a347-949b82006e55-16717408947cc8575c-1",
+        "template--16643752984831__7eb86374-11d2-4d3d-a347-949b82006e55-16717408947cc8575c-2",
+        "template--16643752984831__7eb86374-11d2-4d3d-a347-949b82006e55-16717408947cc8575c-3"
+      ],
+      "settings": {
+        "title": "GET TO EDITING!",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    }
+  },
+  "order": [
+    "aefea095-9374-49bb-bd6d-679359db630d",
+    "main",
+    "7eb86374-11d2-4d3d-a347-949b82006e55"
+  ]
+}
