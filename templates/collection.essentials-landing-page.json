@@ -1,0 +1,403 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "text_and_image_4iE3nB": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Speed_controller_tab.gif",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/Transitions_1.gif",
+        "image2_mask": "none",
+        "subtitle": "All-in-One Visual Toolkit for Adobe After Effects",
+        "title": "Essential FX",
+        "text": "<p>EssentialFX is a complete extension built to streamline your editing workflow. With one-click tools for speedramping, custom shake effects, instant transitions, VFX overlays, LUTs, and more — it’s everything you need in one panel.<\/p>",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/products\/essentialfx-1",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_Rqiw79": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Live_waveform_SFX.gif",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/color_theme_sfx.gif",
+        "image2_mask": "none",
+        "subtitle": "Compatible with DaVinci Studio - After Effects - Premiere Pro",
+        "title": "Essential SFX",
+        "text": "<p>EssentialSFX brings organized, professional-grade sound design to your editing process. Choose from over 1,000 sound effects across 19 categories and apply them instantly to your timeline. With live waveform previews, favorites, asset uplaoder, and a custom theme editor, it’s the fastest way to hear and use powerful audio without digging through folders.<\/p>",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/products\/essentialsfx",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_with_icons_AjNpbw": {
+      "type": "text-with-icons",
+      "blocks": {
+        "text_block_9UQETV": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "Built for Editors, by Editors",
+            "text": "<p>Designed with real-world workflows in mind — not generic templates.<\/p><p><\/p>"
+          }
+        },
+        "text_block_jF7gFt": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "Lifetime Free Updates",
+            "text": "<p>Buy once, get every future update — no extra charges, ever.<\/p><p><\/p>"
+          }
+        },
+        "text_block_WPrNFG": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "No Plug-Ins Needed",
+            "text": "<p>Works natively in Adobe — no third-party installs or tools required.<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_9UQETV",
+        "text_block_jF7gFt",
+        "text_block_WPrNFG"
+      ],
+      "name": "t:common.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "text_and_image_D9Q4XK": {
+      "type": "text-and-image",
+      "name": "t:sections.text-and-image.presets.image_with_text.name",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Live_waveform_SFX.gif",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/Speed_controller_tab.gif",
+        "image2_mask": "none",
+        "subtitle": "All the Tools You Need. One Powerful Bundle.",
+        "title": "The Essential Extensions Bundle",
+        "text": "<p>Get access to the full suite: <strong>EssentialFX<\/strong>, <strong>EssentialSFX<\/strong>, and <strong>EssentialShake<\/strong> — three industry-level extensions designed to maximize your creative output and cut editing time in half.<\/p><p>From one-click speedramps, shake effects, transitions, and overlays, to over 1,000 instantly applied sound effects and a dedicated shake engine — this bundle gives you <strong>complete control<\/strong> over motion, visuals, and sound.<\/p>",
+        "button_label": "Get The bundle",
+        "button_link": "shopify:\/\/products\/essential-extensions-bundle",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "1744856235c1435019": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_CnitBW": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_CnitBW"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1744333137095eeb38": {
+      "type": "apps",
+      "blocks": {
+        "spark_spotlight_carousal_Dd88zW": {
+          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": false,
+            "auto_play_video_next_video": false,
+            "feed_title": "",
+            "title_alignment": "center",
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": true,
+            "product_card_status": "hidden",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "Shop",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#ffffff",
+            "product_card_btn_border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "spark_spotlight_carousal_Dd88zW"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "hero_video_8Xg8ei": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "ESSENTIAL FX",
+        "title_size": 54,
+        "subheading": "VERSION 3",
+        "link_text": "",
+        "link": "https:\/\/youtu.be\/flU5AiWOhoI",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/flU5AiWOhoI",
+        "overlay_opacity": 0,
+        "section_height": "550px",
+        "mobile_height": "250px"
+      }
+    },
+    "slideshow_Bd9PWJ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YK4hJA": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/BANNER_03_4fc60ef3-a323-44ea-bd58-e655a753baa2.png",
+            "image_mobile": "shopify:\/\/shop_images\/POP_UP_04.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BAGLHg": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Two line\ntitle slide.",
+            "title_size": 80,
+            "subheading": "And big, beautiful imagery",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_YK4hJA",
+        "image_BAGLHg"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "advanced_content_neXLGg": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_rDJzfw": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Responsive Interactive Image Cards<\/title>\n    \n    <!-- Google Font (Baloo) -->\n    <link href=\"https:\/\/fonts.googleapis.com\/css2?family=Baloo+2:wght@400;700&display=swap\" rel=\"stylesheet\">\n    \n    <!-- Basic CSS -->\n    <style>\n        \/* Global Styles *\/\n        body {\n            font-family: 'Baloo 2', sans-serif;\n            margin: 0;\n            padding: 0;\n            background-color: #f0ede0; \/* Cream background color *\/\n            color: #333;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: center;\n            min-height: 100vh;\n        }\n\n        \/* Header with rainbow color shift effect *\/\n        h1 {\n            font-size: 2.5rem;\n            color: transparent; \/* Make text transparent for background-clip effect *\/\n            text-align: center;\n            background: linear-gradient(90deg, rgba(255, 102, 102, 0.6), rgba(255, 178, 102, 0.6), rgba(255, 255, 153, 0.6), rgba(153, 255, 153, 0.6), rgba(153, 204, 255, 0.6), rgba(204, 153, 255, 0.6), rgba(255, 153, 204, 0.6));\n            background-size: 300%;\n            -webkit-background-clip: text;\n            background-clip: text;\n            color: transparent;\n            animation: colorWipe 10s linear infinite;\n            transition: 0.3s ease;\n        }\n\n        \/* Animation for the color shift *\/\n        @keyframes colorWipe {\n            0% {\n                background-position: 0%;\n            }\n            50% {\n                background-position: 100%;\n            }\n            100% {\n                background-position: 0%;\n            }\n        }\n\n        \/* Card Container *\/\n        .card-container {\n            display: flex;\n            gap: 20px;\n            flex-wrap: wrap;\n            justify-content: center;\n            padding: 20px;\n        }\n\n        \/* Card Styles *\/\n        .card {\n            width: 500px;\n            height: 500px;\n            border-radius: 12px;\n            overflow: hidden;\n            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);\n            position: relative;\n            cursor: pointer;\n            perspective: 1000px;\n            transition: width 0.3s ease, height 0.3s ease;\n        }\n\n        \/* Responsive Card Size *\/\n        @media (max-width: 768px) {\n            .card {\n                width: 90%;\n                height: auto;\n                aspect-ratio: 1 \/ 1;\n            }\n        }\n\n        \/* Image and Info Slide Container *\/\n        .slide-container {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            transition: transform 0.6s ease;\n        }\n\n        \/* Image Slide *\/\n        .image-slide {\n            position: absolute;\n            width: 100%;\n            height: 100%;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            background-color: #fff;\n        }\n\n        .image-slide img {\n            width: 100%;\n            height: 100%;\n            object-fit: cover;\n            filter: grayscale(100%); \/* Apply grayscale only to images *\/\n            transition: filter 0.3s ease;\n        }\n\n        \/* Hover effect to bring color back *\/\n        .card:hover .image-slide img {\n            filter: grayscale(0%); \/* Remove grayscale on hover *\/\n        }\n\n        \/* Info Slide *\/\n        .info-slide {\n            position: absolute;\n            width: 100%;\n            height: 100%;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n            justify-content: center;\n            background-color: #2A75AA;\n            color: #fff;\n            text-align: center;\n            padding: 20px;\n            transform: translateX(100%);\n        }\n\n        \/* Toggle Slide on Click *\/\n        .card.active .slide-container {\n            transform: translateX(-100%);\n        }\n\n        \/* Simple \"Shop Now\" Button with Hover Glow Effect *\/\n        .shop-now-button {\n            margin-top: 20px;\n            padding: 12px 24px;\n            font-size: 1rem;\n            color: #fff;\n            background-color: #2A75AA;\n            border: 2px solid transparent;\n            border-radius: 8px;\n            cursor: pointer;\n            text-decoration: none;\n            text-align: center;\n            position: relative;\n            overflow: hidden;\n            transition: color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;\n        }\n\n        \/* Glow effect on hover *\/\n        .shop-now-button:hover {\n            box-shadow: 0 0 15px rgba(42, 117, 170, 0.6), 0 0 25px rgba(42, 117, 170, 0.4);\n            transform: scale(1.05);\n        }\n\n        \/* White Text Glow on Hover *\/\n        .shop-now-button:hover {\n            color: #fff;\n            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 12px rgba(255, 255, 255, 0.6);\n        }\n\n        \/* Coming Soon Style *\/\n        .coming-soon {\n            position: absolute;\n            top: 0;\n            left: 0;\n            width: 100%;\n            height: 100%;\n            display: flex;\n            align-items: center;\n            justify-content: center;\n            background-color: #2A75AA;\n            color: #fff;\n            font-size: 1.5rem;\n            text-align: center;\n            opacity: 0;\n            transition: opacity 0.3s ease;\n        }\n\n        \/* Show \"Coming Soon\" on click *\/\n        .card.coming-soon-active .coming-soon {\n            opacity: 1;\n        }\n    <\/style>\n<\/head>\n<body>\n\n    <!-- Center-Aligned Header -->\n    <h1 id=\"dynamic-header\">The Essential Extensions<\/h1>\n\n    <!-- Card Container with Interactive Image Cards -->\n    <div class=\"card-container\">\n        \n        <!-- Card 1: EssentialFX -->\n        <div class=\"card\" onclick=\"toggleCard(this)\">\n            <div class=\"slide-container\">\n                <!-- Image Slide -->\n                <div class=\"image-slide\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/9532\/0575\/files\/EssentialFXV3BlueTheme_de6bb610-e689-40e3-af95-09ce748d3faf.jpg?v=1730699589\" alt=\"EssentialFX\">\n                <\/div>\n                <!-- Info Slide -->\n                <div class=\"info-slide\">\n                    <p><strong>EssentialFX:<\/strong><br>Take your video editing to the next level with advanced effects, speed ramping, and workflow automation in Adobe After Effects.<\/p>\n                    <a href=\"https:\/\/djordanmedia.com\/products\/essentialfx-1\" target=\"_blank\" class=\"shop-now-button\">Shop Now<\/a>\n                <\/div>\n            <\/div>\n        <\/div>\n        \n        <!-- Card 2: Essential SFX -->\n        <div class=\"card\" onclick=\"toggleCard(this)\">\n            <div class=\"slide-container\">\n                <!-- Image Slide -->\n                <div class=\"image-slide\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/9532\/0575\/files\/essential_SFX_2024.jpg?v=1723603043\" alt=\"Essential SFX\">\n                <\/div>\n                <!-- Info Slide -->\n                <div class=\"info-slide\">\n                    <p><strong>Essential SFX:<\/strong><br>Enhance your audio experience with over 300 sounds for **After Effects** and **Premiere Pro**, designed for professional projects.<\/p>\n                    <a href=\"https:\/\/djordanmedia.com\/products\/essentialsfx\" target=\"_blank\" class=\"shop-now-button\">Shop Now<\/a>\n                <\/div>\n            <\/div>\n        <\/div>\n        \n        <!-- Card 3: EssentialAI (Coming Soon) -->\n        <div class=\"card coming-soon-card\" onclick=\"toggleComingSoon(this)\">\n            <div class=\"slide-container\">\n                <!-- Image Slide -->\n                <div class=\"image-slide\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/9532\/0575\/files\/Essential_AI.jpg?v=1723604363\" alt=\"EssentialAI\">\n                <\/div>\n            <\/div>\n            <!-- Coming Soon Overlay -->\n            <div class=\"coming-soon\">Coming Soon<\/div>\n        <\/div>\n        \n        <!-- Card 4: Essential Bundle (Info Slide with Updated Text) -->\n        <div class=\"card\" onclick=\"toggleCard(this)\">\n            <div class=\"slide-container\">\n                <!-- Image Slide -->\n                <div class=\"image-slide\">\n                    <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0615\/9532\/0575\/files\/Essentialbundlepackv2.jpg?v=1730699482\" alt=\"Essential Bundle\">\n                <\/div>\n                <!-- Info Slide -->\n                <div class=\"info-slide\">\n                    <p><strong>Essential Bundle:<\/strong><br>Get all our essentials with lifetime updates, ensuring you're always up-to-date with the latest tools and features.<\/p>\n                    <a href=\"https:\/\/djordanmedia.com\/products\/essential-extensions-bundle\" target=\"_blank\" class=\"shop-now-button\">Shop Now<\/a>\n                <\/div>\n            <\/div>\n        <\/div>\n\n    <\/div>\n\n    <!-- JavaScript for Toggle Effect -->\n    <script>\n        const header = document.getElementById(\"dynamic-header\");\n\n        function toggleCard(card) {\n            card.classList.toggle('active');\n            header.classList.add(\"active-glow\");\n\n            \/\/ Remove the glow after a delay\n            setTimeout(() => {\n                header.classList.remove(\"active-glow\");\n            }, 3000);\n        }\n\n        function toggleComingSoon(card) {\n            card.classList.toggle('coming-soon-active');\n        }\n    <\/script>\n\n<\/body>\n<\/html>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_rDJzfw"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "e9aa3f7f-098a-467b-91ae-3a60035c2e91": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_8yawAt": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>EssentialFX V3 Landing Page<\/title>\n    <link href=\"https:\/\/fonts.googleapis.com\/css?family=Roboto:300,400,500&display=swap\" rel=\"stylesheet\">\n    <style>\n        body, html {\n            height: 100%;\n            margin: 0;\n            font-family: 'Roboto', sans-serif;\n            background-color: #F0EDE0; \/* Tan background *\/\n            scroll-behavior: smooth; \/* Smooth scrolling *\/\n        }\n\n        #essentialfx {\n            padding: 50px;\n            background-color: #F0EDE0; \/* Match page background *\/\n            text-align: center;\n        }\n\n        .fx-container {\n            max-width: 800px;\n            margin: 0 auto;\n            padding: 20px;\n            background-color: #F0EDE0; \/* Matching tan background *\/\n            border-radius: 10px;\n            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 0 20px rgba(151, 12, 16, 0.8); \/* Glowing red border *\/\n        }\n\n        h2 {\n            font-size: 2em;\n            color: #970C10; \/* Dark red headline *\/\n            margin: 20px 0; \/* Added margin for spacing *\/\n            border-bottom: 2px solid #970C10; \/* Underline for separation *\/\n            padding-bottom: 10px; \/* Padding below the headline *\/\n        }\n\n        p {\n            font-size: 1.2em;\n            color: #000; \/* Black text *\/\n            line-height: 1.5em;\n            margin-bottom: 20px;\n        }\n\n        .features-list {\n            list-style-type: none;\n            padding: 0;\n            font-size: 1.1em;\n            color: #000;\n            text-align: left;\n            max-width: 90%;\n            margin: 0 auto;\n        }\n\n        .features-list li {\n            margin-bottom: 10px;\n            padding-left: 20px;\n            position: relative;\n        }\n\n        .features-list li::before {\n            content: \"✔️\";\n            position: absolute;\n            left: 0;\n            color: green; \/* Green checkmark *\/\n        }\n\n        \/* Button for call-to-action *\/\n        .cta-button {\n            display: inline-block;\n            padding: 15px 30px;\n            background-color: #970C10;\n            color: #FFFFFF !important; \/* Ensure white text *\/\n            text-decoration: none;\n            border-radius: 5px;\n            margin-top: 20px;\n            transition: background-color 0.3s ease;\n        }\n\n        .cta-button:hover {\n            background-color: #b11216; \/* Lighter red on hover *\/\n        }\n    <\/style>\n<\/head>\n<body>\n\n<!-- EssentialFX Section -->\n<div id=\"essentialfx\">\n    <div class=\"fx-container\">\n        <h2>What is EssentialFX V3?<\/h2>\n        <p>EssentialFX Version 3 is the ultimate Adobe After Effects extension, designed to revolutionize your editing workflow. It now features a brand-new Day and Night Mode for improved contrast control, an Automated Speed Ramp Controller that removes the need for keyframes, upgraded Transitions, and an expanded suite of Shakes, Effects, and LUTs to keep your creativity flowing.<\/p>\n        <p>EssentialFX V3 offers an intuitive interface with advanced tools and a streamlined workflow tab, allowing you to focus on creativity without the technical hassles. Experience the future of editing with real-time previews, automated adjustments, and seamless integration within Adobe After Effects.<\/p>\n\n        <h2>Key Features of V3:<\/h2>\n        <ul class=\"features-list\">\n            <li>Day and Night Mode: Toggle between light and dark themes to reduce eye strain and enhance editing visibility. 🌗<\/li>\n            <li>Automated Speed Ramp Controller: Instantly transform your footage with automated speedramping—no more keyframes required! 🏎️<\/li>\n            <li>Updated Shake Effects: Add dynamic energy to your videos with a new and improved set of customizable shake effects. 💥<\/li>\n            <li>Color Grading Presets: Achieve professional-level color grading with ease using our curated LUTs. 🎨<\/li>\n            <li>VFX Overlays: Access over 100+ custom VFX overlays, from glitches to cinematic film burns, to create visually stunning videos. 🔮<\/li>\n            <li>Simplified Workflow Tab: Automate tedious tasks like layer and keyframe adjustments for a faster, smoother workflow. ⚡<\/li>\n            <li>New Transitions: Seamlessly switch between scenes with a collection of fresh and exciting transition effects that will keep your audience engaged. 🎬<\/li>\n        <\/ul>\n\n        <h2>Why Choose EssentialFX V3?<\/h2>\n        <p>Custom-Designed: Crafted to meet the needs of modern creators, EssentialFX V3 offers tailor-made solutions for every video project. ✨<\/p>\n        <p>No Plug-Ins Required: Enjoy a seamless editing experience without relying on any third-party plug-ins. EssentialFX is all you need. 🛠️<\/p>\n        <p>Free Upgrades and Updates: Your purchase includes lifetime updates, ensuring you're always equipped with the latest features. 🔄<\/p>\n\n        <a href=\"#product-grid\" class=\"cta-button\">View Essential Extensions<\/a>\n    <\/div>\n<\/div>\n\n<!-- Placeholder for Product Grid Section -->\n<div id=\"product-grid\">\n    <!-- Your product grid will go here -->\n<\/div>\n\n<\/body>\n<\/html>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_8yawAt"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": false,
+        "lazyload_images": true
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "banner": {
+          "type": "banner",
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_tint": "#e95454",
+            "color_tint_opacity": 8,
+            "framed": false
+          }
+        },
+        "advanced": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "100",
+            "height": 500,
+            "text_size": 120,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "banner",
+        "advanced"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": true,
+        "space_below": false,
+        "lazyload_images": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "product_grid"
+      ],
+      "custom_css": [],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "sidebar",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": true,
+        "enable_sort": true
+      }
+    },
+    "b736a8c7-9f91-4386-aad9-89f54d1634ea": {
+      "type": "featured-video",
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=ND4M93huAUI&ab_channel=DJordanMedia",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "text_and_image_4iE3nB",
+    "text_and_image_Rqiw79",
+    "text_with_icons_AjNpbw",
+    "text_and_image_D9Q4XK",
+    "1744856235c1435019",
+    "1744333137095eeb38",
+    "hero_video_8Xg8ei",
+    "slideshow_Bd9PWJ",
+    "advanced_content_neXLGg",
+    "e9aa3f7f-098a-467b-91ae-3a60035c2e91",
+    "collection-header",
+    "promo-grid",
+    "main-collection",
+    "b736a8c7-9f91-4386-aad9-89f54d1634ea"
+  ]
+}

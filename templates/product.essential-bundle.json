@@ -1,0 +1,311 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_video_QMfdH9": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 40,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=aEv1y2AoKOQ&ab_channel=DJordanMedia",
+        "overlay_opacity": 0,
+        "section_height": "550px",
+        "mobile_height": "auto"
+      }
+    },
+    "rich_text_PY6FGT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DbEprz": {
+          "type": "heading",
+          "settings": {
+            "title": "The Essentials Bundle"
+          }
+        },
+        "text_exaRJn": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_DbEprz",
+        "text_exaRJn"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_hRmgHf": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_FrhxGF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "dropdown",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_hRmgHf",
+        "judge_me_reviews_preview_badge_FrhxGF",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "rich_text_YTbrK8": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_h4wGw7": {
+          "type": "heading",
+          "settings": {
+            "title": "Whats Included?"
+          }
+        },
+        "text_XAFdYm": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><strong>Plug-In-Free Editing<\/strong>: Seamlessly integrates without the need for additional plug-ins. <\/p><p><strong>Complimentary Updates<\/strong>: Enjoy lifetime updates with new features at no extra cost.<\/p><p>The EssentialFX, SFX, Shake Bundle pack<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_h4wGw7",
+        "text_XAFdYm"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_i3XwPn": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Live_waveform_SFX.gif",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Essential SFX",
+        "text": "<p>Quickly preview your sounds with live waveforms for fast, precise editing.<\/p><ul><li>Visualize audio files instantly with waveform previews.<\/li><li>Upload your own sfx or songs into the extension<\/li><li>Theme editor, rename tools, favorites, search, and more!<\/li><li>For DaVinci Resolve Studio, Premiere Pro, And After Effects<\/li><\/ul>",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/products\/essentialsfx",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_U9bri9": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Transitions_1.gif",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Essential FX",
+        "text": "<p>Version 3.5 (updates included)<\/p><p>Adobe After Effects<\/p><p><strong>Automated Speed Ramps<\/strong> – No keyframes needed, with custom curves and a reverse motion feature.<\/p><p><strong>Instant Transitions & VFX<\/strong> – Apply effects at the cursor with over 50 overlays, including fire and particles.<\/p><p><strong>Workflow Automation<\/strong> – One-click adjustment layers, keyframe smoothing, and real-time previews.<\/p>",
+        "button_label": "Learn More",
+        "button_link": "https:\/\/djordanmedia.com\/collections\/essentials\/products\/essentialfx-1",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_XdcnMV": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Essential_Shake.gif",
+        "image_mask": "square",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Essential Shake",
+        "text": "<p>Instantly preview and apply custom, adjustable shake FX—no extra plugins, no delay. Essential Shake lives right inside After Effects 2023+, giving you real‑time motion previews, one‑click application, fine‑tune controls, cinematic camera shakes, and trendy impact presets to inject energy into every shot.<\/p>",
+        "button_label": "Learn More",
+        "button_link": "shopify:\/\/products\/essentialshake",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_PKf4xQ": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CC_change.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "SFX Theme Editor",
+        "text": "<p>Customize your workspace with flexible color themes.<\/p><ul><li><strong>Choose<\/strong> from 3 default themes: Blue, Red, and Rainbow.<\/li><li><strong>Create<\/strong> your own custom theme with adjustable primary and secondary colors.<\/li><li><strong>Personalize<\/strong> your workspace to match your creative flow.<\/li><li><strong>Enhanced Workflow<\/strong>: Favorites, advanced search, and intuitive customization options for all supported platforms.<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_CtMyH4": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_mask": "square",
+        "image2": "shopify:\/\/shop_images\/Uploads_sdfx.gif",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Upload SFX Assets",
+        "text": "<p>Seamlessly upload and organize your custom sound effects.<\/p><ul><li><strong>1000+ SFX<\/strong>: Access over 1,000 sound effects across 19 categories with live waveform previews.<\/li><li><strong>Upload<\/strong> custom sounds or songs directly into the extension.<\/li><li><strong>Organize<\/strong> custom uploads in dedicated folders.<\/li><li><strong>Preview<\/strong> uploads instantly with live waveform visualization.<\/li><li><strong>Included Categories: <\/strong>Action, Alerts, Ambience, Camera, Cinematic Synth, Dramatic Drone, Drones, Effects, Electric, Explosion, Foleys, Glitch, Hits, Impacts, Rain, Reverse FX, Risers, Swooshes, Transitions<\/li><\/ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "1738630105bb917d33": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_kXfAtF": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_kXfAtF"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    }
+  },
+  "order": [
+    "hero_video_QMfdH9",
+    "rich_text_PY6FGT",
+    "main",
+    "rich_text_YTbrK8",
+    "text_and_image_i3XwPn",
+    "text_and_image_U9bri9",
+    "text_and_image_XdcnMV",
+    "text_and_image_PKf4xQ",
+    "text_and_image_CtMyH4",
+    "1738630105bb917d33",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

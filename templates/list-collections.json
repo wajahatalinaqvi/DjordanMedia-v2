@@ -1,0 +1,64 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "84b51eb7-c393-46eb-81ba-4fdd20d4619d": {
+          "type": "collection",
+          "settings": {
+            "collection": "editing-course"
+          }
+        },
+        "30c714ae-0e2c-44bd-aecd-5bdbd98d193a": {
+          "type": "collection",
+          "settings": {
+            "collection": "clip-packs"
+          }
+        },
+        "fb5c8853-55ab-439c-a730-a00ece5f31a9": {
+          "type": "collection",
+          "settings": {
+            "collection": "how-to"
+          }
+        },
+        "0cb16de5-a149-4873-919b-6fae94908950": {
+          "type": "collection",
+          "settings": {
+            "collection": "photography-presets"
+          }
+        },
+        "ca3e7a57-a872-4e65-9f38-b5e1d487896a": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "84b51eb7-c393-46eb-81ba-4fdd20d4619d",
+        "30c714ae-0e2c-44bd-aecd-5bdbd98d193a",
+        "fb5c8853-55ab-439c-a730-a00ece5f31a9",
+        "0cb16de5-a149-4873-919b-6fae94908950",
+        "ca3e7a57-a872-4e65-9f38-b5e1d487896a"
+      ],
+      "settings": {
+        "title_enable": false,
+        "display_type": "all",
+        "sort": "alphabetical",
+        "grid": "3"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

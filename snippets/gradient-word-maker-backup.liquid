@@ -1,0 +1,37 @@
+{% comment %} {% comment %}
+  Gradient Word Maker Snippet
+  Accepts:
+    - text: The text to process (required)
+    - start_color: Gradient start color (optional, defaults to theme setting)
+    - end_color: Gradient end color (optional, defaults to theme setting)
+    - weight: Font weight (optional, defaults to 600)
+  
+  Usage:
+    {% render 'gradient-word-maker', 
+      text: "What You'll Get Inside The [gradient]Course![/gradient]",
+      start_color: section.settings.subheading_gradient_from,
+      end_color: section.settings.subheading_gradient_to
+    %}
+{% endcomment %}
+
+{% assign text = text | default: "" %}
+{% assign start_color = start_color | default: "#D9D3B9" %}
+{% assign end_color = end_color | default: "#A39E8B" %}
+{% assign weight = weight | default: 600 %}
+
+{% comment %}Process the text only if it contains gradient tags{% endcomment %}
+{% if text contains "[gradient]" and text contains "[/gradient]" %}
+  {% comment %}Split the text into parts{% endcomment %}
+  {% assign parts = text | split: "[gradient]" %}
+  {% assign before_text = parts[0] %}
+  
+  {% comment %}Handle the gradient part and everything after it{% endcomment %}
+  {% assign temp = parts[1] | split: "[/gradient]" %}
+  {% assign gradient_part = temp[0] %}
+  {% assign after_text = temp[1] %}
+  
+  {% comment %}Output the three parts properly{% endcomment %}
+  {{ before_text }}<span style="background: linear-gradient(to right, {{ start_color }}, {{ end_color }}); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-weight: {{ weight }}; display: inline;">{{ gradient_part }}</span>{{ after_text }}
+{% else %}
+  {{ text }}
+{% endif %} {% endcomment %}

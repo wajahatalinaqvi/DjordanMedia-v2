@@ -1,0 +1,624 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "169578298725df04e4": {
+      "type": "apps",
+      "blocks": {
+        "8c0082e0-b8a9-4ce7-97b5-68fd52c3a567": {
+          "type": "shopify:\/\/apps\/widgetic-countdown-timer\/blocks\/extention-block\/854a9797-8ea2-4024-b873-11198b6ffa7a",
+          "settings": {
+            "compositionid": "65139564ecb2a1791a8b4567",
+            "resize_mode": "allow-scale-down",
+            "width": 350,
+            "height": 150,
+            "align": "center",
+            "autoscale": false
+          }
+        }
+      },
+      "block_order": [
+        "8c0082e0-b8a9-4ce7-97b5-68fd52c3a567"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "hero_video_YPK4rT": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "ESSENTIALFX Version 3.0",
+        "title_size": 80,
+        "subheading": "The original standard, repeatedly redefined.",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/0ItrsEiL-pE",
+        "overlay_opacity": 0,
+        "section_height": "450px",
+        "mobile_height": "auto"
+      }
+    },
+    "139001b3-3a2d-40d5-b88e-12acb80e9b91": {
+      "type": "countdown",
+      "blocks": {
+        "template--16615112343807__139001b3-3a2d-40d5-b88e-12acb80e9b91-content-1": {
+          "type": "content",
+          "settings": {
+            "heading": "Releasing",
+            "heading_size": "h2",
+            "text": "<p>Your Creative limits are opened in<\/p>",
+            "content_alignment": "left"
+          }
+        },
+        "template--16615112343807__139001b3-3a2d-40d5-b88e-12acb80e9b91-timer-1": {
+          "type": "timer",
+          "settings": {
+            "year": "2023",
+            "month": "09",
+            "day": "28",
+            "hour": "09",
+            "minute": "00",
+            "hide_timer": true,
+            "text": "<p>ESSENTIALFX IS NOW AVAILABLE!<\/p>"
+          }
+        },
+        "template--16615112343807__139001b3-3a2d-40d5-b88e-12acb80e9b91-button-1": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button": "",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--16615112343807__139001b3-3a2d-40d5-b88e-12acb80e9b91-content-1",
+        "template--16615112343807__139001b3-3a2d-40d5-b88e-12acb80e9b91-timer-1",
+        "template--16615112343807__139001b3-3a2d-40d5-b88e-12acb80e9b91-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "banner",
+        "full_width": false,
+        "text_color": "#000000",
+        "background_color": "#ffffff",
+        "background_image": "shopify:\/\/shop_images\/DJORDANMEDIA_5fd21725-5f48-4bcd-8b91-3572a85e7b8b.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "mobile_image": "shopify:\/\/shop_images\/DJORDANMEDIA_5fd21725-5f48-4bcd-8b91-3572a85e7b8b.jpg",
+        "lazyload_images": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_ke9Xih": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_Pn8C3E": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "text_kTfBBz": {
+          "type": "text",
+          "settings": {
+            "text": "By purchasing this extension, you are agreeing to our terms of service and licensing agreement."
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_ke9Xih",
+        "judge_me_reviews_preview_badge_Pn8C3E",
+        "price",
+        "separator",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "text_kTfBBz",
+        "buy_buttons",
+        "description"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "text_and_image_exim4n": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Theme_selector_button_1.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "5 Themes to Choose from",
+        "text": "<p>5 unique themes — from sleek dark mode to vibrant blue<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_UUpXh6": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EFFECTS_TAB.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Your favorite effects, one click away.",
+        "title": "effects",
+        "text": "<p>Search, save, and apply them in one click—no more wasting time when you know your favorites!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_DpzMpy": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Shakes_Tab.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Make it hit. Every time.",
+        "title": "shakes",
+        "text": "<p>packed with high-energy shake effects—ready to go. Customizable and organzied for your effects controls.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_bgmAhE": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/VFX.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "3D made easy",
+        "title": "VFX",
+        "text": "<p>Add exhaust shots, circle rings, particles, and more for 2D or 3D — just click and create<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_4j86Xt": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Luts.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Professional color in one click.",
+        "title": "LUTS",
+        "text": "<p>Preview the look, then apply it instantly with an adjustment layer—no guesswork, no setup<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_DyQcGt": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Speed_controller_tab.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "No keyframes. No stress. Just flow.",
+        "title": "Speedramp controller",
+        "text": "<p>No keyframes needed—just select your layer and let the speedramp controller do the rest. Automatically ramps your prepped clips.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_YtkWcf": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Remapping_tab.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Advanced graph control made accurate.",
+        "title": "Remapping Tab",
+        "text": "<p>Sync Graphs, Enable remap, Freeze frames, reverse shots, and build your own custom ramp \/ graph presets.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_Ntb7Cn": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Glitches_tab.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "VFX Overlays",
+        "title": "Glitches",
+        "text": "<p>Add instant chaos to your edits with distortion, digital noise, and glitch VFX—no plugins, no setup.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_dDPE3h": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Transitions_1.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Smooth transitions in seconds.",
+        "title": "Transitions",
+        "text": "<p>Skip the setup—just select your layers and apply clean, modern transitions instantly. Hyper zooms, ins, outs, pans.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_RDKBaT": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Workflow_tab.gif",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Your essential tools, all in one place.",
+        "title": "Workflow",
+        "text": "<p>Create layers, trim, track, stabilize, ease keyframes, and fine-tune motion—built for faster editing, animations, and smoother keyframe control.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "ab93b8fe-c85d-4c5f-ba82-d524d7f1b629": {
+      "type": "featured-video",
+      "settings": {
+        "title": "Essential FX 3.5",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=ND4M93huAUI&ab_channel=DJordanMedia",
+        "divider": false
+      }
+    },
+    "text_columns_7m9RGk": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_zEimck": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_rLaJgL": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "text_block_YP4eRE": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_zEimck",
+        "text_block_rLaJgL",
+        "text_block_YP4eRE"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "faq_eDqC6H": {
+      "type": "faq",
+      "blocks": {
+        "question_BrDLrg": {
+          "type": "question",
+          "settings": {
+            "title": "How much time can EssentialFX actually save me?",
+            "text": "<p>Most editors save <strong>hours per project<\/strong> by cutting out repetitive tasks like searching for effects, building ramps, or setting up layers manually. It's built to speed up your entire workflow from start to finish. Not only is it used to speed up workflows, but its used to unlock creativity and accuracy.<\/p>"
+          }
+        },
+        "question_d7UwaN": {
+          "type": "question",
+          "settings": {
+            "title": "Do I get updates for free?",
+            "text": "<p>Nope! No additional payments! all Essential Extensions come with free updates. We are committed to enhancing our products, and you will receive ongoing updates with new features, effects, and improvements at no additional cost.<\/p>"
+          }
+        },
+        "question_eYiYKK": {
+          "type": "question",
+          "settings": {
+            "title": "Is this included in any bundles?",
+            "text": "<p>Yes! EssentialFX is also part of our <strong>Essential Extensions Bundle<\/strong> and <strong>Platinum Bundle<\/strong>, which include SFX, Shake, LUTs, courses, and more at a discounted rate.<\/p>"
+          }
+        },
+        "question_nbFiKx": {
+          "type": "question",
+          "settings": {
+            "title": "Can I save my own presets inside EssentialFX?",
+            "text": "<p>Yes! You can <strong>save your favorite speedramps, effect setups, and more<\/strong> to reuse in any project. Your custom workflow becomes faster every time you open it.<\/p>"
+          }
+        },
+        "question_KiYF8T": {
+          "type": "question",
+          "settings": {
+            "title": "How many devices can I install EssentialFX on?",
+            "text": "<p>You get <strong>2 activations per purchase<\/strong>, so you can use it on your main setup and a backup system. For multi licenses, please notify us<\/p>"
+          }
+        },
+        "question_j4NC8C": {
+          "type": "question",
+          "settings": {
+            "title": "What versions of After Effects are supported?",
+            "text": "<p>EssentialFX works with <strong>Adobe After Effects 2024 and newer<\/strong>.<\/p>"
+          }
+        },
+        "question_gVcfRY": {
+          "type": "question",
+          "settings": {
+            "title": "How does the Speedramp Controller work?",
+            "text": "<p>It lets you create <strong>cinematic speed ramps automatically<\/strong> — no keyframes needed. Just select your layer, adjust the curve strength, and click apply. It even prevents frame glitches and supports multi-ramp setups with our remapping section.<\/p>"
+          }
+        },
+        "question_GQUrJN": {
+          "type": "question",
+          "settings": {
+            "title": "Is EssentialFX compatible with both Mac and Windows?",
+            "text": "<p>Yes! EssentialFX runs smoothly on both <strong>macOS and Windows<\/strong>, as long as you have Adobe After Effects 2024 or newer.<\/p>"
+          }
+        },
+        "question_9pgCYb": {
+          "type": "question",
+          "settings": {
+            "title": "How do I install EssentialFX?",
+            "text": "<p>After purchase, you’ll receive a <strong>download link and full installation guide<\/strong>. The process is quick, and our team is here if you need help. All you have to do is run our mac or windows installer file and follow the instructions.<\/p>"
+          }
+        },
+        "question_y9BJLM": {
+          "type": "question",
+          "settings": {
+            "title": "Can I request new features or effects?",
+            "text": "<p>Absolutely! We’re always improving EssentialFX based on community feedback. Just shoot us an email — we actually listen.<\/p>"
+          }
+        },
+        "question_4f8Gia": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to manually update every time there's a new version?",
+            "text": "<p>We’ll notify you when updates are live. Just <strong>download the latest version<\/strong> from your account or the email link and replace the old one. All your saved settings and presets will stay intact.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_BrDLrg",
+        "question_d7UwaN",
+        "question_eYiYKK",
+        "question_nbFiKx",
+        "question_KiYF8T",
+        "question_j4NC8C",
+        "question_gVcfRY",
+        "question_GQUrJN",
+        "question_9pgCYb",
+        "question_y9BJLM",
+        "question_4f8Gia"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "featured_video_3z9MR9": {
+      "type": "featured-video",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=YUakpy7pvFg&t=14s&ab_channel=DJordanMedia",
+        "divider": false
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    }
+  },
+  "order": [
+    "169578298725df04e4",
+    "hero_video_YPK4rT",
+    "139001b3-3a2d-40d5-b88e-12acb80e9b91",
+    "main",
+    "text_and_image_exim4n",
+    "text_and_image_UUpXh6",
+    "text_and_image_DpzMpy",
+    "text_and_image_bgmAhE",
+    "text_and_image_4j86Xt",
+    "text_and_image_DyQcGt",
+    "text_and_image_YtkWcf",
+    "text_and_image_Ntb7Cn",
+    "text_and_image_dDPE3h",
+    "text_and_image_RDKBaT",
+    "ab93b8fe-c85d-4c5f-ba82-d524d7f1b629",
+    "text_columns_7m9RGk",
+    "faq_eDqC6H",
+    "featured_video_3z9MR9",
+    "sub",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return"
+  ]
+}

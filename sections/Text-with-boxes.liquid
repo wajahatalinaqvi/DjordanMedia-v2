@@ -1,0 +1,800 @@
+{% schema %}
+{
+  "name": "Text with Boxes",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Main Heading Settings"
+    },
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Heading",
+      "default": "Join a Global Community and Master Timeless Skills!",
+      "info": "Use [gradient]word[/gradient] to apply gradient to specific words"
+    },
+    {
+      "type": "select",
+      "id": "heading_text_transform",
+      "label": "Text Transformation",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "Normal"
+        },
+        {
+          "value": "uppercase",
+          "label": "UPPERCASE"
+        },
+        {
+          "value": "lowercase",
+          "label": "lowercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize Each Word"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "heading_gradient_from",
+      "label": "Heading Gradient From",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "heading_gradient_to",
+      "label": "Heading Gradient To",
+      "default": "#9B9B9B"
+    },
+    {
+      "type": "color", 
+      "id": "word_gradient_from",
+      "label": "Word Gradient From (for [gradient] tags)",
+      "default": "#4A90E2"
+    },
+    {
+      "type": "color",
+      "id": "word_gradient_to",
+      "label": "Word Gradient To (for [gradient] tags)",
+      "default": "#9B9B9B"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "label": "Heading Size (Desktop)",
+      "default": 48,
+      "min": 24,
+      "max": 72,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Heading Size (Mobile)",
+      "default": 32,
+      "min": 20,
+      "max": 48,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "heading_bottom_gap",
+      "label": "Gap Between Heading and Boxes",
+      "default": 50,
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "info": "Controls the spacing between the main heading and the boxes below"
+    },
+    {
+      "type": "select",
+      "id": "heading_text_alignment",
+      "label": "Heading Text Alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "info": "Choose how to align the main heading text"
+    },
+    {
+      "type": "header",
+      "content": "Box Layout Settings"
+    },
+    {
+      "type": "range",
+      "id": "desktop_gap",
+      "label": "Space Between Boxes (Desktop)",
+      "default": 30,
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "mobile_gap",
+      "label": "Space Between Boxes (Mobile)",
+      "default": 20,
+      "min": 10,
+      "max": 40,
+      "step": 5,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "box",
+      "name": "Box",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Box Style"
+        },
+        {
+          "type": "color",
+          "id": "box_bg_color",
+          "label": "Box Background Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "border_glow_from",
+          "label": "Border Glow Start Color",
+          "default": "#aaa490"
+        },
+        {
+          "type": "color",
+          "id": "border_glow_middle", 
+          "label": "Border Glow Middle Color",
+          "default": "#ede6ca"
+        },
+        {
+          "type": "header",
+          "content": "Icon Settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon Image"
+        },
+        {
+          "type": "range",
+          "id": "icon_width",
+          "label": "Icon Size",
+          "default": 60,
+          "min": 30,
+          "max": 100,
+          "step": 5,
+          "unit": "px",
+          "info": "Controls the width and height of the icon"
+        },
+        {
+          "type": "color",
+          "id": "icon_bg_from",
+          "label": "Icon Background Gradient From",
+          "default": "#4A90E2"
+        },
+        {
+          "type": "color",
+          "id": "icon_bg_to",
+          "label": "Icon Background Gradient To",
+          "default": "#9B9B9B"
+        },
+        {
+          "type": "range",
+          "id": "icon_bg_opacity",
+          "label": "Icon Background Opacity",
+          "default": 90,
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "%"
+        },
+        {
+          "type": "color",
+          "id": "icon_glow_color",
+          "label": "Icon Glow Color",
+          "default": "#ede6ca"
+        },
+        {
+          "type": "range",
+          "id": "icon_glow_intensity",
+          "label": "Icon Glow Intensity",
+          "default": 60,
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "%"
+        },
+        {
+          "type": "select",
+          "id": "icon_alignment",
+          "label": "Icon Alignment",
+          "default": "center",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "header",
+          "content": "Text Settings"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Box Heading",
+          "default": "Creators You Love!",
+          "info": "Use [gradient]word[/gradient] to apply gradient to specific words"
+        },
+        {
+          "type": "select",
+          "id": "heading_alignment",
+          "label": "Heading Alignment",
+          "default": "center",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "box_heading_text_transform",
+          "label": "Heading Text Transformation",
+          "default": "none",
+          "options": [
+            {
+              "value": "none",
+              "label": "Normal"
+            },
+            {
+              "value": "uppercase",
+              "label": "UPPERCASE"
+            },
+            {
+              "value": "lowercase",
+              "label": "lowercase"
+            },
+            {
+              "value": "capitalize",
+              "label": "Capitalize Each Word"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Box Subheading",
+          "default": "Over 800 Creator Joined World Wide"
+        },
+        {
+          "type": "select",
+          "id": "subheading_alignment",
+          "label": "Subheading Alignment",
+          "default": "center",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ]
+        },
+        {
+          "type": "color",
+          "id": "heading_color_from",
+          "label": "Heading Gradient From",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "heading_color_to",
+          "label": "Heading Gradient To",
+          "default": "#9B9B9B"
+        },
+        {
+          "type": "color",
+          "id": "subheading_color_from",
+          "label": "Subheading Gradient From",
+          "default": "#9B9B9B"
+        },
+        {
+          "type": "color",
+          "id": "subheading_color_to",
+          "label": "Subheading Gradient To",
+          "default": "#4A90E2"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_desktop",
+          "label": "Heading Size (Desktop)",
+          "default": 24,
+          "min": 16,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_mobile",
+          "label": "Heading Size (Mobile)",
+          "default": 20,
+          "min": 14,
+          "max": 32,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "subheading_size_desktop",
+          "label": "Subheading Size (Desktop)",
+          "default": 16,
+          "min": 12,
+          "max": 24,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "subheading_size_mobile",
+          "label": "Subheading Size (Mobile)",
+          "default": 14,
+          "min": 10,
+          "max": 20,
+          "step": 1,
+          "unit": "px"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text with Boxes",
+      "blocks": [
+        {
+          "type": "box",
+          "settings": {
+            "heading": "Creators You Love!",
+            "subheading": "Over 800 Creator Joined World Wide"
+          }
+        },
+        {
+          "type": "box",
+          "settings": {
+            "heading": "Build Your Success!",
+            "subheading": "Build your network, and get support"
+          }
+        },
+        {
+          "type": "box",
+          "settings": {
+            "heading": "Skills That Last Forever",
+            "subheading": "This is not a one time skill, This is for life"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.text-boxes-section {
+  padding: 60px 0;
+  background: #000000;
+}
+
+.text-boxes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-boxes-section .main-heading,
+#text-boxes-main-heading-unique {
+  text-align: {{ section.settings.heading_text_alignment | default: 'center' }} !important;
+  margin-bottom: {{ section.settings.heading_bottom_gap }}px !important;
+  font-size: {{ section.settings.heading_size_desktop }}px !important;
+    font-weight: 400;
+  /* line-height: 1.2; */
+     letter-spacing: normal !important;
+    font-family: 'Poppins'  !important;
+  text-transform: {{ section.settings.heading_text_transform }};
+}
+
+.text-boxes-section .main-heading .gradient-word {
+  background: linear-gradient(to right, {{ section.settings.word_gradient_from }}, {{ section.settings.word_gradient_to }});
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.text-boxes-section .main-heading .regular-text {
+  background: linear-gradient(to right, {{ section.settings.heading_gradient_from }}, {{ section.settings.heading_gradient_to }});
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+{% comment %} Generate CSS custom properties for each block {% endcomment %}
+{% for block in section.blocks %}
+  {% if block.type == 'box' %}
+    .box[data-block-id="{{ block.id }}"] .box-heading {
+      font-size: {{ block.settings.heading_size_desktop }}px;
+      text-transform: {{ block.settings.box_heading_text_transform }};
+    }
+    .box[data-block-id="{{ block.id }}"] .box-subheading {
+      font-size: {{ block.settings.subheading_size_desktop }}px;
+    }
+    .box[data-block-id="{{ block.id }}"] .icon-container {
+      width: {{ block.settings.icon_width | default: 60 }}px;
+      height: {{ block.settings.icon_width | default: 60 }}px;
+    }
+    
+    .box[data-block-id="{{ block.id }}"] .box-heading .box-gradient-word {
+      background: linear-gradient(to right, {{ block.settings.heading_color_from }}, {{ block.settings.heading_color_to }});
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+    
+    .box[data-block-id="{{ block.id }}"] .box-heading .box-regular-text {
+      background: linear-gradient(to right, {{ block.settings.heading_color_from }}, {{ block.settings.heading_color_to }});
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+  {% endif %}
+{% endfor %}
+
+.boxes-container {
+  /* padding: 0 20px; */
+  width: 100%;
+}
+
+.boxes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: {{ section.settings.desktop_gap | default: 30 }}px;
+  width: 100%;
+}
+
+.box {
+  position: relative;
+  padding: 30px;
+  border-left: 1px solid rgba(25, 25, 25, 0.8);
+  border-right: 1px solid rgba(25, 25, 25, 0.8);
+  border-top: none;
+  border-bottom: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.box::before,
+.box::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--border-start-color, #aaa490) 25%,
+    var(--border-middle-color, #ede6ca) 50%,
+    var(--border-end-color, #aaa490) 75%,
+    transparent 100%
+  );
+  opacity: 0.5;
+  box-shadow: 0 0 10px #ede6ca;
+}
+
+.box::before {
+  top: 0;
+}
+
+.box::after {
+  bottom: 0;
+}
+
+.icon-container {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: visible;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box[data-icon-align="left"] .icon-container {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.box[data-icon-align="right"] .icon-container {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.box[data-icon-align="center"] .icon-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon-container::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, rgb(232 217 158 / 65%) 0%, rgba(0, 0, 0, 0) 37%);
+  filter: blur(13px);
+  z-index: 0;
+}
+
+.icon-container::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at center,
+    var(--icon-glow-color, rgba(237, 230, 202, 0.3)) 10%,
+    rgba(0, 0, 0, 0) 60%
+  );
+  filter: blur(5px);
+  z-index: -2;
+  animation: sparkle 4s infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.icon-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  position: relative;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.box-heading {
+  margin: 0 0 3px 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.box[data-heading-align="left"] .box-heading {
+  text-align: left;
+}
+
+.box[data-heading-align="right"] .box-heading {
+  text-align: right;
+}
+
+.box[data-heading-align="center"] .box-heading {
+  text-align: center;
+}
+
+.box-subheading {
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.box[data-subheading-align="left"] .box-subheading {
+  text-align: left;
+}
+
+.box[data-subheading-align="right"] .box-subheading {
+  text-align: right;
+}
+
+.box[data-subheading-align="center"] .box-subheading {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .text-boxes-section .main-heading,
+  #text-boxes-main-heading-unique {
+    font-size: {{ section.settings.heading_size_mobile }}px !important;
+    margin-bottom: {{ section.settings.heading_bottom_gap }}px !important;
+    text-align: {{ section.settings.heading_text_alignment | default: 'center' }} !important;
+    text-transform: {{ section.settings.heading_text_transform }};
+  }
+
+  {% comment %} Mobile font sizes for each block {% endcomment %}
+  {% for block in section.blocks %}
+    {% if block.type == 'box' %}
+      .box[data-block-id="{{ block.id }}"] .box-heading {
+        font-size: {{ block.settings.heading_size_mobile }}px !important;
+        text-transform: {{ block.settings.box_heading_text_transform }};
+      }
+      .box[data-block-id="{{ block.id }}"] .box-subheading {
+        font-size: {{ block.settings.subheading_size_mobile }}px !important;
+      }
+    {% endif %}
+  {% endfor %}
+
+  .boxes-grid {
+    grid-template-columns: 1fr;
+    gap: {{ section.settings.mobile_gap | default: 20 }}px;
+    margin: 0 auto;
+    max-width: 450px;
+  }
+}
+</style>
+
+<div class="text-boxes-section">
+  <div class="text-boxes-container">
+    <h2 class="main-heading" id="text-boxes-main-heading-unique">
+      {% assign heading_content = section.settings.main_heading %}
+      {% assign gradient_pattern = '[gradient]' %}
+      {% assign gradient_end_pattern = '[/gradient]' %}
+      
+      {% if heading_content contains gradient_pattern and heading_content contains gradient_end_pattern %}
+        {% assign parts = heading_content | split: gradient_pattern %}
+        {% assign first_part = parts[0] %}
+        
+        {% if first_part != "" %}
+          <span class="regular-text">{{ first_part }}</span>
+        {% endif %}
+        
+        {% for part in parts offset: 1 %}
+          {% assign subparts = part | split: gradient_end_pattern %}
+          {% if subparts.size > 0 %}
+            <span class="gradient-word">{{ subparts[0] }}</span>
+            {% if subparts[1] != "" %}
+              <span class="regular-text">{{ subparts[1] }}</span>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        <span class="regular-text">{{ heading_content }}</span>
+      {% endif %}
+    </h2>
+    
+    <div class="boxes-container">
+      <div class="boxes-grid">
+        {% for block in section.blocks %}
+          {% if block.type == 'box' %}
+            <div class="box" 
+              data-block-id="{{ block.id }}" 
+              data-icon-align="{{ block.settings.icon_alignment | default: 'center' }}"
+              data-heading-align="{{ block.settings.heading_alignment | default: 'center' }}"
+              data-subheading-align="{{ block.settings.subheading_alignment | default: 'center' }}"
+              {{ block.shopify_attributes }} 
+              style="
+                background-color: {{ block.settings.box_bg_color | default: '#0000' }};
+                --border-start-color: {{ block.settings.border_glow_from | default: '#aaa490' }};
+                --border-middle-color: {{ block.settings.border_glow_middle | default: '#ede6ca' }};
+                --border-end-color: {{ block.settings.border_glow_from | default: '#aaa490' }};
+              ">
+              <div class="icon-container" style="
+                --icon-glow-color: {{ block.settings.icon_glow_color | default: block.settings.icon_bg_from | color_modify: 'alpha', block.settings.icon_glow_intensity | divided_by: 100.0 }};
+                background: linear-gradient(45deg, 
+                {{ block.settings.icon_bg_from | color_modify: 'alpha', block.settings.icon_bg_opacity | divided_by: 100.0 }}, 
+                {{ block.settings.icon_bg_to | color_modify: 'alpha', block.settings.icon_bg_opacity | divided_by: 100.0 }});">
+                {% if block.settings.icon %}
+                  <img src="{{ block.settings.icon | image_url: width: block.settings.icon_width | default: 60 }}" 
+                       width="{{ block.settings.icon_width | default: 60 }}" 
+                       height="{{ block.settings.icon_width | default: 60 }}" 
+                       alt="{{ block.settings.heading }}">
+                {% endif %}
+              </div>
+              <h3 class="box-heading">
+                {% assign box_heading_content = block.settings.heading %}
+                {% assign gradient_pattern = '[gradient]' %}
+                {% assign gradient_end_pattern = '[/gradient]' %}
+                
+                {% if box_heading_content contains gradient_pattern and box_heading_content contains gradient_end_pattern %}
+                  {% assign parts = box_heading_content | split: gradient_pattern %}
+                  {% assign first_part = parts[0] %}
+                  
+                  {% if first_part != "" %}
+                    <span class="box-regular-text">{{ first_part }}</span>
+                  {% endif %}
+                  
+                  {% for part in parts offset: 1 %}
+                    {% assign subparts = part | split: gradient_end_pattern %}
+                    {% if subparts.size > 0 %}
+                      <span class="box-gradient-word">{{ subparts[0] }}</span>
+                      {% if subparts[1] != "" %}
+                        <span class="box-regular-text">{{ subparts[1] }}</span>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                {% else %}
+                  <span class="box-regular-text">{{ box_heading_content }}</span>
+                {% endif %}
+              </h3>
+              <p class="box-subheading" style="
+                background: linear-gradient(to right, {{ block.settings.subheading_color_from }}, {{ block.settings.subheading_color_to }}); 
+                -webkit-background-clip: text; 
+                background-clip: text; 
+                -webkit-text-fill-color: transparent;
+              ">{{ block.settings.subheading }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- No script needed - using CSS grid for layout -->

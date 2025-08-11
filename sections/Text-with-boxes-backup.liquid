@@ -1,0 +1,1077 @@
+{% comment %} {% schema %}
+{
+  "name": "Text with Boxes",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Main Heading Settings"
+    },
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Heading",
+      "default": "Join a Global Community and Master Timeless Skills!",
+      "info": "Use [gradient]word[/gradient] to apply gradient to specific words"
+    },
+    {
+      "type": "select",
+      "id": "heading_text_transform",
+      "label": "Text Transformation",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "Normal"
+        },
+        {
+          "value": "uppercase",
+          "label": "UPPERCASE"
+        },
+        {
+          "value": "lowercase",
+          "label": "lowercase"
+        },
+        {
+          "value": "capitalize",
+          "label": "Capitalize Each Word"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "heading_gradient_from",
+      "label": "Heading Gradient From",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "heading_gradient_to",
+      "label": "Heading Gradient To",
+      "default": "#9B9B9B"
+    },
+    {
+      "type": "color", 
+      "id": "word_gradient_from",
+      "label": "Word Gradient From (for [gradient] tags)",
+      "default": "#4A90E2"
+    },
+    {
+      "type": "color",
+      "id": "word_gradient_to",
+      "label": "Word Gradient To (for [gradient] tags)",
+      "default": "#9B9B9B"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "label": "Heading Size (Desktop)",
+      "default": 48,
+      "min": 24,
+      "max": 72,
+      "step": 1
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Heading Size (Mobile)",
+      "default": 32,
+      "min": 20,
+      "max": 48,
+      "step": 1,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "heading_bottom_gap",
+      "label": "Gap Between Heading and Boxes",
+      "default": 50,
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "info": "Controls the spacing between the main heading and the boxes below"
+    },
+    {
+      "type": "select",
+      "id": "heading_text_alignment",
+      "label": "Heading Text Alignment",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "info": "Choose how to align the main heading text"
+    },
+    {
+      "type": "header",
+      "content": "Auto-Slide Settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_autoplay",
+      "label": "Enable Auto-Slide",
+      "default": true,
+      "info": "Automatically move slides when there are more than 3 boxes"
+    },
+    {
+      "type": "range",
+      "id": "autoplay_speed",
+      "label": "Auto-Slide Speed (seconds)",
+      "default": 4,
+      "min": 2,
+      "max": 10,
+      "step": 1,
+      "unit": "s"
+    },
+    {
+      "type": "checkbox",
+      "id": "pause_on_hover",
+      "label": "Pause on Hover",
+      "default": true,
+      "info": "Pause auto-slide when hovering over the slider"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "box",
+      "name": "Box",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Box Style"
+        },
+        {
+          "type": "color",
+          "id": "box_bg_color",
+          "label": "Box Background Color",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "border_glow_from",
+          "label": "Border Glow Start Color",
+          "default": "#aaa490"
+        },
+        {
+          "type": "color",
+          "id": "border_glow_middle", 
+          "label": "Border Glow Middle Color",
+          "default": "#ede6ca"
+        },
+        {
+          "type": "header",
+          "content": "Icon Settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon Image"
+        },
+        {
+          "type": "range",
+          "id": "icon_width",
+          "label": "Icon Size",
+          "default": 60,
+          "min": 30,
+          "max": 100,
+          "step": 5,
+          "unit": "px",
+          "info": "Controls the width and height of the icon"
+        },
+        {
+          "type": "color",
+          "id": "icon_bg_from",
+          "label": "Icon Background Gradient From",
+          "default": "#4A90E2"
+        },
+        {
+          "type": "color",
+          "id": "icon_bg_to",
+          "label": "Icon Background Gradient To",
+          "default": "#9B9B9B"
+        },
+        {
+          "type": "range",
+          "id": "icon_bg_opacity",
+          "label": "Icon Background Opacity",
+          "default": 90,
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "%"
+        },
+        {
+          "type": "color",
+          "id": "icon_glow_color",
+          "label": "Icon Glow Color",
+          "default": "#ede6ca"
+        },
+        {
+          "type": "range",
+          "id": "icon_glow_intensity",
+          "label": "Icon Glow Intensity",
+          "default": 60,
+          "min": 0,
+          "max": 100,
+          "step": 5,
+          "unit": "%"
+        },
+        {
+          "type": "header",
+          "content": "Text Settings"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Box Heading",
+          "default": "Creators You Love!",
+          "info": "Use [gradient]word[/gradient] to apply gradient to specific words"
+        },
+        {
+          "type": "select",
+          "id": "box_heading_text_transform",
+          "label": "Heading Text Transformation",
+          "default": "none",
+          "options": [
+            {
+              "value": "none",
+              "label": "Normal"
+            },
+            {
+              "value": "uppercase",
+              "label": "UPPERCASE"
+            },
+            {
+              "value": "lowercase",
+              "label": "lowercase"
+            },
+            {
+              "value": "capitalize",
+              "label": "Capitalize Each Word"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Box Subheading",
+          "default": "Over 800 Creator Joined World Wide"
+        },
+        {
+          "type": "color",
+          "id": "heading_color_from",
+          "label": "Heading Gradient From",
+          "default": "#FFFFFF"
+        },
+        {
+          "type": "color",
+          "id": "heading_color_to",
+          "label": "Heading Gradient To",
+          "default": "#9B9B9B"
+        },
+        {
+          "type": "color",
+          "id": "subheading_color_from",
+          "label": "Subheading Gradient From",
+          "default": "#9B9B9B"
+        },
+        {
+          "type": "color",
+          "id": "subheading_color_to",
+          "label": "Subheading Gradient To",
+          "default": "#4A90E2"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_desktop",
+          "label": "Heading Size (Desktop)",
+          "default": 24,
+          "min": 16,
+          "max": 40,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "heading_size_mobile",
+          "label": "Heading Size (Mobile)",
+          "default": 20,
+          "min": 14,
+          "max": 32,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "subheading_size_desktop",
+          "label": "Subheading Size (Desktop)",
+          "default": 16,
+          "min": 12,
+          "max": 24,
+          "step": 1,
+          "unit": "px"
+        },
+        {
+          "type": "range",
+          "id": "subheading_size_mobile",
+          "label": "Subheading Size (Mobile)",
+          "default": 14,
+          "min": 10,
+          "max": 20,
+          "step": 1,
+          "unit": "px"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text with Boxes",
+      "blocks": [
+        {
+          "type": "box",
+          "settings": {
+            "heading": "Creators You Love!",
+            "subheading": "Over 800 Creator Joined World Wide"
+          }
+        },
+        {
+          "type": "box",
+          "settings": {
+            "heading": "Build Your Success!",
+            "subheading": "Build your network, and get support"
+          }
+        },
+        {
+          "type": "box",
+          "settings": {
+            "heading": "Skills That Last Forever",
+            "subheading": "This is not a one time skill, This is for life"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+.text-boxes-section {
+  padding: 60px 0;
+  background: #000000;
+}
+
+.text-boxes-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-boxes-section .main-heading,
+#text-boxes-main-heading-unique {
+  text-align: {{ section.settings.heading_text_alignment | default: 'center' }} !important;
+  margin-bottom: {{ section.settings.heading_bottom_gap }}px !important;
+  font-size: {{ section.settings.heading_size_desktop }}px !important;
+    font-weight: 400;
+  /* line-height: 1.2; */
+     letter-spacing: normal !important;
+    font-family: 'Poppins'  !important;
+  text-transform: {{ section.settings.heading_text_transform }};
+}
+
+.text-boxes-section .main-heading .gradient-word {
+  background: linear-gradient(to right, {{ section.settings.word_gradient_from }}, {{ section.settings.word_gradient_to }});
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.text-boxes-section .main-heading .regular-text {
+  background: linear-gradient(to right, {{ section.settings.heading_gradient_from }}, {{ section.settings.heading_gradient_to }});
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+{% comment %} Generate CSS custom properties for each block {% endcomment %}
+{% for block in section.blocks %}
+  {% if block.type == 'box' %}
+    .box[data-block-id="{{ block.id }}"] .box-heading {
+      font-size: {{ block.settings.heading_size_desktop }}px;
+      text-transform: {{ block.settings.box_heading_text_transform }};
+    }
+    .box[data-block-id="{{ block.id }}"] .box-subheading {
+      font-size: {{ block.settings.subheading_size_desktop }}px;
+    }
+    .box[data-block-id="{{ block.id }}"] .icon-container {
+      width: {{ block.settings.icon_width | default: 60 }}px;
+      height: {{ block.settings.icon_width | default: 60 }}px;
+    }
+    
+    .box[data-block-id="{{ block.id }}"] .box-heading .box-gradient-word {
+      background: linear-gradient(to right, {{ block.settings.heading_color_from }}, {{ block.settings.heading_color_to }});
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+    
+    .box[data-block-id="{{ block.id }}"] .box-heading .box-regular-text {
+      background: linear-gradient(to right, {{ block.settings.heading_color_from }}, {{ block.settings.heading_color_to }});
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+  {% endif %}
+{% endfor %}
+
+.boxes-slider-container {
+  position: relative;
+  overflow: hidden;
+  padding: 0 20px;
+  min-height: 200px;
+}
+
+.boxes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.boxes-grid.slider {
+  display: flex;
+  transition: transform 0.3s ease;
+  gap: 30px;
+  width: 100%;
+}
+
+.boxes-grid.slider .box {
+  min-width: calc((100% - 60px) / 3);
+  flex: 0 0 calc((100% - 60px) / 3);
+  transition: opacity 0.3s ease;
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+}
+
+.slider-arrow:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.slider-arrow:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+
+.next-arrow {
+  right: 10px;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+  position: relative;
+  z-index: 15;
+}
+
+.slider-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.slider-dot.active {
+  background: linear-gradient(45deg, #aaa490, #ede6ca);
+  transform: scale(1.2);
+}
+
+.slider-dot:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.box {
+  position: relative;
+  padding: 30px;
+  border-left: 1px solid rgba(25, 25, 25, 0.8);
+  border-right: 1px solid rgba(25, 25, 25, 0.8);
+  border-top: none;
+  border-bottom: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.box::before,
+.box::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    var(--border-start-color, #aaa490) 25%,
+    var(--border-middle-color, #ede6ca) 50%,
+    var(--border-end-color, #aaa490) 75%,
+    transparent 100%
+  );
+  opacity: 0.5;
+  box-shadow: 0 0 10px #ede6ca;
+}
+
+.box::before {
+  top: 0;
+}
+
+.box::after {
+  bottom: 0;
+}
+
+.icon-container {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: visible;
+  position: relative;
+}
+
+.icon-container::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, rgb(232 217 158 / 65%) 0%, rgba(0, 0, 0, 0) 37%);
+  filter: blur(13px);
+  z-index: 0;
+}
+
+.icon-container::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at center,
+    var(--icon-glow-color, rgba(237, 230, 202, 0.3)) 10%,
+    rgba(0, 0, 0, 0) 60%
+  );
+  filter: blur(5px);
+  z-index: -2;
+  animation: sparkle 4s infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.icon-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  position: relative;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.box-heading {
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.box-subheading {
+  margin: 0;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .text-boxes-section .main-heading,
+  #text-boxes-main-heading-unique {
+    font-size: {{ section.settings.heading_size_mobile }}px !important;
+    margin-bottom: {{ section.settings.heading_bottom_gap }}px !important;
+    text-align: {{ section.settings.heading_text_alignment | default: 'center' }} !important;
+    text-transform: {{ section.settings.heading_text_transform }};
+  }
+
+  {% comment %} Mobile font sizes for each block {% endcomment %}
+  {% for block in section.blocks %}
+    {% if block.type == 'box' %}
+      .box[data-block-id="{{ block.id }}"] .box-heading {
+        font-size: {{ block.settings.heading_size_mobile }}px !important;
+        text-transform: {{ block.settings.box_heading_text_transform }};
+      }
+      .box[data-block-id="{{ block.id }}"] .box-subheading {
+        font-size: {{ block.settings.subheading_size_mobile }}px !important;
+      }
+    {% endif %}
+  {% endfor %}
+
+  .boxes-grid:not(.slider):not(.mobile-slider) {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .boxes-grid.mobile-slider {
+    display: flex;
+    transition: transform 0.3s ease;
+    gap: 0;
+    width: 100%;
+    align-items: center;
+  }
+
+  .boxes-grid.slider .box,
+  .boxes-grid.mobile-slider .box {
+    min-width: calc(100% - 40px);
+    flex: 0 0 calc(100% - 40px);
+    margin: 0 20px;
+  }
+
+  .slider-arrow {
+    width: 44px;
+    height: 44px;
+  }
+
+  .prev-arrow {
+    left: 5px;
+  }
+
+  .next-arrow {
+    right: 5px;
+  }
+
+  .slider-dots {
+    margin-top: 20px;
+    gap: 8px;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .slider-dot {
+    width: 10px;
+    height: 10px;
+  }
+
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .slider-dots.mobile-only {
+    position: relative;
+    z-index: 15;
+    background: transparent;
+    padding: 10px 0;
+  }
+}
+</style>
+
+<div class="text-boxes-section">
+  <div class="text-boxes-container">
+    <h2 class="main-heading" id="text-boxes-main-heading-unique">
+      {% assign heading_content = section.settings.main_heading %}
+      {% assign gradient_pattern = '[gradient]' %}
+      {% assign gradient_end_pattern = '[/gradient]' %}
+      
+      {% if heading_content contains gradient_pattern and heading_content contains gradient_end_pattern %}
+        {% assign parts = heading_content | split: gradient_pattern %}
+        {% assign first_part = parts[0] %}
+        
+        {% if first_part != "" %}
+          <span class="regular-text">{{ first_part }}</span>
+        {% endif %}
+        
+        {% for part in parts offset: 1 %}
+          {% assign subparts = part | split: gradient_end_pattern %}
+          {% if subparts.size > 0 %}
+            <span class="gradient-word">{{ subparts[0] }}</span>
+            {% if subparts[1] != "" %}
+              <span class="regular-text">{{ subparts[1] }}</span>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% else %}
+        <span class="regular-text">{{ heading_content }}</span>
+      {% endif %}
+    </h2>
+    
+    <div class="boxes-slider-container">
+      <div class="boxes-grid{% if section.blocks.size > 3 %} slider{% endif %}{% if section.blocks.size > 1 %} mobile-slider{% endif %}">
+        {% for block in section.blocks %}
+          {% if block.type == 'box' %}
+            <div class="box" data-block-id="{{ block.id }}" {{ block.shopify_attributes }} 
+              style="
+                background-color: {{ block.settings.box_bg_color | default: '#0000' }};
+                --border-start-color: {{ block.settings.border_glow_from | default: '#aaa490' }};
+                --border-middle-color: {{ block.settings.border_glow_middle | default: '#ede6ca' }};
+                --border-end-color: {{ block.settings.border_glow_from | default: '#aaa490' }};
+              ">
+              <div class="icon-container" style="
+                --icon-glow-color: {{ block.settings.icon_glow_color | default: block.settings.icon_bg_from | color_modify: 'alpha', block.settings.icon_glow_intensity | divided_by: 100.0 }};
+                background: linear-gradient(45deg, 
+                {{ block.settings.icon_bg_from | color_modify: 'alpha', block.settings.icon_bg_opacity | divided_by: 100.0 }}, 
+                {{ block.settings.icon_bg_to | color_modify: 'alpha', block.settings.icon_bg_opacity | divided_by: 100.0 }});">
+                {% if block.settings.icon %}
+                  <img src="{{ block.settings.icon | image_url: width: block.settings.icon_width | default: 60 }}" 
+                       width="{{ block.settings.icon_width | default: 60 }}" 
+                       height="{{ block.settings.icon_width | default: 60 }}" 
+                       alt="{{ block.settings.heading }}">
+                {% endif %}
+              </div>
+              <h3 class="box-heading">
+                {% assign box_heading_content = block.settings.heading %}
+                {% assign gradient_pattern = '[gradient]' %}
+                {% assign gradient_end_pattern = '[/gradient]' %}
+                
+                {% if box_heading_content contains gradient_pattern and box_heading_content contains gradient_end_pattern %}
+                  {% assign parts = box_heading_content | split: gradient_pattern %}
+                  {% assign first_part = parts[0] %}
+                  
+                  {% if first_part != "" %}
+                    <span class="box-regular-text">{{ first_part }}</span>
+                  {% endif %}
+                  
+                  {% for part in parts offset: 1 %}
+                    {% assign subparts = part | split: gradient_end_pattern %}
+                    {% if subparts.size > 0 %}
+                      <span class="box-gradient-word">{{ subparts[0] }}</span>
+                      {% if subparts[1] != "" %}
+                        <span class="box-regular-text">{{ subparts[1] }}</span>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                {% else %}
+                  <span class="box-regular-text">{{ box_heading_content }}</span>
+                {% endif %}
+              </h3>
+              <p class="box-subheading" style="
+                background: linear-gradient(to right, {{ block.settings.subheading_color_from }}, {{ block.settings.subheading_color_to }}); 
+                -webkit-background-clip: text; 
+                background-clip: text; 
+                -webkit-text-fill-color: transparent;
+              ">{{ block.settings.subheading }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% if section.blocks.size > 3 %}
+        <button type="button" class="slider-arrow prev-arrow desktop-only" aria-label="Previous slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button type="button" class="slider-arrow next-arrow desktop-only" aria-label="Next slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      {% endif %}
+      {% if section.blocks.size > 1 %}
+        <button type="button" class="slider-arrow prev-arrow mobile-only" aria-label="Previous slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button type="button" class="slider-arrow next-arrow mobile-only" aria-label="Next slide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      {% endif %}
+    </div>
+    
+    {% if section.blocks.size > 3 %}
+      <div class="slider-dots desktop-only">
+        {% assign total_slides = section.blocks.size | minus: 2 %}
+        {% for i in (0..total_slides) %}
+          <button type="button" class="slider-dot{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index0 }}" aria-label="Go to slide {{ forloop.index }}"></button>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if section.blocks.size > 1 %}
+      <div class="slider-dots mobile-only">
+        {% for block in section.blocks %}
+          <button type="button" class="slider-dot{% if forloop.first %} active{% endif %}" data-slide="{{ forloop.index0 }}" aria-label="Go to slide {{ forloop.index }}"></button>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const desktopSlider = document.querySelector('.slider');
+  const mobileSlider = document.querySelector('.mobile-slider');
+  const slider = desktopSlider || mobileSlider;
+  
+  if (!slider) return;
+
+  const boxes = slider.querySelectorAll('.box');
+  const prevBtns = document.querySelectorAll('.prev-arrow');
+  const nextBtns = document.querySelectorAll('.next-arrow');
+  const allDots = document.querySelectorAll('.slider-dot');
+  const sliderContainer = document.querySelector('.boxes-slider-container');
+  
+  // Settings from Shopify
+  const enableAutoplay = {{ section.settings.enable_autoplay | json }};
+  const autoplaySpeed = {{ section.settings.autoplay_speed | default: 4 }} * 1000;
+  const pauseOnHover = {{ section.settings.pause_on_hover | json }};
+  
+  let currentIndex = 0;
+  let autoplayInterval;
+  let isPlaying = enableAutoplay;
+  
+  function isMobile() {
+    return window.innerWidth <= 768;
+  }
+  
+  function getMaxIndex() {
+    return isMobile() ? Math.max(0, boxes.length - 1) : Math.max(0, boxes.length - 3);
+  }
+
+  function getBoxWidth() {
+    return boxes[0] ? boxes[0].offsetWidth : 0;
+  }
+
+  function updateSlider() {
+    const boxWidth = getBoxWidth();
+    const gap = 30;
+    const mobile = isMobile();
+    const maxIndex = getMaxIndex();
+    
+    let offset;
+    if (mobile) {
+      // Center the current box on mobile with proper spacing
+      const containerWidth = slider.parentElement.offsetWidth;
+      const totalBoxWidth = boxWidth + 40; // box + margins
+      offset = -(currentIndex * totalBoxWidth) + (containerWidth - totalBoxWidth) / 2;
+    } else {
+      offset = -(currentIndex * (boxWidth + gap));
+    }
+    
+    slider.style.transform = `translateX(${offset}px)`;
+    
+    // Update arrows
+    prevBtns.forEach(btn => {
+      btn.disabled = currentIndex === 0;
+    });
+    nextBtns.forEach(btn => {
+      btn.disabled = currentIndex >= maxIndex;
+    });
+    
+    // Update dots
+    allDots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentIndex);
+    });
+
+    // Update box visibility for better UX
+    boxes.forEach((box, index) => {
+      let isVisible;
+      if (mobile) {
+        isVisible = index === currentIndex;
+      } else {
+        isVisible = index >= currentIndex && index < currentIndex + 3;
+      }
+      box.style.opacity = isVisible ? '1' : '0.4';
+      box.style.transition = 'opacity 0.5s ease';
+    });
+  }
+
+  function nextSlide() {
+    const maxIndex = getMaxIndex();
+    if (currentIndex < maxIndex) {
+      currentIndex++;
+    } else {
+      currentIndex = 0; // Loop back to start
+    }
+    updateSlider();
+  }
+
+  function prevSlide() {
+    const maxIndex = getMaxIndex();
+    if (currentIndex > 0) {
+      currentIndex--;
+    } else {
+      currentIndex = maxIndex; // Loop to end
+    }
+    updateSlider();
+  }
+
+  function goToSlide(index) {
+    const maxIndex = getMaxIndex();
+    currentIndex = Math.max(0, Math.min(index, maxIndex));
+    updateSlider();
+  }
+
+  function startAutoplay() {
+    const mobile = isMobile();
+    const shouldAutoplay = enableAutoplay && (mobile ? boxes.length > 1 : boxes.length > 3);
+    
+    if (!shouldAutoplay) return;
+    
+    autoplayInterval = setInterval(() => {
+      if (isPlaying) {
+        nextSlide();
+      }
+    }, autoplaySpeed);
+  }
+
+  function stopAutoplay() {
+    if (autoplayInterval) {
+      clearInterval(autoplayInterval);
+      autoplayInterval = null;
+    }
+  }
+
+  function restartAutoplay() {
+    stopAutoplay();
+    startAutoplay();
+  }
+
+  // Event listeners
+  prevBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      prevSlide();
+      restartAutoplay(); // Restart timer when manually navigating
+    });
+  });
+
+  nextBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      nextSlide();
+      restartAutoplay(); // Restart timer when manually navigating
+    });
+  });
+
+  // Dot navigation
+  allDots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      goToSlide(index);
+      restartAutoplay(); // Restart timer when manually navigating
+    });
+  });
+
+  // Hover pause functionality
+  if (pauseOnHover && sliderContainer) {
+    sliderContainer.addEventListener('mouseenter', () => {
+      isPlaying = false;
+    });
+
+    sliderContainer.addEventListener('mouseleave', () => {
+      isPlaying = enableAutoplay;
+    });
+  }
+
+  // Handle window resize
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      currentIndex = 0; // Reset to first slide on resize
+      updateSlider();
+      restartAutoplay(); // Restart autoplay
+    }, 250);
+  });
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (!slider.matches(':hover')) return;
+    
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      prevSlide();
+      restartAutoplay();
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      nextSlide();
+      restartAutoplay();
+    }
+  });
+
+  // Initialize
+  updateSlider();
+  startAutoplay();
+
+  // Cleanup on page unload
+  window.addEventListener('beforeunload', () => {
+    stopAutoplay();
+  });
+});
+</script> {% endcomment %}

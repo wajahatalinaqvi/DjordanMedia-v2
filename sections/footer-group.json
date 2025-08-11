@@ -1,0 +1,102 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions-2": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ESSFXg_d3a0d184-7817-4b21-bf6c-a9013785624d.gif",
+            "image_mask": "square",
+            "title": "Essential EXTENSIONS",
+            "text": "",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/essentials"
+          }
+        },
+        "footer-promotions-0": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/STONE_HELICOPTER_AdobeExpress_1.gif",
+            "image_mask": "square",
+            "title": "Editing Course",
+            "text": "",
+            "button_label": "Learn Now",
+            "button_link": "shopify://collections/editing-course"
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "square",
+            "title": "lut packs",
+            "text": "",
+            "button_label": "view more",
+            "button_link": "shopify://collections/lut-pack"
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-2",
+        "footer-promotions-0",
+        "footer-promotions-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_homepage": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_F7kWgw": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "footer",
+            "container_width": 22
+          }
+        },
+        "1494292487693": {
+          "type": "newsletter",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Dont miss out!",
+            "text": "<p>Be the FIRST to hear about new releases, special promotions, and more!</p>",
+            "container_width": 33
+          }
+        }
+      },
+      "block_order": [
+        "menu_F7kWgw",
+        "1494292487693"
+      ],
+      "settings": {
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true,
+        "show_payment_icons": false,
+        "show_copyright": true,
+        "copyright_text": "LLC"
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}

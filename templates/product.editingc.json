@@ -1,0 +1,467 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_video_EyEK6t": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/5Mh19hquCW4",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "300px"
+      }
+    },
+    "174431374327df8f6a": {
+      "type": "apps",
+      "blocks": {
+        "spark_spotlight_carousal_DBrXc4": {
+          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": true,
+            "auto_play_video_next_video": false,
+            "feed_title": "What You'll Learn in this course",
+            "title_alignment": "center",
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": true,
+            "product_card_status": "hidden",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "Shop",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#ffffff",
+            "product_card_btn_border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "spark_spotlight_carousal_DBrXc4"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_6iHDhU": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "judge_me_reviews_review_widget_HXjm8h": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_6iHDhU",
+        "price",
+        "separator",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "tab",
+        "contact",
+        "judge_me_reviews_review_widget_HXjm8h"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "About your brand",
+        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "About your brand",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text-and-image2": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "About your brand",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "faq_exgiNW": {
+      "type": "faq",
+      "blocks": {
+        "question_eBpryd": {
+          "type": "question",
+          "settings": {
+            "title": "What software does this course teach?",
+            "text": "<p>This course is <strong>strictly focused on Adobe After Effects<\/strong>. It covers everything from the fundamentals to advanced motion graphics, VFX, speed ramping, keyframe animation, and professional editing techniques. Whether you're starting from scratch or looking to refine your skills, this course is built to <strong>take you from beginner to expert in Adobe After Effects.<\/strong><\/p>"
+          }
+        },
+        "question_3P6rgR": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need experience to take this course?",
+            "text": "<p>No. This course is designed for <strong>all skill levels<\/strong>, whether you're completely new to Adobe After Effects or already have some experience and want to improve. Lessons are structured <strong>step by step<\/strong>, making it easy to follow along, even if you’ve never opened the software before.<\/p>"
+          }
+        },
+        "question_DTc4C7": {
+          "type": "question",
+          "settings": {
+            "title": "Will I get direct support if I have questions?",
+            "text": "<p>Yes. When you enroll, you get <strong>direct access to me(DJordanMedia) inside our private Discord community<\/strong>. This means you can ask questions, get feedback on your edits, and receive guidance whenever you need it. This isn't just a course—it's <strong>personal mentorship to help you succeed in Adobe After Effects.<\/strong><\/p>"
+          }
+        },
+        "question_tiCDdq": {
+          "type": "question",
+          "settings": {
+            "title": "How long do I have access to the course?",
+            "text": "<p>You get <strong>lifetime access<\/strong> to the course, including <strong>all future updates<\/strong> at no extra cost. Adobe After Effects is always evolving, and this course ensures you stay ahead with the latest techniques, trends, and software updates.<\/p>"
+          }
+        },
+        "question_jTaPAN": {
+          "type": "question",
+          "settings": {
+            "title": "Why should I choose this course over free YouTube tutorials?",
+            "text": "<p>YouTube tutorials can show you bits and pieces of Adobe After Effects, but they <strong>don’t provide a clear learning path<\/strong>—which leaves many beginners feeling stuck and overwhelmed.<\/p><p>This course is different because it comes with <strong>direct mentorship and guidance<\/strong> to ensure you never get lost.<\/p><ul><li><strong>Structured, step-by-step lessons<\/strong> so you know exactly what to do next<\/li><li><strong>Private Discord community<\/strong> where you can ask questions and get real-time answers<\/li><li><strong>Personal feedback and guidance<\/strong> to help you improve faster<\/li><li><strong>A clear path from beginner to expert<\/strong>, so you're not piecing together random videos<\/li><\/ul><p>Instead of spending months watching tutorials without real progress, this course gives you <strong>everything you need in one place—along with expert support to help you succeed.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_eBpryd",
+        "question_3P6rgR",
+        "question_DTc4C7",
+        "question_tiCDdq",
+        "question_jTaPAN"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "d783ec0d-e9f6-40c0-a59e-91b3608260c8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16674888712447__d783ec0d-e9f6-40c0-a59e-91b3608260c8-1676332856303c4363-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Over 500 Creators Have Transformed Their Editing Skills"
+          }
+        },
+        "template--16674888712447__d783ec0d-e9f6-40c0-a59e-91b3608260c8-1676332856303c4363-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3><strong>No Experience? No Problem. Learn Adobe After Effects from the Ground Up<\/strong><\/h3><p>Our courses are built to take you from <strong>absolute beginner to a professional video editor<\/strong>—no prior experience needed. Whether you're just starting out or refining your skills, you'll get a <strong>step-by-step learning experience<\/strong> designed to help you master Adobe After Effects with confidence. <strong>Over 450 members have already joined, building the expertise they need to succeed.<\/strong><\/p><h3><strong>Get Direct Mentorship Inside Our Private Community<\/strong><\/h3><p>When you enroll, you’re not just getting a course—you’re getting <strong>direct access to mentorship and real support.<\/strong> Inside our <strong>private Discord group<\/strong>, you can:<\/p><ul><li>Ask questions and get real-time answers<\/li><li>Share your work and receive expert feedback<\/li><li>Stay up to date with the latest editing trends<\/li><li>Connect with a network of serious video editors<\/li><\/ul><p>Learning on your own can be frustrating, but with <strong>direct access to DJordanMedia and an engaged community of editors, you’ll never feel lost.<\/strong><\/p><h3><strong>Master Editing Skills That Will Last a Lifetime<\/strong><\/h3><p>This isn’t just a course—it’s a <strong>long-term investment in your skills.<\/strong> The techniques you learn here will help you <strong>edit at a professional level for years to come.<\/strong> Whether you want to edit for content creation, client work, or high-end projects, you’ll gain the tools and workflow strategies needed to <strong>confidently tackle any project.<\/strong><\/p><h3><strong>From Beginner to Expert—A Course Designed for Every Level<\/strong><\/h3><p>Whether you're <strong>completely new to Adobe After Effects or looking to master advanced techniques<\/strong>, this course is structured to guide you through every stage:<\/p><ul><li><strong>Start with the fundamentals<\/strong>—Master the core tools and techniques<\/li><li><strong>Advance into motion graphics, keyframes, and VFX<\/strong><\/li><li><strong>Refine your workflow<\/strong>—Speed up editing with professional strategies<\/li><li><strong>Go beyond the basics<\/strong>—Learn cutting-edge techniques to stand out<\/li><\/ul><p>Everything is taught <strong>step by step<\/strong>, ensuring you stay on track and make real progress. <strong>This isn’t just a tutorial—it’s a complete system to help you master Adobe After Effects.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16674888712447__d783ec0d-e9f6-40c0-a59e-91b3608260c8-1676332856303c4363-0",
+        "template--16674888712447__d783ec0d-e9f6-40c0-a59e-91b3608260c8-1676332856303c4363-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "364ee81a-4388-490f-b12e-535a03b974f0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Don’t hesitate to invest in yourself. I’m mad I waited so long myself but learning the knowledge and skills for this art is way more important than any piece of equipment you can buy or use. Learning from the courses and getting help from members in the group is the best thing I’ve ever done for myself and my passion. Even if you’re experienced, this course will take your skills to a new level and an even finer edge. Since I started this course I’ve been getting booked out with events and clients getting me closer to pursuing my passion full time with other very talented individuals, I highly recommend it<\/p>",
+            "author": "malcolm_createdviibes",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "testimonials-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>These courses are well worth the money, what you learn from them is priceless. Sure, YouTube tutorials can help you understand the basics of After Effects and specific ways to use effects, but DJordanMedia explains it 10x better and helps you understand a super efficient editing workflow through both After Effects and Premiere Pro! I used to edit on a super outdated version of Sony Vegas, these courses caused me to completely switch to Adobe. In 2 hours these courses have baked in everything I need to know to make quality content, and after 1 week of practicing I'm entirely comfortable with using Adobe software to edit thanks to DJordanMedia! My content has never looked better and it's paid off by bringing me plenty of new clients! The Discord server that you get invited to through these courses is very active with everyone helping each other too, and you get access to exclusive benefits! It's a lot of fun watching each other grow through the community server. I 100% recommend this course to anyone who's trying to expand their knowledge in After Effects, beginner or not!<\/p>",
+            "author": "Matt Redman",
+            "author_info": "Videographer"
+          }
+        },
+        "testimonials-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Started off as photographer and had a passion for it. I had been doing it for 2 years and loved every bit of it and still do. Then I saw djordanmedia reels and course and I was hooked! I wanted to learn how to make Epic  videos ! Like Jordan and so I got the course and never looked back at it ! I’ve learnt so much from the courses ! From setting up basic composition to speed ramping to insane Effects and ultimately finding my flow ! I never thought I’ve fall in love with video editing Jordan has thought me so much and I’m so thankful and grateful for his help and the courses he provided !!<\/p>",
+            "author": "Zains media",
+            "author_info": "Videographer \/ Editor"
+          }
+        },
+        "testimonials-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Firstly, I am so glad that these courses are available internationally. I was always nervous about video editing and did not know where to start. Tutorials online are hours long and are not straightforward, which made it harder for me to understand. Thankfully I found Djordanmedia, and after talking to him I felt that the courses were the right fit for me. I am now comfortable and a lot more confident editing in Adobe After Effects which has helped me work for more clients. I would definitely recommend these courses to anyone that wants to advance their editing skills without the hassle of searching for multiple tutorials online.<\/p>",
+            "author": "Abdul Mahmood",
+            "author_info": "Videographer"
+          }
+        },
+        "7cc2efb7-4870-48cb-a018-4dd2a43cd23c": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>A year and a half ago, I started photography out of my passion for cars, and 5 months ago I got the courage to buy the courses and now my life has completely changed professionally. I started collaborating with many people and businesses<\/p>",
+            "author": "Heron",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "8de077f5-7104-4e96-b28f-6d0028d9cc25": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Well I’ve been doing photography since 2016 and been learning more and more about it still, I do photography as a business and passion but since the pandemic 2019 wasn’t a good year of business since a lot of my clients canceled due to COVID. But I still have my passion and I’ve been seeing videos and “reels” and tiktok making its way up to catch the viewers attention and I saw potential in doing videography. I didn’t know anything about videography nor editing but every since Destin gave people who want a teacher to learn from he gave everyone the option to learn. And that motivated me more. Ever since I’ve been taking the courses I’ve gained knowledge and experience skills of videography and editing and how to manage high level editing skills and I’ve gained new friends from the media world and clients!<\/p>",
+            "author": "krememedia",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "6c009510-058f-4e45-b08e-af8f6591f593": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I bought a camera to do portraits for my family and friends, but I fell in love with taking photos of cars. Then I saw a video of danielpetermedia and at the same moment I realized, that I want to make videos aswell. The problem was, I didn't know where to start. I knew that the only way to make good videos is to use after effects, but the tutorials were hard to understand or they were very advanced. Then I saw a video of you and it blew my mind. I never saw a video creator, that was so creative and so good. I hesitated for a few weeks, but then I bought the courses and everybody around me noticed how much better they have become. For me it feels like a modern art and I can't wait to see what is going to happen in the future. I met a lot of amazing people, saw a lot of beautiful cars and it just made a better person overall. I'm feeling pretty confident using after effects. About 3 months ago I didn't know where to start and I thought it was impossible. The courses are not cheap, but it was the best videography investment that I made. Thanks for sharing your experience and knowledge!<\/p>",
+            "author": "visualgraphx",
+            "author_info": "Videographer"
+          }
+        },
+        "c5727432-ba75-4649-84a2-100e49418a94": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>One of the best investments iv ever made in a course! Everything is well put together and well explained, everything he shows you is clear and on point!! I just need to put In the time to keep practicing. But I definitely recommend his courses!!!! Much luv brother<\/p>",
+            "author": "shphotosf80",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "2db9ca1c-2632-4208-9e18-358be0e59adc": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The courses changes everything for me bro. Literally went from 0 to 100 in a matter of days. Ontop of that the community we have it top tier. Zero regrets💯<\/p>",
+            "author": "fitzandchips",
+            "author_info": "Photographer \/ Videographer"
+          }
+        }
+      },
+      "block_order": [
+        "364ee81a-4388-490f-b12e-535a03b974f0",
+        "testimonials-0",
+        "testimonials-1",
+        "testimonials-2",
+        "7cc2efb7-4870-48cb-a018-4dd2a43cd23c",
+        "8de077f5-7104-4e96-b28f-6d0028d9cc25",
+        "6c009510-058f-4e45-b08e-af8f6591f593",
+        "c5727432-ba75-4649-84a2-100e49418a94",
+        "2db9ca1c-2632-4208-9e18-358be0e59adc"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {}
+    },
+    "170676175128ef675e": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_U3RLHa": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_U3RLHa"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "hero_video_EyEK6t",
+    "174431374327df8f6a",
+    "main",
+    "sub",
+    "background-image-text",
+    "text-and-image",
+    "text-and-image2",
+    "faq_exgiNW",
+    "d783ec0d-e9f6-40c0-a59e-91b3608260c8",
+    "testimonials",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return",
+    "170676175128ef675e"
+  ]
+}

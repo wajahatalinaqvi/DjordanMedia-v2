@@ -1,0 +1,769 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "aa786a49-1948-492b-88c4-4699281d759a": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 73,
+        "subheading": "The Trends You See, Start Here",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/aJ7pVASIP10",
+        "overlay_opacity": 22,
+        "section_height": "550px",
+        "mobile_height": "500px"
+      }
+    },
+    "featured_product_TRDMTD": {
+      "type": "featured-product",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_cggb3U": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price_meejVx": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_nGtWh8": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "variant_picker_et96e3": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_fKzhQn": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_cggb3U",
+        "price_meejVx",
+        "description_nGtWh8",
+        "variant_picker_et96e3",
+        "buy_buttons_fKzhQn"
+      ],
+      "disabled": true,
+      "settings": {
+        "featured_product": "essential-extensions-bundle",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": false,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "1744315458fbdf988f": {
+      "type": "apps",
+      "blocks": {
+        "spark_spotlight_carousal_ChTLa3": {
+          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": false,
+            "auto_play_video_next_video": false,
+            "feed_title": "The Trends You See, Start Here",
+            "title_alignment": "center",
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": true,
+            "product_card_status": "inside_video",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "show_compare_at_price": true,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "Shop",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#ffffff",
+            "product_card_btn_border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "spark_spotlight_carousal_ChTLa3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
+    },
+    "993988c6-baa8-481d-a963-7d520377fd9c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Video Editing Lessons",
+        "home_featured_products": "editing-courses",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "0cc63b00-2d13-4307-b6d2-14cff5a91344": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--17057062289663__0cc63b00-2d13-4307-b6d2-14cff5a91344-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "globe",
+            "title": "550+ Course members  Worldwide",
+            "text": ""
+          }
+        },
+        "template--17057062289663__0cc63b00-2d13-4307-b6d2-14cff5a91344-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Over 15,000+ Downloads",
+            "text": ""
+          }
+        },
+        "text_block_rYEKcp": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "icon": "chat",
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products.<\/p>"
+          }
+        },
+        "template--17057062289663__0cc63b00-2d13-4307-b6d2-14cff5a91344-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "inspiring and leading the video editing world",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17057062289663__0cc63b00-2d13-4307-b6d2-14cff5a91344-text_block-1",
+        "template--17057062289663__0cc63b00-2d13-4307-b6d2-14cff5a91344-text_block-2",
+        "text_block_rYEKcp",
+        "template--17057062289663__0cc63b00-2d13-4307-b6d2-14cff5a91344-text_block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "hero_video_q488pb": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "ESSENTIALFX",
+        "title_size": 80,
+        "subheading": "Version 3.0",
+        "link_text": "Learn more",
+        "link": "shopify:\/\/collections\/essentials",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/flU5AiWOhoI",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "1744332924f7016ce9": {
+      "type": "apps",
+      "blocks": {
+        "spark_spotlight_carousal_krmEGD": {
+          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": false,
+            "auto_play_video_next_video": false,
+            "feed_title": "The Essential Editing Extensions",
+            "title_alignment": "center",
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": true,
+            "product_card_status": "hidden",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "show_compare_at_price": true,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "Shop",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#ffffff",
+            "product_card_btn_border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "spark_spotlight_carousal_krmEGD"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "dab9c9a6-45c9-414d-87bb-9d4d761dcf06": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Adobe & DaVinci  Plugins - The Essentials",
+        "home_featured_products": "essentials",
+        "per_row": 5,
+        "rows": 2,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "hero_video_T9QEJX": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/5Mh19hquCW4",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "300px"
+      }
+    },
+    "logo_list_tDeDQK": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_image_cHcD6Q": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brabus_logo_bl.png",
+            "link": ""
+          }
+        },
+        "logo_image_W7LeBV": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CC_logo_2.png",
+            "link": ""
+          }
+        },
+        "logo_image_taRDWB": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/logo-basic-black.png",
+            "link": ""
+          }
+        },
+        "logo_image_8WY4LP": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/VIP_Modular_Signature___Crest_Black_1.png",
+            "link": ""
+          }
+        },
+        "logo_image_rXjk3F": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Yokohama__Unternehmen__logo_svg.png",
+            "link": ""
+          }
+        },
+        "logo_image_EhBWYr": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DYNA_LOGO_A.png",
+            "link": ""
+          }
+        },
+        "logo_image_48wKei": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TC.png",
+            "link": ""
+          }
+        },
+        "logo_image_VdpdEn": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cod_logo.png",
+            "link": ""
+          }
+        },
+        "logo_image_VzbgYx": {
+          "type": "logo_image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s-l1600.jpg",
+            "link": ""
+          }
+        },
+        "logo_image_meNyDV": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Techart-Logo_PNG.webp",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_image_cHcD6Q",
+        "logo_image_W7LeBV",
+        "logo_image_taRDWB",
+        "logo_image_8WY4LP",
+        "logo_image_rXjk3F",
+        "logo_image_EhBWYr",
+        "logo_image_48wKei",
+        "logo_image_VdpdEn",
+        "logo_image_VzbgYx",
+        "logo_image_meNyDV"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Trust us, like our clients trust us.",
+        "logo_opacity": 100,
+        "divider": false
+      }
+    },
+    "featured_collection_qeLxTW": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "*NEW* Creators Success",
+        "home_featured_products": "creators-success",
+        "per_row": 2,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "hero_video_jHtnWj": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Creator's Success",
+        "title_size": 80,
+        "subheading": "Build, Create, Succeed: The Blueprint For Media & Business",
+        "link_text": "Learn How",
+        "link": "shopify:\/\/products\/creatorssuccess",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/_g5hVNxdQ3s",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "featured_product_QXcYYc": {
+      "type": "featured-product",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_7Gj6Lc": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price_Umncn6": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_bhTphB": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "variant_picker_yfXqVe": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_UGGHUe": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_7Gj6Lc",
+        "price_Umncn6",
+        "description_bhTphB",
+        "variant_picker_yfXqVe",
+        "buy_buttons_UGGHUe"
+      ],
+      "settings": {
+        "featured_product": "the-everything-bundle",
+        "divider": false,
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": false,
+        "thumbnail_position": "beside",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "17079517351da0a12d": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_zRwVBH": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 2160
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_zRwVBH"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "featured_collection_ijgqRQ": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "preset packs",
+        "home_featured_products": "preset-packs",
+        "per_row": 5,
+        "rows": 4,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "hero_video_NTMpAE": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "Want to be featured?",
+        "title_size": 80,
+        "subheading": "Submit your video creations here and have a chance to be featured!",
+        "link_text": "send my video",
+        "link": "shopify:\/\/pages\/submit-your-videos",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Z2lpTzdrvek&t=1s&ab_channel=DJordanMedia",
+        "overlay_opacity": 26,
+        "section_height": "550px",
+        "mobile_height": "300px"
+      }
+    },
+    "d93bfe3c-190b-4610-9b2c-621432717592": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Color Grading LUTS",
+        "home_featured_products": "lut-pack",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "160dc569-f464-4366-bc0e-1bf19723f1a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Lightroom Presets",
+        "home_featured_products": "photography-presets",
+        "per_row": 3,
+        "rows": 2,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "31b3c1c2-e6e4-4d0d-ba16-e5f1a505057a": {
+      "type": "testimonials",
+      "blocks": {
+        "639c518a-8e69-4ca7-becf-0a45a7a122e5": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This program has transformed the way I edit video, and I have @djordanmedia to thank for that! I took his courses and they have helped me unlock this softwares (and my own) true potential in no time. It's an intimidating software at first, but it is a breeze once you get used to it. After Effects has a lot of effects built into the program out of the box; most of my videos use effects all native to After Effects. However, there is a plethora of plugins available to enhance your videos, some of which are free! Some plugins do cost quite a bit of money though, as they are expensive one time purchases or expensive subscriptions. They are not necessary by any means, but do keep that in mind.<\/p><p>If you are interested in learning how to do effects like this, use code \"MastroMedia\" at checkout on @djordanmedia's website for a discount!<\/p>",
+            "author": "Mastro.Media",
+            "author_info": "Videographer \/ Photographer"
+          }
+        },
+        "template--16615112016127__31b3c1c2-e6e4-4d0d-ba16-e5f1a505057a-1668197424840c925e-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Started off as photographer and had a passion for it. I had been doing it for 2 years and loved every bit of it and still do. Then I saw djordanmedia reels and course and I was hooked! I wanted to learn how to make Epic  videos ! Like Jordan and so I got the course and never looked back at it ! I’ve learnt so much from the courses ! From setting up basic composition to speed ramping to insane Effects and ultimately finding my flow ! I never thought I’ve fall in love with video editing Jordan has thought me so much and I’m so thankful and grateful for his help and the courses he provided !!<\/p>",
+            "author": "Zains media",
+            "author_info": "Videographer \/ Editor"
+          }
+        },
+        "template--16615112016127__31b3c1c2-e6e4-4d0d-ba16-e5f1a505057a-1668197424840c925e-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>These courses are well worth the money, what you learn from them is priceless. Sure, YouTube tutorials can help you understand the basics of After Effects and specific ways to use effects, but DJordanMedia explains it 10x better and helps you understand a super efficient editing workflow through both After Effects and Premiere Pro! I used to edit on a super outdated version of Sony Vegas, these courses caused me to completely switch to Adobe. In 2 hours these courses have baked in everything I need to know to make quality content, and after 1 week of practicing I'm entirely comfortable with using Adobe software to edit thanks to DJordanMedia! My content has never looked better and it's paid off by bringing me plenty of new clients! The Discord server that you get invited to through these courses is very active with everyone helping each other too, and you get access to exclusive benefits! It's a lot of fun watching each other grow through the community server. I 100% recommend this course to anyone who's trying to expand their knowledge in After Effects, beginner or not!<\/p>",
+            "author": "Matt Redman",
+            "author_info": "Videographer"
+          }
+        },
+        "template--16615112016127__31b3c1c2-e6e4-4d0d-ba16-e5f1a505057a-1668197424840c925e-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Firstly, I am so glad that these courses are available internationally. I was always nervous about video editing and did not know where to start. Tutorials online are hours long and are not straightforward, which made it harder for me to understand. Thankfully I found Djordanmedia, and after talking to him I felt that the courses were the right fit for me. I am now comfortable and a lot more confident editing in Adobe After Effects which has helped me work for more clients. I would definitely recommend these courses to anyone that wants to advance their editing skills without the hassle of searching for multiple tutorials online.<\/p>",
+            "author": "Abdul Mahmood",
+            "author_info": "Videographer"
+          }
+        },
+        "963aac6e-c82a-4485-8650-e72d3eb68c7b": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>A year and a half ago, I started photography out of my passion for cars, and 5 months ago I got the courage to buy the courses and now my life has completely changed professionally. I started collaborating with many people and businesses<\/p>",
+            "author": "Heron",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "2fc590a1-88ff-4184-894f-9240ac17467d": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Well I’ve been doing photography since 2016 and been learning more and more about it still, I do photography as a business and passion but since the pandemic 2019 wasn’t a good year of business since a lot of my clients canceled due to COVID. But I still have my passion and I’ve been seeing videos and “reels” and tiktok making its way up to catch the viewers attention and I saw potential in doing videography. I didn’t know anything about videography nor editing but every since Destin gave people who want a teacher to learn from he gave everyone the option to learn. And that motivated me more. Ever since I’ve been taking the courses I’ve gained knowledge and experience skills of videography and editing and how to manage high level editing skills and I’ve gained new friends from the media world and clients!<\/p>",
+            "author": "krememedia",
+            "author_info": "Photographer \/ Videographer"
+          }
+        },
+        "1b930c36-5187-44f6-9249-4d3a63ed26f2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I bought a camera to do portraits for my family and friends, but I fell in love with taking photos of cars. Then I saw a video of danielpetermedia and at the same moment I realised, that I want to make videos aswell. The problem was, I didn't know where to start. I knew that the only way to make good videos is to use after effects, but the tutorials were hard to understand or they were very advanced. Then I saw a video of you and it blew my mind. I never saw a video creator, that was so creative and so good. I hesitated for a few weeks, but then I bought the courses and everybody around me noticed how much better they have become. For me it feels like a modern art and I can't wait to see what is going to happen in the future. I met a lot of amazing people, saw a lot of beautiful cars and it just made a better person overall. I'm feeling pretty confident using after effects. About 3 months ago I didn't know where to start and I thought it was impossible. The courses are not cheap, but it was the best videography investment that I made. Thanks for sharing your experience and knowledge!<\/p>",
+            "author": "visualgraphx",
+            "author_info": "Videographer"
+          }
+        },
+        "2cfd977f-8f80-4ff2-b8b6-513d1300bdf2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Am in the clothing industry video editing for 1 year and am doing a really decent job(trend videos), i want to use the course for more creativity on my videos and also doing some ok car videos(Instagram my work) At the moment i buy it all before 4 days i saw it but not much(i did the 1 ,2 course) cuz am working 10 hours a day at the moment. But the videos is amazing your explanations is amazing! I am owner of 2 clothing shops and am doing some jobs with clothing trend videos<\/p>",
+            "author": "christos.media",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "639c518a-8e69-4ca7-becf-0a45a7a122e5",
+        "template--16615112016127__31b3c1c2-e6e4-4d0d-ba16-e5f1a505057a-1668197424840c925e-1",
+        "template--16615112016127__31b3c1c2-e6e4-4d0d-ba16-e5f1a505057a-1668197424840c925e-0",
+        "template--16615112016127__31b3c1c2-e6e4-4d0d-ba16-e5f1a505057a-1668197424840c925e-2",
+        "963aac6e-c82a-4485-8650-e72d3eb68c7b",
+        "2fc590a1-88ff-4184-894f-9240ac17467d",
+        "1b930c36-5187-44f6-9249-4d3a63ed26f2",
+        "2cfd977f-8f80-4ff2-b8b6-513d1300bdf2"
+      ],
+      "settings": {
+        "title": "Editing Course Reviews",
+        "align_text": "center",
+        "round_images": false,
+        "color_background": "#2b2a2a",
+        "color_text": "#8ecae6"
+      }
+    },
+    "4f7bf2b2-31c3-4c15-9258-ebc41abf9caa": {
+      "type": "faq",
+      "blocks": {
+        "template--17057062289663__4f7bf2b2-31c3-4c15-9258-ebc41abf9caa-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "How do I recieve my download?",
+            "text": "<p>All products and downloads will be emailed and directly added to your account on the website! You can sign in anytime!<\/p>"
+          }
+        },
+        "template--17057062289663__4f7bf2b2-31c3-4c15-9258-ebc41abf9caa-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know if this works for me?",
+            "text": "<p>All our products are heavily tested on multiple computers (mac & windows) before being available to our customers! Our emails are always open for contact as well.<\/p>"
+          }
+        },
+        "3e5f3115-58ee-4db5-8a85-4a07850cdd59": {
+          "type": "question",
+          "settings": {
+            "title": "Can I trust the Editing Courses to teach me?",
+            "text": "<p>With over 12+ Years of experience, DJordanMedia knows the most effective methods and workflows. Over 400+ Members have started their new career in video editing due to the courses.<\/p>"
+          }
+        },
+        "2595275f-f8fb-431f-97de-84911ae693f0": {
+          "type": "question",
+          "settings": {
+            "title": "Why can't I join the Discord chat?",
+            "text": "<p>Our Discord community is very exclusive... keeping it to course <strong>members only<\/strong> to ensure that each individual gets the attention and support they deserve!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17057062289663__4f7bf2b2-31c3-4c15-9258-ebc41abf9caa-question-1",
+        "template--17057062289663__4f7bf2b2-31c3-4c15-9258-ebc41abf9caa-question-2",
+        "3e5f3115-58ee-4db5-8a85-4a07850cdd59",
+        "2595275f-f8fb-431f-97de-84911ae693f0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "16216685-f6b8-4c10-8f30-c2e535b617cb": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16615112016127__16216685-f6b8-4c10-8f30-c2e535b617cb-1676263043b698b5da-0": {
+          "type": "title",
+          "settings": {
+            "title": "Subscribe for Free!",
+            "heading_size": "h2"
+          }
+        },
+        "template--16615112016127__16216685-f6b8-4c10-8f30-c2e535b617cb-1676263043b698b5da-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be the FIRST to hear about new releases, special promotions, and more!<\/p>"
+          }
+        },
+        "template--16615112016127__16216685-f6b8-4c10-8f30-c2e535b617cb-1676263043b698b5da-2": {
+          "type": "form",
+          "settings": {}
+        },
+        "bb448a5f-84f6-480a-b9b5-ee7e5d628ea2": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--16615112016127__16216685-f6b8-4c10-8f30-c2e535b617cb-1676263043b698b5da-0",
+        "template--16615112016127__16216685-f6b8-4c10-8f30-c2e535b617cb-1676263043b698b5da-1",
+        "template--16615112016127__16216685-f6b8-4c10-8f30-c2e535b617cb-1676263043b698b5da-2",
+        "bb448a5f-84f6-480a-b9b5-ee7e5d628ea2"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "1744332159eb59ed0f": {
+      "type": "apps",
+      "blocks": {
+        "spark_spotlight_carousal_KWtzcw": {
+          "type": "shopify:\/\/apps\/spark\/blocks\/spotlight-carousal\/3eb8b961-42bd-4d42-a091-9b8e4c877d96",
+          "settings": {
+            "show_videos_dynamically": false,
+            "auto_play_video_next_video": false,
+            "feed_title": "The Trends You See, Start Here",
+            "title_alignment": "center",
+            "show_play_button": false,
+            "show_views": false,
+            "show_arrow_buttons": true,
+            "product_card_status": "hidden",
+            "show_video_title": false,
+            "border_radius": 16,
+            "padding_top": 20,
+            "padding_bottom": 20,
+            "product_card_border_radius": 12,
+            "product_card_image_border_radius": 8,
+            "show_compare_at_price": true,
+            "product_card_btn_actn": "product_details",
+            "product_card_btn_text": "",
+            "product_card_btn_background_color": "#000000",
+            "product_card_btn_text_color": "#ffffff",
+            "product_card_btn_border_radius": 24
+          }
+        }
+      },
+      "block_order": [
+        "spark_spotlight_carousal_KWtzcw"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "aa786a49-1948-492b-88c4-4699281d759a",
+    "featured_product_TRDMTD",
+    "1744315458fbdf988f",
+    "993988c6-baa8-481d-a963-7d520377fd9c",
+    "0cc63b00-2d13-4307-b6d2-14cff5a91344",
+    "hero_video_q488pb",
+    "1744332924f7016ce9",
+    "dab9c9a6-45c9-414d-87bb-9d4d761dcf06",
+    "hero_video_T9QEJX",
+    "logo_list_tDeDQK",
+    "featured_collection_qeLxTW",
+    "hero_video_jHtnWj",
+    "featured_product_QXcYYc",
+    "17079517351da0a12d",
+    "featured_collection_ijgqRQ",
+    "hero_video_NTMpAE",
+    "d93bfe3c-190b-4610-9b2c-621432717592",
+    "160dc569-f464-4366-bc0e-1bf19723f1a6",
+    "31b3c1c2-e6e4-4d0d-ba16-e5f1a505057a",
+    "4f7bf2b2-31c3-4c15-9258-ebc41abf9caa",
+    "16216685-f6b8-4c10-8f30-c2e535b617cb",
+    "1744332159eb59ed0f"
+  ]
+}
